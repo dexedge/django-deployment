@@ -1,1 +1,1 @@
-web: gunicorn schletter.wsgi --log-file
+web: gunicorn schletter.wsgi --log-file -
