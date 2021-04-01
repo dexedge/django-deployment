@@ -1,0 +1,17 @@
+{% extends 'schletter_test/base.html' %}
+
+{% block content %}
+  <h2>{{event.date|date:"D, j M Y"}}</h2>
+  <p>Theater: {{ event.theater }}</p>
+  <p>Company: {{ event.company }}</p>
+  <p>Title: 
+      {% if event.title == "No title" or event.title == "" or event.genre == "" %}
+        {{ event.title }}
+      {% else %}
+        <em>{{ event.title }}</em>
+      {% endif %}
+  </p>
+  <p>Genre: {{ event.genre }}</p>
+  <p>Author: {{ event.author }}</p>
+  <p>Composer: {{ event.composer }}</p>
+{% endblock content %}

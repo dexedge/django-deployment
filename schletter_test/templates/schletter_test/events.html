@@ -1,0 +1,26 @@
+{% extends 'schletter_test/base.html' %}
+{% block content %}
+  <h2>Events</h2>
+  <table>
+    {% for event in events %}
+      <tr>
+        <td style="text-align:right">
+          <a href="{% url 'schletter_test:event' event.id %}">{{ event.date|date:"D, j M Y" }}</a>
+        </td>
+        <td style="padding-left:10px">{{ event.theater }}</td>
+        <td style="padding-left:10px">{{ event.company }}</td>
+        <td style="padding-left:10px">{{ event.genre }}</td>
+        {% if event.title == "No title" or event.title == "" or event.genre == "" %}
+          <td style="padding-left:10px">{{ event.title }}</td>
+        {% else %}
+          <td style="padding-left:10px"><em>{{ event.title }}</em></td>
+        {% endif %}
+      </tr>
+    {% empty%}
+      <p>There are no events</p>
+    {% endfor %}
+  </table>
+
+{% endblock content %}
+
+
