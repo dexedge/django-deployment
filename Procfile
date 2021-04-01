@@ -1,0 +1,1 @@
+web: gunicorn schletter.wsgi --log-file
