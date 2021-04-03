@@ -12,6 +12,7 @@ class Event(models.Model):
     genre = models.CharField(max_length=50)
     author = models.CharField(max_length=100)
     composer = models.CharField(max_length=100)
+    notes = models.TextField(blank=True)
 
     def __str__(self):
         event = self.date.strftime('%a, %-d %b %Y') + " " + self.title
