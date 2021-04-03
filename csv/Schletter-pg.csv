@@ -1,540 +1,0 @@
-id,date,theater,company,title,genre,author,composer,notes
-1,1781-01-21,Bth,Court,Irene,Trauerspiel,Ayrenhoff,NA,"Irene was premiered in the Burgtheater on 21 Jan 1781, and performed only three times before being dropped."
-2,1781-01-21,Bth,Court,Die Freundschaft auf der Probe,Singspiel,Marmontel,Grétry,NA
-3,1781-01-21,Kth,Kinder,Der Sturm,Schauspiel,Shakespeare,NA,"""Der Sturm nach Schakes= / prar [sic] von Schink.""'"
-4,1781-01-21,Kth,Kinder,Matrosen Ballet,Ballet,Decamp,unknown,"""Matrosen Ballet v. Decamp."""
-5,1781-01-22,Bth,Court,Die Feldmühle,Lustspiel,Richter,NA,NA
-6,1781-01-22,Bth,Court,Die Freundschaft auf der Probe,Singspiel,Marmontel,Grétry,Performed only twice before being dropped.
-7,1781-01-22,Kth,French,La Belle Arsène,Comédie mêlée d'ariettes,Favart,Monsigny,"""La Belle Arsene O. 3. A. / avec Ballets"""
-8,1781-01-23,Bth,Court,Irene,Trauerspiel,Ayrenhoff,NA,NA
-9,1781-01-23,Bth,Court,Die Rechnung ohne den Wirth,Lustspiel,Schletter,NA,NA
-10,1781-01-23,Kth,Kinder,Die Näscherinn,Singspiel,Weiße,Kriner,NA
-11,1781-01-23,Kth,Kinder,Die Geschwisterliebe,Schauspiel,Weiße,NA,NA
-12,1781-01-23,Kth,Kinder,Matrosen Ballet,Ballet,Decamp,unknown,NA
-13,1781-01-24,Bth,Court,Juliane von Lindorak,Lustspiel,Gozzi,NA,"""Juliane v. Lindorack. / L. in 5 A. n. Gozzi / v. Schöder."""
-14,1781-01-24,Bth,Court,Der Bettelstudent,Lustspiel,Weidmann,NA,"""Der Bettelstudent L. in / 2. A. v. Weidmann."""
-15,1781-01-24,Kth,French,"L'Amant jaloux, ou les Fausses Apparences",Comédie mêlée d'ariettes,Hales,Grétry,NA
-16,1781-01-24,Kth,French,No title,Ballet,unknown,unknown,"""D. Ballet."""
-17,1781-01-25,Bth,Court,Der Barbier von Sevilien,Lustspiel,Beaumarchais,NA,NA
-18,1781-01-25,Kth,Kinder,Der Sturm,Schauspiel,Shakespeare,NA,NA
-19,1781-01-25,Kth,Kinder,Matrosen Ballet,Ballet,Decamp,unknown,NA
-20,1781-01-26,Bth,Court,Die donnernde Legion,Oratorio,Weidmann,Bartha,"Morrow (249) cites a poster in the Theatermuseum, but does not give the title. Weidmann is named as the librettist on Czech Wikipedia. His name is not on the libretto."
-24,1781-01-26,Kth,Kinder,Die kleine Aehrenleserin,Lustspiel,Weiße,NA,NA
-25,1781-01-26,Kth,Kinder,Die Kroaten,Ballet,Mirek,unknown,NA
-21,1781-01-27,Bth,Court,Irene,Trauerspiel,Ayrenhoff,NA,"Final performance.""Irene. / (Die Einnahme war / Mlle. Jaquet bestimmt."""
-22,1781-01-27,Bth,Court,Die Freundschaft auf der Probe,Singspiel,Marmontel,Grétry,NA
-23,1781-01-27,Kth,Kinder,Die Näscherinn,Singspiel,Weiße,Kriner,NA
-26,1781-01-27,Bth,Court,Betrug für Betrug,Lustspiel,Schletter,NA,NA
-27,1781-01-28,Kth,French,"Aline, reine de Golconde",Opéra-ballet,Sedaine,Monsigny,"""La Reine Golconde op. / 3. A. et Ballet."""
-28,1781-01-29,Bth,Court,Der Bettler,Lustspiel,Goldoni,NA,NA
-29,1781-01-29,Bth,Court,Die Freundschaft auf der Probe,Singspiel,Marmontel,Grétry,Second of only two performances before being dropped.
-30,1781-01-29,Kth,Kinder,Edelmuth in Niedrigkeit,Lustspiel,Weiße,NA,"""Edelmuth in Niederigkeit. / L. 1. A. Die Strafe im / Sturz. B. v Sacco."""
-31,1781-01-29,Kth,Kinder,Die Strafe im Sturz,Ballet,Sacco,unknown,NA
-32,1781-01-30,Bth,Court,Das Landmädchen,Lustspiel,Wycherley,NA,"""Das Landmädchen L. in / 5. A. a. d. Engl."""
-33,1781-01-30,Kth,French,Zémire et Azor,Opéra comique,Marmontel,Grétry,"""Zemire &. Azor. O. 4. A. / et Ballet."""
-34,1781-01-31,Bth,Court,Der Westindier,Lustspiel,Cumberland,NA,NA
-35,1781-01-31,Kth,Kinder,Präsentirt das Gewehr,Lustspiel,Müller,NA,"""Präsentirt das Gewehr L. / 2. A. Die Matrosen.""Präsentirt das Gewehr had been in the repertory of the court theater since 17 Jun 1775, but this performance in the Kärntnertortheater is not in Hadamowsky."
-36,1781-01-31,Kth,Kinder,Matrosen Ballet,Ballet,Decamp,unknown,"""Präsentirt das Gewehr L. / 2. A. Die Matrosen.""Not specified whether this is actually the ""Matrosen Ballet"" of earlier in the month."
-37,1781-02-01,Bth,Court,Die Verlobung,Lustspiel,Brömel,NA,NA
-38,1781-02-01,Bth,Court,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Singspiel,Stephanie d. J.,Umlauf,"""Die schöne Schusterinn / S. in 2. A. a. d. Fr."""
-39,1781-02-01,Kth,French,La Rosière de Salency,Opéra comique,Favart,Philidor,"""La Rosiere de Salency O. / 3. A. et Ballet.""A German version, Das Rosenfest zu Salenci, has been in the repertory of the court theater company since 9 Sep 1779."
-40,1781-02-02,Bth,NA,"Concert, Peter Winter and Franz Tausch",NA,NA,NA,"""Musikalische Akademie zum Vortheil der Herrn Winter und Tausch. In Churbayer. Diensten.""Cf. 26 Mar"
-41,1781-02-03,Bth,Court,Wahrheit ist gut Ding,Lustspiel,Goldoni,NA,"""Wahrheit ist gut Ding / L. in 5. A. / nach dem Lügner d. Gold. / frey bearbeitet v. Schle= / ter."""
-42,1781-02-03,Kth,French,Le Barbier de Séville,Comédie,Beaumarchais,NA,"""Babier [sic] de Seville O. [sic] 4. A. / La belle Cordoniere. O. / 2. A."""
-43,1781-02-03,Kth,French,La Belle Cordonniere,Opéra comique,unknown,unknown,"""Babier [sic] de Seville O. [sic] 4. A. / La belle Cordoniere. O. / 2. A.""May be Les souliers mors-dorés, ou La cordonniere allemande (see work record)."
-44,1781-02-04,Kth,Kinder,Die Näscherinn,Singspiel,Weiße,Kriner,"""Die kleine Näscherinn. L. / 1. A. die Horazier. B.""Probably = to ""Die Näscherinn""?"
-45,1781-02-04,Kth,Kinder,Die Horazier,Ballet,Vogt,unknown,NA
-46,1781-02-04,Bth,Court,Wahrheit ist gut Ding,Lustspiel,Goldoni,NA,NA
-47,1781-02-05,Bth,Court,Die junge Indianerinn,Lustspiel,Chamfort,NA,Earliest Viennese performance in Hadamowsky on 5 Apr 1769 in the Kärntnertortheater.
-48,1781-02-05,Bth,Court,Was erhält die Männer treu?,Singspiel,Zehnmark,Ruprecht,NA
-49,1781-02-05,Kth,French,L'Ami de la maison,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-50,1781-02-05,Kth,French,No title,Ballet,unknown,unknown,NA
-51,1781-02-06,Bth,Court,Die Holländer,Lustspiel,Goldoni,NA,NA
-52,1781-02-06,Kth,Kinder,Die natürliche Zauberey,Lustspiel,Weiße,NA,NA
-53,1781-02-06,Kth,Kinder,Die Horazier,Ballet,Vogt,unknown,NA
-54,1781-02-07,Bth,Court,Erwine von Steinheim,Trauerspiel,Blumauer,NA,"""Ermine [sic] v. Steinheim / Tr. im 5. A. v. Blum= / auer."""
-55,1781-02-07,Kth,French,La Fausse Magie,Comédie mêlée d'ariettes,Marmontel,Grétry,Hadamowsky has a production by the court theater premiering on 27 Jun 1809.
-56,1781-02-07,Kth,French,No title,Ballet,unknown,unknown,NA
-57,1781-02-08,Bth,Court,Bekir und Gulroui,Lustspiel,Cardonne,NA,NA
-58,1781-02-08,Bth,Court,Der eifersüchtige Liebhaber,Singspiel,Hales,Grétry,NA
-59,1781-02-08,Kth,Kinder,Die Näscherinn,Singspiel,Weiße,Kriner,NA
-60,1781-02-08,Kth,Kinder,Die Horazier,Ballet,Vogt,unknown,NA
-61,1781-02-09,Bth,NA,"Concert, Johann Konrad Schlick and Christian Danner",NA,NA,NA,"""Musikalische Akademie. zum Vortheil Herrn. Schlick. K. M. aus Gotha und Herrn Tanner aus München."""
-62,1781-02-10,Bth,Court,Der Hausvater,Lustspiel,Diderot,NA,Only performance in 1781. First performed in Vienna in 1770.
-63,1781-02-10,Kth,Kinder,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Lustspiel,Schink,NA,NA
-64,1781-02-10,Kth,Kinder,Adelheid von Ponthieu,Ballet,Noverre,Starzer,"""Adelheit v. Ponthieu, B."""
-65,1781-02-11,Bth,Court,Die Wildschützen,Lustspiel,Stephanie d. J.,unknown,NA
-66,1781-02-11,Kth,French,L'Amoreux de quinze ans,Comédie mêlée d'ariettes,Laujon,Martini,NA
-67,1781-02-11,Kth,French,No title,Ballet,unknown,unknown,NA
-68,1781-02-12,Bth,Court,Die Pilgrime von Mekka,Singspiel,Dancourt,Gluck,Premiere in the Burgtheater on 26 Jul 1780
-69,1781-02-12,Kth,Kinder,Die natürliche Zauberey,Lustspiel,Weiße,NA,NA
-70,1781-02-12,Kth,Kinder,Die Horazier,Ballet,Vogt,unknown,NA
-71,1781-02-13,Bth,Court,Der Spleen,Lustspiel,Stephanie d. J.,NA,NA
-72,1781-02-13,Bth,Court,Der Sklavenhändler von Smyrna,Singspiel,Chamfort,unknown,Premiere. Performed only one more time on 21 Feb before being permanently dropped.
-73,1781-02-13,Kth,French,La Bonne Fille,Opéra comique,unknown,unknown,NA
-74,1781-02-13,Kth,French,Le François à Londres,Comédie,Boissy,NA,NA
-75,1781-02-14,Bth,Court,Der Graf von Walltron,Trauerspiel,Möller,NA,NA
-76,1781-02-14,Kth,Kinder,Die Näscherinn,Singspiel,Weiße,Kriner,NA
-77,1781-02-14,Kth,Kinder,Agamemnon,Ballet,Noverre,unknown,NA
-78,1781-02-15,Bth,Court,Die Liebe unter den Handwerksleuten,Singspiel,Goldoni,Gassmann,NA
-79,1781-02-15,Kth,French,Le Déserteur,Drame mêlée de musique,Sedaine,Monsigny,NA
-80,1781-02-15,Kth,French,No title,Ballet,unknown,unknown,NA
-81,1781-02-16,Bth,NA,"Concert, Anton Ulbrich",NA,NA,NA,"""Musikalische Akadamie zum Vortheil Hr. Anton Ulbrich, von WIen.""""Anton"" may have been either Anton Ignaz Ulbrich (1706–1796) or his son Anton Johann Nepomuk (1754–1830), both trombonists. Neither is known to have composed. One wonders whether this might have been a family concert, perhaps also including Johann Nepomuk Maximilian (1743–1814), who was a composer."
-82,1781-02-17,Bth,Court,Das Loch in der Thüre,Lustspiel,Stephanie d. J.,NA,NA
-83,1781-02-17,Kth,French,Les Talens à la mode,Comédie,Boissy,NA,NA
-84,1781-02-17,Kth,French,La Double Frayeur,Comédie,unknown,NA,NA
-85,1781-02-17,Kth,French,No title,Ballet,unknown,unknown,NA
-86,1781-02-18,Bth,Court,Das Loch in der Thüre,Lustspiel,Stephanie d. J.,NA,NA
-87,1781-02-18,Kth,Kinder,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Lustspiel,Schink,NA,NA
-88,1781-02-18,Kth,Kinder,Die Horazier,Ballet,Vogt,unknown,NA
-89,1781-02-19,Bth,Court,Die Liebe unter den Handwerksleuten,Singspiel,Goldoni,Gassmann,NA
-90,1781-02-19,Kth,French,Les Talens à la mode,Comédie,Boissy,NA,NA
-91,1781-02-19,Kth,French,Le Tonnellier,Opéra comique,Audinot,Gossec,NA
-92,1781-02-19,Kth,French,No title,Ballet,unknown,unknown,NA
-93,1781-02-20,Bth,Court,Der Jurist und der Bauer,Lustspiel,Rautenstrauch,NA,NA
-94,1781-02-20,Kth,Kinder,Ariadne auf Naxos,Duodrama,Brandes,Benda,NA
-95,1781-02-20,Bth,Court,Medea,Melodrama,Gotter,Benda,NA
-96,1781-02-20,Kth,Kinder,Die Horazier,Ballet,Vogt,unknown,NA
-97,1781-02-21,Bth,Court,"Soliman der Zweyte, oder Die drey Sultaninnen",Lustspiel,Favart,NA,NA
-98,1781-02-21,Bth,Court,Der Sklavenhändler von Smyrna,Singspiel,Chamfort,unknown,Second and final performance
-99,1781-02-21,Kth,French,Le Mercure galant ou la Comédie sans titre,Comédie,Boursault,NA,NA
-100,1781-02-21,Kth,French,La Double Frayeur,Comédie,unknown,NA,NA
-101,1781-02-21,Kth,French,No title,Ballet,unknown,unknown,NA
-102,1781-02-22,Bth,Court,Das Winterquartier in Amerika,Lustspiel,Babo,NA,NA
-103,1781-02-22,Bth,Court,Der eifersüchtige Liebhaber,Singspiel,Hales,Grétry,NA
-104,1781-02-22,Kth,Kinder,Die wahre Liebe,Lustspiel,Schiebeler,NA,NA
-105,1781-02-22,Kth,Kinder,Die Näscherinn,Singspiel,Weiße,Kriner,NA
-106,1781-02-22,Kth,Kinder,Adelheid von Ponthieu,Ballet,Noverre,Starzer,"""Adelheid von Ponthieu."""
-107,1781-02-23,Bth,NA,"Concert, Tebaldo Monzani",NA,NA,NA,This was Monzani's only known appearance in Vienna
-108,1781-02-24,Bth,Court,Das Loch in der Thüre,Lustspiel,Stephanie d. J.,NA,"""Hr. Autors Einnahme.""This was the third performance, and the proceeds went to Stephanie d. J."
-109,1781-02-24,Kth,Kinder,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Lustspiel,Schink,NA,NA
-110,1781-02-24,Kth,Kinder,Die wahre Liebe,Lustspiel,Schiebeler,NA,NA
-111,1781-02-24,Kth,Kinder,Die Horazier,Ballet,Vogt,unknown,NA
-112,1781-02-25,Bth,Court,Die Rechnung ohne den Wirth,Lustspiel,Schletter,NA,NA
-113,1781-02-25,Bth,Court,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Singspiel,Stephanie d. J.,Umlauf,NA
-114,1781-02-25,Kth,French,Don Japhet d'Armenie,Comédie,Scarron,NA,NA
-115,1781-02-25,Kth,French,No title,Ballet,unknown,unknown,NA
-116,1781-02-26,Bth,Court,Wahrheit ist gut Ding,Lustspiel,Goldoni,NA,NA
-117,1781-02-26,Kth,Kinder,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Lustspiel,Schink,NA,NA
-118,1781-02-26,Kth,Kinder,Die Näscherinn,Singspiel,Weiße,Kriner,NA
-119,1781-02-26,Kth,Kinder,Die Horazier,Ballet,Vogt,unknown,NA
-120,1781-02-27,Bth,Court,Der Schneider und sein Sohn,Lustspiel,Fuß,NA,NA
-121,1781-02-27,Bth,Court,Der Faßbinder,Singspiel,Poinsinet,Philidor,NA
-122,1781-02-27,Kth,French,L'Amoreux de quinze ans,Comédie mêlée d'ariettes,Laujon,Martini,NA
-123,1781-02-27,Kth,French,Rose et Colas,Opéra comique,Sedaine,Monsigny,NA
-124,1781-02-27,Kth,French,No title,Ballet,unknown,unknown,NA
-125,1781-03-04,Bth,NA,"Concert, Valentin Adamberger",NA,NA,NA,"""Musikalische Akademie. / Zum Vortheil Hr. Adambergers Mitglied d. K. K. / N. H. Schaubühne."""
-126,1781-03-06,Bth,NA,"Concert, Mathias Thurner",NA,NA,NA,"""Dergleichen z. V. Hr. Thurners, M. d. Orchest. b. Nationaltheater.""Mathias Thurner was a flutist in the orchestra of the court orchestra in Vienna; see Steblin, JAMIS 2008."
-127,1781-03-08,Bth,NA,"Concert, French company",NA,NA,NA,"""Dergleichen z. V. der Unternehmer des Franz. Schauspiels."""
-128,1781-03-11,Kth,NA,"Concert, Tonkünstler-Societät",NA,NA,NA,"""Dergleichen z. V. der Tonkünstler Gesellschaft allhier. Alcid am Scheidwege.""Hasse's Alcide al bivio"
-129,1781-03-12,Bth,NA,"Concert, Ludwig Fischer",NA,NA,NA,NA
-130,1781-03-13,Kth,NA,"Concert, Tonkünstler-Societät",NA,NA,NA,"""Wie am Sonntag den 11. d. M.""Hasse's Alcide al bivio"
-131,1781-03-15,Bth,NA,"Concert, Józef Boruwłaski (dwarf)",NA,NA,NA,"""Dergleichen / z. V. Hr. Boruwlaski in Königl. Pohlnischen / Diensten.""See Boruwłaski's description of his visit to Vienna in 1781 and his concert in his autobiography, 159ffMorrow (249) notes that the concert is in Zinzendorf, who mentions a guitar player and Adamberger"
-132,1781-03-18,Bth,NA,"Concert, Vincenzo Righini",NA,NA,NA,"""Dergleichen / z. V. Hr. Righini, gen. Apolls Geburtstag.""= Il natale di Apollo"
-133,1781-03-19,Bth,NA,"Concert, Friedrich Ramm",NA,NA,NA,"""Dergleichen / z. V. Hr. Ramms in Churbayer. Diensten."""
-134,1781-03-20,Kth,NA,"Concert, Elisabeth Mara",NA,NA,NA,"""Dergleichen / z. V. der Madame Mara.""In Schletter, the date appears as ""Dienstag / d. a2. [sic]""MBA, iii:101, Wolfgang to Leopold, 24 Mar:""die Mara ist hier; – sie hat vergangen dienstag eine accademie im Theater gegeben. – ihr Mann hat sich nicht dürfen sehen lassen, sonst hätte das orchstre nicht accompagnirt, weil er in die Zeitungen gedruckt hat, i ganz Wien seye kein Mensch im stande ihm zu accompagniren."""
-135,1781-03-25,Bth,NA,"Concert, Vincenzo Righini",NA,NA,NA,Reprise of Il natale di Apollo
-136,1781-03-26,Bth,NA,"Concert, Peter Winter and Franz Tausch",NA,NA,NA,"""Dergleichen / z. V. Hr. Winter und Tausch, in Churbayer. / Diensten.""Cf. 2 Feb"
-137,1781-03-27,Bth,NA,"Concert, Madame Olivieri",NA,NA,NA,"""Dergleichen / z. V. der Madame Olivieri.""Madame Olivieri not yet identified"
-138,1781-03-29,Bth,NA,"Concert, Madame Varenne",NA,NA,NA,"""Dergleichen / z. V. der Madam Varennes.""In ZinzendorfMadame Varenne played in concerts at the French ambassador's on 24 Mar, 28 Mar, 7 Apr, and 5 May 1781 (on 7 Apr with ""Herr Varene"", violin), and on 4 Apr at Prince Paar."
-139,1781-04-01,Kth,NA,"Concert, Tonkünstler-Societät",NA,NA,NA,Albrechtsberger's Die Pilgrime auf Golgatha was performed.
-140,1781-04-03,Kth,NA,"Concert, Tonkünstler-Societät",NA,NA,NA,Albrechtsberger's Die Pilgrime auf Golgatha was performed.A Mozart symphony was performed and he played the piano.
-141,1781-04-05,Kth,NA,"Concert, Elisabeth Mara",NA,NA,NA,NA
-142,1781-04-16,Bth,Court,Agnes Bernauerinn,Trauerspiel,Toerring,NA,NA
-143,1781-04-19,Bth,Court,Die verfolgte Unbekannte,Singspiel,Petrosellini,Anfossi,NA
-144,1781-04-19,Kth,French,L'Homme du jour,Comédie,Boissy,NA,NA
-145,1781-04-19,Kth,French,Les Legs,Comédie,Marivaux,NA,NA
-146,1781-04-20,Bth,unknown,Wissenschaft geht vor Schönheit,Lustspiel,Goldoni,NA,"This performance in the Burgtheater is not in Hadamowsky or Von Alth/Obzyna. Because it took place on a Friday, it may have been a benefit. Hadamowsky has the Burgtheater as ""geschlossen"" on this day.""Wissenschaft. geht vor / Schonheit [sic]. / L. in 3. A. n. G. v. B."""
-147,1781-04-21,Bth,Court,Die Gefahren der Verführung,Schauspiel,Mercier,NA,Performed only four times before being dropped.
-148,1781-04-21,Bth,Court,"Adelaide, oder die Antipathie gegen die Liebe",Lustspiel,Du Doyer de Gastels,NA,Performed only three times
-149,1781-04-22,Bth,Court,Die Gefahren der Verführung,Schauspiel,Mercier,NA,NA
-150,1781-04-22,Kth,French,Les Deux Chasseurs et la Laitière,Comédie mêlée d'ariettes,Anseaume,Duni,"""L'Offcier & le grand Baillif. C. 5. / la Laitiere. C. 1. a.""Identification of ""La Laitiere"" as the work by Anseaume and Duni is provisional."
-151,1781-04-22,Kth,French,L'Officier et le grand Baillif,Comédie,unknown,NA,NA
-152,1781-04-23,Bth,Court,Die große Batterie,Lustspiel,Ayrenhoff,NA,NA
-153,1781-04-23,Bth,Court,Andromeda und Perseus,Schauspiel,Kempelen,Zimmermann,Performed only four times before being dropped.
-154,1781-04-24,Bth,Court,Die gegenseitige Probe,Lustspiel,Legrand,NA,NA
-155,1781-04-24,Bth,Court,Der Hausfreund,Singspiel,Marmontel,Grétry,NA
-156,1781-04-24,Kth,French,Les Trois Jumeaux vénetiens,Comédie,Colalto Mattiuzzi,NA,"""Les 3. jumeaux venetiens. C. 3. 2."""
-157,1781-04-24,Kth,French,"L'Amant, Auteur et Valet",Comédie,Cérou,NA,NA
-158,1781-04-25,Bth,Court,Emilia Galotti,Trauerspiel,Lessing,NA,NA
-159,1781-04-25,Kth,French,Les Folies amoureuses,Comédie,Regnard,NA,NA
-160,1781-04-25,Kth,French,"L'Homme noir, ou le Spleen",Comédie,Gernevalde,NA,Identification of work mildly uncertain
-161,1781-04-26,Bth,Court,"Jenny, oder die Uneigennützigkeit",Drame,Marsollier,NA,NA
-163,1781-04-26,Bth,Court,"Adrast und Isidore, oder die Nachtmusik",Singspiel,Bretzner,Miča,Performed only twice
-162,1781-04-27,Bth,unknown,Die verstorbene Ehefrau,Lustspiel,Bretzner,NA,Not in Hadamowsky or Von Alth/Obzyna. Possibly a benefit.
-164,1781-04-27,Kth,NA,"Concert, Johann Lausch",NA,NA,NA,"""Musikalische Akademie / z. V. Hr. Johann Lausch."""
-165,1781-04-28,Kth,Court,Die Schwäger,Trauerspiel,Eckardt,NA,Performed only three times
-166,1781-04-28,Bth,Court,"Adelaide, oder die Antipathie gegen die Liebe",Lustspiel,Du Doyer de Gastels,NA,NA
-167,1781-04-28,Kth,French,Le Tableau parlant,Opéra comique,Anseaume,Grétry,NA
-168,1781-04-28,Kth,French,Les Précieuses ridicules,Comédie,Molière,Monsigny,NA
-169,1781-04-28,Kth,French,Pygmalion,Melodrama,Rousseau,Coignet,NA
-170,1781-04-29,Bth,Court,Die Schwäger,Trauerspiel,Eckardt,NA,NA
-171,1781-04-29,Bth,Court,Der dankbare Sohn,Lustspiel,Engel,NA,NA
-172,1781-04-29,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,NA
-173,1781-04-29,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-174,1781-04-30,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-175,1781-05-01,Bth,Court,Der sehende Blinde,Lustspiel,Legrand,NA,NA
-176,1781-05-01,Bth,Court,Andromeda und Perseus,Schauspiel,Kempelen,Zimmermann,NA
-177,1781-05-01,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-178,1781-05-01,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,NA
-179,1781-05-02,Bth,Court,Der flatterhafte Ehemann,Lustspiel,Cibber,NA,NA
-180,1781-05-02,Kth,NA,"Concert, Brigida Banti",NA,NA,NA,NA
-181,1781-05-03,Bth,Court,Die abgenöthige Einwilligung,Lustspiel,Guyot de Merville,NA,NA
-182,1781-05-03,Bth,Court,Der eifersüchtige Liebhaber,Singspiel,Hales,Grétry,NA
-183,1781-05-03,Kth,French,L'École des femmes,Comédie,Molière,NA,NA
-184,1781-05-03,Kth,French,Les Deux Chasseurs et la Laitière,Comédie mêlée d'ariettes,Anseaume,Duni,NA
-185,1781-05-04,Bth,unknown,Die verstorbene Ehefrau,Lustspiel,Bretzner,NA,"Not in Hadamowsky or Von Alth/Obzyna. Benefit? Hadamowsky has the Burgtheater as ""geschollsen"" on this day."
-186,1781-05-05,Bth,Court,Die Schwäger,Trauerspiel,Eckardt,NA,"""Autors Einnahme"". Final performance."
-187,1781-05-05,Bth,Court,Wer wird sie kriegen,Lustspiel,Eckardt,NA,Premiere on the same day as the last of three performances of Eckardt's Die Schwäger. Performed only three times.
-188,1781-05-05,Kth,French,Rose et Colas,Opéra comique,Sedaine,Monsigny,NA
-189,1781-05-05,Kth,French,Democrite amoureux,Comédie,Regnard,NA,NA
-190,1781-05-06,Bth,Court,Der Neugierige,Lustspiel,Stephanie d. J.,NA,NA
-191,1781-05-06,Kth,French,Elle a raison,Comédie,unknown,NA,NA
-192,1781-05-06,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,NA
-193,1781-05-07,Bth,Court,Der Schubkarren des Essighändlers,Lustspiel,Mercier,NA,"""Der Eßighandler. / L. in 3. A. a. d. Fr.""Adapted from Mercier's La Brouette du vinaigrier."
-194,1781-05-07,Bth,Court,Ariadne auf Naxos,Duodrama,Brandes,Benda,NA
-195,1781-05-08,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-196,1781-05-08,Kth,French,Le Père de famille,Comédie,Diderot,NA,NA
-197,1781-05-09,Bth,Court,Wahrheit ist gut Ding,Lustspiel,Goldoni,NA,NA
-198,1781-05-09,Kth,NA,"Concert, Brigida Banti",NA,NA,NA,"Morrow, 250, based on entry in Zinzendorf"
-199,1781-05-10,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-200,1781-05-10,Kth,French,Le Sorcier,Opéra comique,Poinsinet,Philidor,"""Du Sorcier. O. 2. a."""
-201,1781-05-10,Kth,French,Dupuis et Desronais,Comédie,Collé,NA,"""Dupuis & des Ronæls.C. / 3. a.""This title only in Bender (based on Schletter). Schinke has ""Depuis & de Ronais""."
-202,1781-05-11,Bth,unknown,Der Zaubergürtel,Lustspiel,Rousseau,NA,"Not in Hadamowsky or Von Alth/Obzyna. Friday benefit? Hadamowsky has the Burgtheater as ""geschlossen."""
-203,1781-05-11,Bth,unknown,Ariadne auf Naxos,Duodrama,Brandes,Benda,"Not in Hadamowsky or Von Alth/Obzyna. Friday benefit? Hadamowsky has the Burgtheater as ""geschlossen."""
-204,1781-05-12,Bth,Court,"Geschwind, eh es jemand erfährt",Lustspiel,Goldoni,NA,NA
-205,1781-05-12,Bth,Court,Andromeda und Perseus,Schauspiel,Kempelen,Zimmermann,NA
-206,1781-05-12,Kth,French,Le Maréchal ferrant,Opéra comique,Quétant,Philidor,NA
-207,1781-05-12,Kth,French,Elle a raison,Comédie,unknown,NA,NA
-208,1781-05-13,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-209,1781-05-13,Kth,French,L'Officieux,Comédie,Piédefer,NA,NA
-210,1781-05-13,Kth,French,Nanette et Lucas,Opéra comique,Framery,d'Herbain,NA
-211,1781-05-14,Bth,Court,Das Loch in der Thüre,Lustspiel,Stephanie d. J.,NA,NA
-212,1781-05-14,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,NA
-213,1781-05-14,Kth,French,Silvain,Opéra comique,Marmontel,Grétry,NA
-214,1781-05-15,Bth,Court,Der Oberamtmann und die Soldaten,Schauspiel,d'Herbois,NA,From Calderon's Alcalde de Zalamea
-215,1781-05-16,Bth,Court,Die Pilgrime von Mekka,Singspiel,Dancourt,Gluck,NA
-216,1781-05-16,Kth,French,Turcaret,Comédie,Lesage,NA,NA
-218,1781-05-16,Kth,French,Le Sorcier,Opéra comique,Poinsinet,Philidor,NA
-217,1781-05-17,Bth,Court,Die Gefahren der Verführung,Schauspiel,Mercier,NA,NA
-219,1781-05-17,Bth,Court,Wer wird sie kriegen,Lustspiel,Eckardt,NA,NA
-220,1781-05-17,Kth,French,Le Cercle ou la Soirée à la mode,Comédie,Poinsinet,NA,"""La Soiree a la Mode. C. 1. a."""
-221,1781-05-17,Kth,French,Les Trois Frères rivaux,Comédie,La Font,NA,NA
-222,1781-05-17,Kth,French,Les Deux Avares,Opéra comique,Falbaire de Quingey,Grétry,NA
-223,1781-05-18,Bth,unknown,Die Brüder,Lustspiel,Romanus,NA,"Not in Hadamowsky or Von Alth/Obzyna. Perhaps a Friday benefit. Hadamowsky has the Burgtheater as ""geschlossen"" on this day."
-224,1781-05-18,Kth,NA,"Concert, Monsieur Cervasi",NA,NA,NA,"Sartori:	Matteo Gervasi, composer of La Mistica vittoria (1772)	Giuseppe Gervasoni, a singer active in the early 1780s	Susanna Gervasio, singerGerber 1790, only name even close is Mr. Gervais, violinist who appeared at the Concert spirituel in Paris.There was a tenor Cesare Cervasi in the 1820s"
-225,1781-05-19,Bth,Court,Hamlet,Trauerspiel,Shakespeare,NA,Probably with Schröder in the title role?
-226,1781-05-20,Bth,Court,Der Bettelstudent,Lustspiel,Weidmann,NA,NA
-227,1781-05-20,Bth,Court,Nacht und Ungefähr,Lustspiel,Capacelli,NA,NA
-228,1781-05-20,Kth,French,Les Pêcheurs,Opéra comique,La Salle,Gossec,NA
-229,1781-05-20,Kth,French,Les Fourberies de Scapin,Comédie,Molière,NA,NA
-230,1781-05-21,Bth,Court,Henriette,Lustspiel,Großmann,NA,NA
-231,1781-05-22,Bth,Court,"Jenny, oder die Uneigennützigkeit",Drame,Marsollier,NA,NA
-232,1781-05-22,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-235,1781-05-22,Kth,French,L'Avocat Patelin,Comédie,Brueys,NA,NA
-236,1781-05-22,Kth,French,Nanette et Lucas,Opéra comique,Framery,d'Herbain,NA
-237,1781-05-23,Bth,Court,Athelstan,Trauerspiel,Brown,NA,NA
-233,1781-05-24,Kth,French,Le Tartuffe,Comédie,Molière,NA,NA
-234,1781-05-24,Kth,French,Le Tableau parlant,Opéra comique,Anseaume,Grétry,NA
-238,1781-05-24,Bth,Court,Das Portrait,Lustspiel,Beauchamps,NA,NA
-239,1781-05-24,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-240,1781-05-25,NA,NA,Theaters closed,NA,NA,NA,NA
-241,1781-05-26,Bth,Court,Der argwöhnische Ehemann,Lustspiel,Gotter,NA,NA
-242,1781-05-26,Kth,French,Le Legataire universel,Comédie,Regnard,NA,NA
-243,1781-05-26,Kth,French,Le Milicien,Comédie,Anseaume,Duni,NA
-244,1781-05-27,Bth,Court,Der argwöhnische Ehemann,Lustspiel,Gotter,NA,NA
-245,1781-05-27,Kth,French,Le Tartuffe,Comédie,Molière,NA,NA
-246,1781-05-27,Kth,French,Rose et Colas,Opéra comique,Sedaine,Monsigny,NA
-247,1781-05-28,Bth,Court,Die Widersprecherin,Lustspiel,Dufresny,NA,NA
-248,1781-05-28,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-249,1781-05-29,Bth,Court,Der Schmuck,Lustspiel,Sprickmann,NA,NA
-250,1781-05-29,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-251,1781-05-29,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,NA
-252,1781-05-30,Bth,Court,Die Trauer,Lustspiel,Hauteroche,NA,NA
-253,1781-05-30,Bth,Court,"Adrast und Isidore, oder die Nachtmusik",Singspiel,Bretzner,Miča,Second and final performance
-254,1781-05-31,Bth,Court,Romeo und Julie,Trauerspiel,Shakespeare,NA,NA
-255,1781-05-31,Kth,French,Le Tartuffe,Comédie,Molière,NA,NA
-256,1781-05-31,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-258,1781-06-01,Bth,unknown,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Lustspiel,Schink,NA,"Not in Hadamowsky or Von Alth/Obzyna. Perhaps a Friday benefit? Hadamowsky has the Burgtheater as ""geschlossen""  on this day."
-259,1781-06-01,Bth,unknown,Die Geschwisterliebe,Schauspiel,Weiße,NA,"Not in Hadamowsky or Von Alth/Obzyna. Perhaps a Friday benefit? Hadamowsky has the Burgtheater as ""geschlossen""  on this day."
-260,1781-06-02,Bth,Court,Der Herr Gevatter,Lustspiel,Prévost,NA,NA
-261,1781-06-02,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-262,1781-06-02,Kth,French,Le Legataire universel,Comédie,Regnard,NA,NA
-263,1781-06-02,Kth,French,Le Huron,Opéra comique,Marmontel,Grétry,NA
-264,1781-06-03,NA,NA,Theaters closed for Pentecost (Pfingsten),NA,NA,NA,"""Vacat wegen Pfingstfestes"""
-265,1781-06-04,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-266,1781-06-04,Kth,French,Le Huron,Opéra comique,Marmontel,Grétry,NA
-267,1781-06-04,Kth,French,Le Page étourdi,Comédie,unknown,NA,NA
-268,1781-06-05,Bth,Court,"Eugenie, oder Die Tugend in Gefahr",Trauerspiel,Beaumarchais,NA,NA
-269,1781-06-05,Bth,Court,Die Rechnung ohne den Wirth,Lustspiel,Schletter,NA,NA
-270,1781-06-06,Bth,Court,Die Liebe unter den Handwerksleuten,Singspiel,Goldoni,Gassmann,NA
-271,1781-06-07,Bth,Court,Die Nebenbuhler,Lustspiel,Sheridan,NA,NA
-272,1781-06-07,Kth,French,Zémire et Azor,Opéra comique,Marmontel,Grétry,NA
-273,1781-06-08,NA,NA,Theaters closed,NA,NA,NA,NA
-274,1781-06-09,Bth,Court,Richard der Dritte,Trauerspiel,Weiße,NA,NA
-275,1781-06-09,Kth,French,Jeannot et Colin,Comédie,Voltaire,NA,"First performed in Paris for the first time 14 Nov 1780. Adapted from a ""conte philosophique"" by Voltaire (1764)"
-276,1781-06-09,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-277,1781-06-10,Bth,Court,Die Wölfe in der Heerde,Lustspiel,Stephanie d. J.,NA,NA
-278,1781-06-10,Kth,French,Zémire et Azor,Opéra comique,Marmontel,Grétry,NA
-279,1781-06-11,Bth,Court,Die Wirthschaftlerinn,Lustspiel,Stephanie d. J.,NA,NA
-280,1781-06-11,Bth,Court,Die abgeredte Zauberey,Singspiel,Marmontel,Grétry,NA
-281,1781-06-11,Kth,unknown,"Concert, Floravante Agostinelli",NA,NA,NA,"""Musikalische Akademie z. V. v. Mrs. Agostinelli.""""Mrs."" is probably ""Monsieur,"" based on Schletter's apparent usage. There is a soprano Angela (Angelica) Agostinelli in Sartori in libretti from 1765 to 1767.""Agostinelli"" not in Gerber 1790 or Morrow. See Bernardini 1988, on the Venetian oboist/flutist Floravante Agostinelli (1741–1809). See his note 12. Alternate first names are ""Francesco Saverio"" and ""Florante"". He was employed by the Thurn und Taxis court for 32 years. Burney heard him in Ludwigsburg in 1772.Often referred to (Badley, Murray, Powell) as ""Florante"""
-282,1781-06-12,Bth,Court,Edwin und Emma,Schauspiel,Schraembl,NA,NA
-283,1781-06-12,Kth,French,Le Sorcier,Opéra comique,Poinsinet,Philidor,NA
-284,1781-06-12,Kth,French,Le Mari retrouvé,Comédie,Dancourt,NA,NA
-285,1781-06-13,Bth,Court,Die verfolgte Unbekannte,Singspiel,Petrosellini,Anfossi,NA
-286,1781-06-14,NA,NA,Theaters closed (Corpus Christi),NA,NA,NA,NA
-287,1781-06-15,NA,NA,Theaters closed,NA,NA,NA,NA
-288,1781-06-16,Bth,Court,Die heimliche Heyrath,Lustspiel,Colman,NA,NA
-289,1781-06-16,Kth,French,"Adelaide, oder die Antipathie gegen die Liebe",Opéra comique,Marmontel,Grétry,NA
-290,1781-06-17,Bth,Court,Die heimliche Heyrath,Lustspiel,Colman,NA,NA
-291,1781-06-17,Kth,French,La Fausse Magie,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-292,1781-06-17,Kth,French,La Fausse Suivante,Comédie,Marivaux,NA,NA
-293,1781-06-18,Bth,Court,Die verfolgte Unbekannte,Singspiel,Petrosellini,Anfossi,NA
-294,1781-06-19,Bth,Court,König Lear,Trauerspiel,Shakespeare,NA,NA
-295,1781-06-19,Kth,French,L'Ami de la maison,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-296,1781-06-19,Kth,French,Les Trois Frères rivaux,Comédie,La Font,NA,NA
-297,1781-06-20,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-298,1781-06-20,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-299,1781-06-20,Kth,French,L'Ami de la maison,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-300,1781-06-21,Bth,Court,Der argwöhnische Ehemann,Lustspiel,Gotter,NA,NA
-301,1781-06-21,Kth,French,Tom Jones,Opéra comique,Poinsinet,Philidor,NA
-302,1781-06-22,NA,NA,Theaters closed,NA,NA,NA,NA
-303,1781-06-23,Bth,Court,Das Findelkind,Lustspiel,Brühl,NA,NA
-304,1781-06-23,Bth,Court,Yariko,Trauerspiel,Pelzel,NA,NA
-305,1781-06-23,Kth,French,La Fausse Magie,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-306,1781-06-23,Kth,French,La Pupille,Comédie,Fagan,NA,NA
-307,1781-06-24,Bth,Court,Das Findelkind,Lustspiel,Brühl,NA,NA
-308,1781-06-24,Bth,Court,Der Wittwer,Lustspiel,Carmontelle,NA,NA
-309,1781-06-24,Kth,French,Le Déserteur,Drame mêlée de musique,Sedaine,Monsigny,NA
-310,1781-06-25,Bth,Court,Nacht und Ungefähr,Lustspiel,Capacelli,NA,NA
-311,1781-06-25,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-312,1781-06-26,Bth,Court,Die heimliche Heyrath,Lustspiel,Colman,NA,NA
-313,1781-06-27,Bth,Court,Die verfolgte Unbekannte,Singspiel,Petrosellini,Anfossi,NA
-314,1781-06-27,Kth,Kinder,Zémire et Azor,Opéra comique,Marmontel,Grétry,NA
-315,1781-06-28,Bth,Court,Richard der Dritte,Trauerspiel,Weiße,NA,NA
-316,1781-06-28,Kth,French,Le Mazet,Opéra comique,Anseaume,Duni,NA
-317,1781-06-28,Kth,French,Crispin médecin,Comédie,Hauteroche,NA,NA
-318,1781-06-29,NA,NA,Theaters closed,NA,NA,NA,NA
-319,1781-06-30,Bth,Court,Die Gefahren der Verführung,Schauspiel,Mercier,NA,Final performance
-320,1781-06-30,Bth,Court,Der Dichterling,Lustspiel,Eberl,NA,NA
-321,1781-06-30,Kth,French,Orphée et Euridice,Tragédie-opéra,Calzabigi,Gluck,NA
-322,1781-07-01,Bth,Court,Der Dichterling,Lustspiel,Eberl,NA,NA
-323,1781-07-01,Bth,Court,Der Faßbinder,Singspiel,Poinsinet,Philidor,NA
-324,1781-07-01,Kth,French,Orphée et Euridice,Tragédie-opéra,Calzabigi,Gluck,NA
-325,1781-07-02,Bth,Court,Juliane von Lindorak,Lustspiel,Gozzi,NA,NA
-326,1781-07-02,Bth,Court,Die abgenöthige Einwilligung,Lustspiel,Guyot de Merville,NA,NA
-327,1781-07-02,Kth,Preßburg,Das Gärtnermädchen von Fraskati,Singspiel,Livigni,Paisiello,NA
-328,1781-07-02,Kth,Preßburg,Die Faßbinder,Ballet,unknown,unknown,NA
-329,1781-07-03,Bth,Court,Die Ungetreuen,Lustspiel,Barthe,NA,NA
-330,1781-07-03,Bth,Court,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Singspiel,Stephanie d. J.,Umlauf,NA
-331,1781-07-03,Kth,French,La Colonie,Opéra comique,unknown,Framery,NA
-332,1781-07-03,Kth,French,"Crispin, Rival de son maître",Comédie,Lesage,NA,NA
-333,1781-07-04,Bth,Court,Der Graf von Walltron,Trauerspiel,Möller,NA,NA
-334,1781-07-04,NA,Preßburg,Das Gärtnermädchen von Fraskati,Singspiel,Livigni,Paisiello,NA
-335,1781-07-04,Kth,Preßburg,Bauern verstehn nicht Spaß,Ballet,unknown,unknown,NA
-336,1781-07-05,Bth,Court,Die unversehene Wette,Lustspiel,Sedaine,NA,NA
-337,1781-07-05,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-338,1781-07-05,Kth,French,La Colonie,Opéra comique,unknown,Framery,NA
-339,1781-07-05,Kth,French,Les Deux Avares,Opéra comique,Falbaire de Quingey,Grétry,NA
-340,1781-07-06,NA,NA,Theaters closed,NA,NA,NA,NA
-341,1781-07-07,Bth,Court,Der Dienstfertige,Lustspiel,La Salle,NA,NA
-348,1781-07-07,Bth,Court,Der Dichterling,Lustspiel,Eberl,NA,NA
-349,1781-07-07,Kth,French,Le Tout en peu,Comédie,unknown,NA,NA
-350,1781-07-07,Kth,French,"Les Menechmes, ou les Jumeaux",Comédie,Regnard,NA,NA
-342,1781-07-08,Bth,Court,Der Sklavenhändler von Smyrna,Lustspiel,Chamfort,NA,NA
-343,1781-07-08,Kth,Preßburg,Der Stolz des Grafen Barcelona,Singspiel,unknown,unknown,The singspiel is unidentified
-344,1781-07-08,Kth,Preßburg,Die sieben Schwaben,Ballet,unknown,unknown,"""Die 7. Schwaben. B."""
-345,1781-07-09,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-346,1781-07-09,Kth,French,Le Somnambule,Comédie,Ferriol de Pont-de-Veyle,NA,NA
-347,1781-07-09,Kth,French,La Fausse Magie,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-351,1781-07-10,Bth,Court,Der Barbier von Sevilien,Lustspiel,Beaumarchais,NA,NA
-352,1781-07-10,Kth,Preßburg,Milton und Elmire,Singspiel,Reinwald,Michl,"""Milton und Elmire / A. v. Göthe. Ballet.""Schletter may have confused Milton und Elmire with Goethe's Erwin und Elmire, which had been in the repertory of the court theater since 1776."
-353,1781-07-10,Kth,Preßburg,No title,Ballet,unknown,unknown,NA
-354,1781-07-11,Bth,Court,Der Liebhaber als ein Schriftsteller und Bedienter,Lustspiel,Cérou,NA,NA
-355,1781-07-11,Bth,Court,Die Wâschermädchen,Singspiel,Bock,Zanetti,Performed only three times
-356,1781-07-11,Kth,French,"Héraclite, ou le Triomphe de la Beauté",Comédie,Rauquil-Lieutaud,NA,NA
-357,1781-07-11,Kth,French,Les Précieuses ridicules,Comédie,Molière,Monsigny,NA
-358,1781-07-12,Bth,Court,Der gutherzige Murrkopf,Lustspiel,Goldoni,NA,NA
-359,1781-07-12,Bth,Court,Andromeda und Perseus,Schauspiel,Kempelen,Zimmermann,Final performance
-360,1781-07-12,Kth,Preßburg,Ariadne auf Naxos,Duodrama,Brandes,Benda,NA
-361,1781-07-12,Kth,Preßburg,Inkle und Yariko,Trauerspiel,Pelzel,NA,Confusion over multiple works with this or related titles.
-362,1781-07-12,Kth,Preßburg,No title,Ballet,unknown,unknown,NA
-363,1781-07-13,NA,NA,Theaters closed,NA,NA,NA,NA
-364,1781-07-14,Bth,Court,Der Dienstfertige,Lustspiel,La Salle,NA,NA
-365,1781-07-14,Bth,Court,Der verlogene Bediente,Lustspiel,Garrick,NA,NA
-366,1781-07-14,Kth,Preßburg,Der Jahrmarkt von Venedig,Singspiel,Boccherini,Salieri,NA
-367,1781-07-15,Bth,Court,Der verlogene Bediente,Lustspiel,Garrick,NA,NA
-368,1781-07-15,Bth,Court,Die Wâschermädchen,Singspiel,Bock,Zanetti,NA
-369,1781-07-15,Kth,French,"La Comédie à l'impromptu, ou les Dupes",Comédie,Dorvigny,NA,NA
-370,1781-07-15,Kth,French,Le Tonnellier,Opéra comique,Audinot,Gossec,NA
-371,1781-07-15,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-372,1781-07-16,Bth,Court,Die heimliche Heyrath,Lustspiel,Colman,NA,NA
-373,1781-07-16,Kth,French,Inkle und Yariko,Trauerspiel,Pelzel,NA,NA
-374,1781-07-16,Kth,French,No title,Ballet,unknown,unknown,NA
-375,1781-07-16,Kth,French,Springerkünde (tumblers),NA,NA,NA,NA
-376,1781-07-17,Bth,Court,"Adelaide, oder die Antipathie gegen die Liebe",Lustspiel,Du Doyer de Gastels,NA,Final performance
-377,1781-07-17,Bth,Court,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Singspiel,Stephanie d. J.,Umlauf,NA
-378,1781-07-17,Kth,French,Le Roi et le Fermier,Opéra comique,Sedaine,Monsigny,NA
-379,1781-07-17,Kth,French,"La Comédie à l'impromptu, ou les Dupes",Comédie,Dorvigny,NA,NA
-380,1781-07-18,Bth,Court,Olivie,Trauerspiel,Brandes,NA,NA
-381,1781-07-18,Bth,Court,Wer wird sie kriegen,Lustspiel,Eckardt,NA,NA
-382,1781-07-18,Kth,Preßburg,Der Jahrmarkt von Venedig,Singspiel,Boccherini,Salieri,NA
-383,1781-07-19,Bth,Court,Zemire und Azor,Opéra comique,Marmontel,Grétry,In German
-384,1781-07-20,NA,NA,Theaters closed,NA,NA,NA,NA
-385,1781-07-21,Bth,Court,Die dürftige Familie,Schauspiel,Mercier,NA,NA
-388,1781-07-21,Bth,Court,Der Teufel steckt in ihm,Lustspiel,Colman,NA,NA
-389,1781-07-21,Kth,French,La Belle Arsène,Comédie mêlée d'ariettes,Favart,Monsigny,NA
-386,1781-07-22,Bth,Court,Der Kühehirt,Lustspiel,Weidmann,NA,NA
-387,1781-07-22,Kth,Preßburg,Die zwey Gräfinnen,Singspiel,Petrosellini,Paisiello,"German version of Le due contesse, which had been performed in Vienna in 1776 and 1777."
-390,1781-07-22,Bth,Court,Die dürftige Familie,Schauspiel,Mercier,NA,NA
-391,1781-07-23,Bth,Court,Der Todte ein Freyer,Lustspiel,Sedaine,NA,NA
-392,1781-07-23,Bth,Court,Die abgeredte Zauberey,Singspiel,Marmontel,Grétry,NA
-393,1781-07-23,Kth,French,Zémire et Azor,Opéra comique,Marmontel,Grétry,NA
-394,1781-07-24,Bth,Court,Der Westindier,Lustspiel,Cumberland,NA,NA
-395,1781-07-25,Bth,Court,Der Barbier von Sevilien,Lustspiel,Beaumarchais,NA,NA
-396,1781-07-25,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,NA
-397,1781-07-25,Kth,French,L'Ami de la maison,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-398,1781-07-26,Bth,Court,Die Pilgrime von Mekka,Singspiel,Dancourt,Gluck,NA
-399,1781-07-26,Kth,French,Le Maréchal ferrant,Opéra comique,Quétant,Philidor,NA
-400,1781-07-26,Kth,French,L'Ami de la maison,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-401,1781-07-27,NA,NA,Theaters closed,NA,NA,NA,NA
-402,1781-07-28,Bth,Court,Elfride,Trauerspiel,Mason,NA,NA
-403,1781-07-28,Bth,Court,Die große Batterie,Lustspiel,Ayrenhoff,NA,NA
-404,1781-07-28,Kth,French,La Rosière de Salency,Opéra comique,Favart,Philidor,NA
-405,1781-07-29,Bth,Court,Betrug für Betrug,Lustspiel,Schletter,NA,NA
-406,1781-07-29,Kth,French,La Belle Arsène,Comédie mêlée d'ariettes,Favart,Monsigny,NA
-407,1781-07-30,Bth,Court,Die gegenseitige Probe,Lustspiel,Legrand,NA,NA
-408,1781-07-30,Bth,Court,Der Hausfreund,Singspiel,Marmontel,Grétry,NA
-409,1781-07-30,Kth,French,L'Amitié à l'epreuve,Comédie mêlée d'ariettes,Favart,Grétry,NA
-410,1781-07-30,Kth,French,Les Folies amoureuses,Comédie,Regnard,NA,NA
-411,1781-07-31,NA,Court,Erwine von Steinheim,Trauerspiel,Blumauer,NA,NA
-412,1781-08-01,Bth,Court,Bekir und Gulroui,Lustspiel,Cardonne,NA,Final performance
-413,1781-08-01,Bth,Court,Der Deserteur,Drame mêlée de musique,Sedaine,Monsigny,"In German, as a singspiel"
-414,1781-08-01,Kth,French,La Colonie,Opéra comique,unknown,Framery,NA
-415,1781-08-01,Kth,French,La Pupille,Comédie,Fagan,NA,NA
-416,1781-08-02,Bth,Court,Die dürftige Familie,Schauspiel,Mercier,NA,NA
-417,1781-08-02,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-418,1781-08-02,Kth,French,Le Mazet,Opéra comique,Anseaume,Duni,NA
-419,1781-08-03,NA,NA,Theaters closed,NA,NA,NA,NA
-420,1781-08-04,Bth,Court,Der dankbare Sohn,Lustspiel,Engel,NA,NA
-421,1781-08-04,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-422,1781-08-04,Kth,French,Ninette à la cour,Comédie mêlée d'ariettes,Favart,Ciampi,NA
-423,1781-08-04,Kth,French,Les Trois Frères rivaux,Comédie,La Font,NA,NA
-424,1781-08-05,Bth,Court,Das Landmädchen,Lustspiel,Wycherley,NA,NA
-425,1781-08-05,Kth,French,La Bonne Fille,Opéra comique,unknown,unknown,NA
-426,1781-08-06,Bth,Court,Wahrheit ist gut Ding,Lustspiel,Goldoni,NA,NA
-427,1781-08-06,Kth,French,Democrite amoureux,Comédie,Regnard,NA,NA
-428,1781-08-06,Kth,French,Le Tableau parlant,Opéra comique,Anseaume,Grétry,NA
-429,1781-08-07,Bth,Court,Die Uebereilung,Lustspiel,Fagan,NA,NA
-430,1781-08-07,Bth,Court,Die Sklavinn,Singspiel,unknown,Piccinni,Performed only twice
-431,1781-08-08,Bth,Court,Zu gut ist nicht gut,Lustspiel,Goldsmith,NA,Final performance
-432,1781-08-08,Kth,French,Le Tartuffe,Comédie,Molière,NA,NA
-433,1781-08-08,Kth,French,La Bonne Fille,Opéra comique,unknown,unknown,NA
-434,1781-08-09,Bth,Court,Die Trauer,Lustspiel,Hauteroche,NA,NA
-435,1781-08-09,Bth,Court,Die Wâschermädchen,Singspiel,Bock,Zanetti,Final performance
-436,1781-08-09,Kth,French,La Fausse Suivante,Comédie,Marivaux,NA,NA
-437,1781-08-09,Kth,French,Silvain,Opéra comique,Marmontel,Grétry,NA
-438,1781-08-10,NA,NA,Theaters closed,NA,NA,NA,NA
-439,1781-08-11,Bth,Court,Gianetta Montaldi,Trauerspiel,Schink,NA,NA
-440,1781-08-11,Kth,French,Le Marchand de Smyrne,Opéra comique,Chamfort,Just,"""Le Marchand de Smirne / O. 1. a."""
-441,1781-08-11,Kth,French,La Fausse Magie,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
-442,1781-08-12,Bth,Court,Gianetta Montaldi,Trauerspiel,Schink,NA,NA
-443,1781-08-12,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-444,1781-08-12,Kth,French,La Sérénade,Opéra comique,unknown,unknown,NA
-445,1781-08-12,Kth,French,"La Comédie à l'impromptu, ou les Dupes",Comédie,Dorvigny,NA,"""Les Dupes. O. 1. a.""Uncertain whether this work, listed as an opera, is the same as La Comédie à l'impromptu, ou les Dupes performed by the French company in July."
-446,1781-08-13,Bth,Court,Der Bettler,Lustspiel,Goldoni,NA,NA
-447,1781-08-13,Bth,Court,Was erhält die Männer treu?,Singspiel,Zehnmark,Ruprecht,NA
-448,1781-08-14,Bth,Court,Die heimliche Heyrath,Lustspiel,Colman,NA,NA
-449,1781-08-14,Kth,French,Le Procureur arbitre,Comédie,Poisson,NA,NA
-450,1781-08-14,Kth,French,L'Amoreux de quinze ans,Comédie mêlée d'ariettes,Laujon,Martini,NA
-451,1781-08-15,Bth,Court,Der Dichterling,Lustspiel,Eberl,NA,NA
-452,1781-08-15,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-453,1781-08-15,Kth,French,Zémire et Azor,Opéra comique,Marmontel,Grétry,NA
-454,1781-08-16,Bth,Court,Die dürftige Familie,Schauspiel,Mercier,NA,Final perfomance
-455,1781-08-16,Bth,Court,Der verlogene Bediente,Lustspiel,Garrick,NA,NA
-456,1781-08-16,Kth,French,La Rosière de Salency,Opéra comique,Favart,Philidor,NA
-457,1781-08-17,NA,NA,Theaters closed,NA,NA,NA,NA
-458,1781-08-18,NA,NA,Theaters closed (anniversary of death of Francis Stephen),NA,NA,NA,NA
-459,1781-08-19,Bth,Court,Zémire et Azor,Opéra comique,Marmontel,Grétry,In German as singspiel
-460,1781-08-19,Kth,French,Les Battus paient l'amende,Comédie,unknown,unknown,NA
-461,1781-08-19,Kth,French,Rose et Colas,Opéra comique,Sedaine,Monsigny,NA
-462,1781-08-19,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-463,1781-08-20,Bth,Court,Der argwöhnische Ehemann,Lustspiel,Gotter,NA,NA
-464,1781-08-21,Bth,Court,Romeo und Julie,Trauerspiel,Shakespeare,NA,NA
-465,1781-08-21,Kth,French,La Bonne Fille,Opéra comique,unknown,unknown,NA
-466,1781-08-21,Kth,French,Les Battus paient l'amende,Comédie,unknown,unknown,NA
-467,1781-08-22,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-468,1781-08-23,Bth,Court,Der Barbier von Sevilien,Lustspiel,Beaumarchais,NA,NA
-469,1781-08-23,Kth,French,Le Mari retrouvé,Comédie,Dancourt,NA,NA
-470,1781-08-23,Kth,French,Silvain,Opéra comique,Marmontel,Grétry,NA
-471,1781-08-24,NA,NA,Theaters closed,NA,NA,NA,NA
-472,1781-08-25,Bth,Court,Der Dienstfertige,Lustspiel,La Salle,NA,NA
-473,1781-08-25,Bth,Court,Die Eroberung von Saint-Lucie,Lustspiel,Müller von Friedberg,NA,Performed only three times.
-474,1781-08-25,Kth,French,Les Pèlerins de la Mecque,Singspiel,Dancourt,Gluck,NA
-475,1781-08-26,Bth,Court,Die Wildschützen,Lustspiel,Stephanie d. J.,unknown,NA
-476,1781-08-26,Kth,French,Les Pèlerins de la Mecque,Singspiel,Dancourt,Gluck,NA
-477,1781-08-27,Bth,Court,Die Pilgrime von Mekka,Singspiel,Dancourt,Gluck,NA
-478,1781-08-28,Bth,Court,Der Schubkarren des Essighändlers,Lustspiel,Mercier,NA,NA
-479,1781-08-28,Bth,Court,Die Wirthschaftlerinn,Lustspiel,Stephanie d. J.,NA,Hadamowsky has Die Widersprecherin on this date
-480,1781-08-28,Kth,French,L'Amoreux de quinze ans,Comédie mêlée d'ariettes,Laujon,Martini,NA
-481,1781-08-28,Kth,French,Pygmalion,Melodrama,Rousseau,Coignet,NA
-482,1781-08-29,Bth,Court,Die Eroberung von Saint-Lucie,Lustspiel,Müller von Friedberg,NA,NA
-483,1781-08-29,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-484,1781-08-30,Bth,Court,Gianetta Montaldi,Trauerspiel,Schink,NA,NA
-485,1781-08-30,Kth,French,La Colonie,Opéra comique,unknown,Framery,NA
-486,1781-08-30,Kth,French,Les Deux Chasseurs et la Laitière,Comédie mêlée d'ariettes,Anseaume,Duni,NA
-487,1781-08-31,Bth,Kinder,Adelheit von Veltheim,Singspiel,Großmann,Sardi,This work and performance is not in Hadamowsky.
-488,1781-09-01,Bth,Court,"Jenny, oder die Uneigennützigkeit",Drame,Marsollier,NA,NA
-489,1781-09-01,Bth,Court,Die unvermutheten Zufälle,Singspiel,Hales,Grétry,Performed only four times.
-490,1781-09-01,Kth,French,La Fée Urgèle,Comédie mêlée d'ariettes,Favart,Duni,NA
-491,1781-09-02,Bth,Court,Der Kobold,Lustspiel,Gotter,NA,NA
-492,1781-09-02,Kth,French,Les Pèlerins de la Mecque,Singspiel,Dancourt,Gluck,NA
-493,1781-09-03,Bth,Court,Die Rechnung ohne den Wirth,Lustspiel,Schletter,NA,NA
-494,1781-09-03,Bth,Court,Die unvermutheten Zufälle,Singspiel,Hales,Grétry,NA
-495,1781-09-04,Bth,Court,Athelstan,Trauerspiel,Brown,NA,NA
-496,1781-09-04,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
-497,1781-09-04,Kth,French,Dupuis et Desronais,Comédie,Collé,NA,NA
-498,1781-09-05,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
-499,1781-09-06,Bth,Court,Die gute Tochter,Lustspiel,Schröder,NA,NA
-500,1781-09-07,Bth,Kinder,Adelheit von Veltheim,Singspiel,Großmann,Sardi,See 31 Aug 1781
-501,1781-09-08,NA,NA,Theaters closed for Mariä Geburt (Nativity of Mary),NA,NA,NA,NA
-502,1781-09-09,Bth,Court,Die Ungetreuen,Lustspiel,Barthe,NA,Final performance
-503,1781-09-09,Bth,Court,Die unvermutheten Zufälle,Singspiel,Hales,Grétry,NA
-504,1781-09-09,Kth,French,Le Déserteur,Drame mêlée de musique,Sedaine,Monsigny,NA
-505,1781-09-10,Bth,Court,Richard der Dritte,Trauerspiel,Weiße,NA,NA
-506,1781-09-11,Bth,Court,Das Lustlager,Schauspiel,Babo,NA,Final performance
-507,1781-09-11,Bth,Court,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Singspiel,Stephanie d. J.,Umlauf,NA
-508,1781-09-11,Kth,French,Le Tonnellier,Opéra comique,Audinot,Gossec,NA
-509,1781-09-11,Kth,French,Le Magnifique,Comédie,Sedaine,Grétry,NA
-510,1781-09-12,Bth,Court,Der Graf von Olsbach,Lustspiel,Brandes,NA,NA
-511,1781-09-13,Bth,Court,Die Verlobung,Lustspiel,Brömel,NA,NA
-512,1781-09-13,Kth,Court,Der Hausfreund,Singspiel,Marmontel,Grétry,NA
-513,1781-09-14,Kth,Kinder,Die Schwiegermutter,Lustspiel,Romanus,NA,"This performance, on a Friday, is not in Hadamowsky or Von Alth/Obzyna/"
-514,1781-09-14,Bth,Kinder,Der Aepfeldieb,Singspiel,Bretzner,Jast,"From the 1781 Viennese libretto: ""Aufgeführt auf dem k. k. Hof=Nationaltheater von der in der Schauspielkunst sich übenden Jugend."""
-515,1781-09-15,Bth,Court,Das öffentliche Geheimniß,Lustspiel,Gotter,NA,NA
-516,1781-09-15,Kth,French,"L'Amant jaloux, ou les Fausses Apparences",Comédie mêlée d'ariettes,Hales,Grétry,NA
-517,1781-09-16,Bth,Court,Das öffentliche Geheimniß,Lustspiel,Gotter,NA,NA
-518,1781-09-16,Kth,French,"L'Amant jaloux, ou les Fausses Apparences",Comédie mêlée d'ariettes,Hales,Grétry,NA
-519,1781-09-17,Bth,Court,Der Dichterling,Lustspiel,Eberl,NA,NA
-520,1781-09-17,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-521,1781-09-18,Bth,Court,Das öffentliche Geheimniß,Lustspiel,Gotter,NA,NA
-522,1781-09-19,Bth,Court,Die Wirthschaftlerinn,Lustspiel,Stephanie d. J.,NA,NA
-523,1781-09-19,Bth,Court,Die unvermutheten Zufälle,Singspiel,Hales,Grétry,Final performance
-524,1781-09-20,Bth,Court,Das öffentliche Geheimniß,Lustspiel,Gotter,NA,NA
-525,1781-09-20,Kth,French,Le Jugement de Midas,Comédie mêlée d'ariettes,Hales,Grétry,NA
-526,1781-09-21,Bth,Kinder,Die Schwiegermutter,Lustspiel,Romanus,NA,NA
-527,1781-09-21,Bth,Kinder,Der Aepfeldieb,Singspiel,Bretzner,Jast,NA
-528,1781-09-22,Bth,Court,Percy,Trauerspiel,More,NA,NA
-529,1781-09-22,Kth,French,Le Maître en droit,Opéra comique,Lemonnier,Monsigny,NA
-530,1781-09-22,Kth,French,"L'Erreur d'un moment, ou la Suite de Julie",Comédie mêlée d'ariettes,Monvel,Dezède,NA
-531,1781-09-23,Bth,Court,Die Wölfe in der Heerde,Lustspiel,Stephanie d. J.,NA,Final performance
-532,1781-09-23,Kth,French,Sancho Pança dans son isle,Opéra buffon,Poinsinet,Philidor,NA
-533,1781-09-23,Kth,French,La Clochette,Comédie mêlée d'ariettes,Anseaume,Duni,NA
-534,1781-09-24,Bth,Court,Die Eroberung von Saint-Lucie,Lustspiel,Müller von Friedberg,NA,Final performance
-535,1781-09-24,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
-536,1781-09-25,Bth,Court,Wahrheit ist gut Ding,Lustspiel,Goldoni,NA,NA
-537,1781-09-25,Kth,French,Le Jugement de Midas,Comédie mêlée d'ariettes,Hales,Grétry,NA
-538,1781-09-26,Bth,Court,Zemire und Azor,Opéra comique,Marmontel,Grétry,"Schletter: ""Zemire u. Apor [sic] mit / Ballet."""
-539,1781-09-27,Bth,Court,Das Loch in der Thüre,Lustspiel,Stephanie d. J.,NA,NA
-540,1781-09-28,Bth,Kinder,Adelheit von Veltheim,Singspiel,Großmann,Sardi,NA
