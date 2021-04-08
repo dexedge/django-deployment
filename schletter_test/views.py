@@ -1,19 +1,32 @@
 from django.shortcuts import render
-from .models import Event
+from django.views.generic import TemplateView, ListView, DetailView
+from . import models
 
 # Create your views here.
-def index(request):
+class Index(TemplateView):
     """schletter_test home page """
-    return render(request, 'schletter_test/index.html')
+    context_object_name = 'index'
+    template_name = 'schletter_test/index.html'
 
-def events(request):
-    """Show all events"""
-    events = Event.objects.order_by('date')
-    context = {'events': events}
-    return render(request, 'schletter_test/events.html', context)
+class EventList(ListView):
+    context_object_name = 'events'
+    model = models.Event
+    template_name = 'schletter_test/events.html'
 
-def event(request, event_id):
-    """Show detail on single event"""
-    event = Event.objects.get(id=event_id)
-    context = {'event': event}
-    return render(request, 'schletter_test/event.html', context)
+class EventDetail(DetailView):
+    context_object_name = 'event'
+    model = models.Event
+    template_name = 'schletter_test/event.html'
+
+
+# def events(request):
+#     """Show all events"""
+#     events = Event.objects.order_by('date')
+#     context = {'events': events}
+#     return render(request, 'schletter_test/events.html', context)
+
+# def event(request, event_id):
+#     """Show detail on single event"""
+#     event = Event.objects.get(id=event_id)
+#     context = {'event': event}
+#     return render(request, 'schletter_test/event.html', context)

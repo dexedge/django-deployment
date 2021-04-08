@@ -1,7 +1,9 @@
 {% extends 'schletter_test/base.html' %}
+{% block page_header %}
+    <h2>{{event.date|date:"D, j M Y"}}</h2>
+  {% endblock page_header %}
 
 {% block content %}
-  <h2>{{event.date|date:"D, j M Y"}}</h2>
   <p>Theater: {{ event.theater }}</p>
   <p>Company: {{ event.company }}</p>
   <p>Title: 

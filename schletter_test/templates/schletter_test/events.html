@@ -1,26 +1,29 @@
 {% extends 'schletter_test/base.html' %}
+{% block page_header %}<h2>Events</h2>{% endblock %}
+
 {% block content %}
-  <h2>Events</h2>
-  <table>
-    <tr style="font-weight:bold">
-      <td style="text-align:right">Date</td>
-      <td style="padding-left:10px">Theater</td>
-      <td style="padding-left:10px">Company</td>
-      <td style="padding-left:10px">Genre</td>
-      <td style="padding-left:10px">Title</td>
-    </tr>
+  <table class="table table-striped">
+    <thead class="thead-light">
+      <tr>
+        <th class="text-right">Date</td>
+        <th>Theater</td>
+        <th>Company</td>
+        <th>Genre</td>
+        <th>Title</td>
+      </tr>
+    </thead>
     {% for event in events %}
       <tr>
-        <td style="text-align:right">
-          <a href="{% url 'schletter_test:event' event.id %}">{{ event.date|date:"D, j M Y" }}</a>
+        <td class="text-right">
+          <a href="{% url 'schletter_test:event' event.pk %}">{{ event.date|date:"D, j M Y" }}</a>
         </td>
-        <td style="padding-left:10px">{{ event.theater }}</td>
-        <td style="padding-left:10px">{{ event.company }}</td>
-        <td style="padding-left:10px">{{ event.genre }}</td>
+        <td>{{ event.theater }}</td>
+        <td>{{ event.company }}</td>
+        <td>{{ event.genre }}</td>
         {% if event.title == "No title" or event.title == "" or event.genre == "" %}
-          <td style="padding-left:10px">{{ event.title }}</td>
+          <td>{{ event.title }}</td>
         {% else %}
-          <td style="padding-left:10px"><em>{{ event.title }}</em></td>
+          <td><em>{{ event.title }}</em></td>
         {% endif %}
       </tr>
     {% empty%}

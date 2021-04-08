@@ -6,9 +6,9 @@ app_name = 'schletter_test'
 
 urlpatterns = [
     # Home page
-    path('', views.index, name='index'),
+    path('', views.Index.as_view(), name='index'),
     # Events page
-    path('events/', views.events, name='events'),
+    path('events/', views.EventList.as_view(), name='events'),
     # Event detail page
-    path('events/<int:event_id>/', views.event, name='event')
+    path('events/<int:pk>/', views.EventDetail.as_view(), name='event')
 ]
