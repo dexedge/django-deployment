@@ -16,5 +16,8 @@
   <p>Genre: {{ event.genre }}</p>
   <p>Author: {{ event.author }}</p>
   <p>Composer: {{ event.composer }}</p>
-  <p>Notes: {{ event.notes }}</p>
+  {% if event.notes != "NA" %}
+    <p>Notes: {{ event.notes }}</p>
+  {% endif %}
+  
 {% endblock content %}
