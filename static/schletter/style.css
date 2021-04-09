@@ -1,0 +1,17 @@
+/* Local styles for schletter_test */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.home {
+  background: url("images/Kth.jpg");
+  background-size: cover;
+}
+
+.jumbotron {
+  padding: 2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #646464;
+
+  font-family: 'Playfair Display', serif;
+  color:#202020;
+}
