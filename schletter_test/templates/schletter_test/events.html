@@ -15,7 +15,8 @@
     {% for event in events %}
       <tr>
         <td class="text-right">
-          <a href="{% url 'schletter_test:event' event.pk %}">{{ event.date|date:"D, j M Y" }}</a>
+          <a href="{% url 'schletter_test:event' event.pk %}">{{ event.date }}</a>
+
         </td>
         <td>{{ event.theater }}</td>
         <td>{{ event.company }}</td>

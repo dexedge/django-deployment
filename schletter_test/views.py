@@ -8,6 +8,12 @@ class Index(TemplateView):
     context_object_name = 'index'
     template_name = 'schletter_test/index.html'
 
+class DateList(ListView):
+    context_object_name = 'calendar'
+    model = models.Date
+    paginate_by = 50
+    template_name = 'schletter_test/calendar.html'
+
 class EventList(ListView):
     context_object_name = 'events'
     model = models.Event

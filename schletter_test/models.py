@@ -3,9 +3,16 @@ from datetime import datetime
 
 # Create your models here.
 
+class Date(models.Model):
+    date = models.DateField(primary_key=True)
+
+    def __str__(self):
+        date = self.date.strftime('%a, %-d %b %Y')
+        return date
+
 class Event(models.Model):
     """Simple model for Schletter flat file"""
-    date = models.DateField()
+    date = models.ForeignKey(Date, on_delete=models.CASCADE)
     theater = models.CharField(max_length=3)
     company = models.CharField(max_length=10)
     title = models.CharField(max_length=100)
@@ -15,5 +22,5 @@ class Event(models.Model):
     notes = models.TextField(blank=True)
 
     def __str__(self):
-        event = self.date.strftime('%a, %-d %b %Y') + " " + self.title
-        return event
+        event = str(self.date) + ", " + self.title
+        return event 
