@@ -1,5 +1,8 @@
 {% extends 'schletter_test/base.html' %}
-{% block page_header %}<h2>Calendar</h2>{% endblock %}
+{% block page_header %}
+      <h2>Calendar</h2>
+      <p class="pb-1">Click on a row to see the detail view for that event</p> 
+{% endblock %}
 {% block content %}
   <ul>
     {% for date in calendar %}

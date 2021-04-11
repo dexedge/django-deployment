@@ -21,6 +21,9 @@ class Event(models.Model):
     composer = models.CharField(max_length=100)
     notes = models.TextField(blank=True)
 
+    class Meta:
+        ordering = ['theater', 'title']
+    
     def __str__(self):
         event = str(self.date) + ", " + self.title
         return event 

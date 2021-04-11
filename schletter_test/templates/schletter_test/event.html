@@ -7,7 +7,7 @@
   <p>Theater: {{ event.theater }}</p>
   <p>Company: {{ event.company }}</p>
   <p>Title: 
-      {% if event.title == "No title" or event.title == "" or event.genre == "" %}
+      {% if event.title == "No title" or event.genre == "NA" %}
         {{ event.title }}
       {% else %}
         <em>{{ event.title }}</em>
