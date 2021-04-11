@@ -22,7 +22,7 @@ class Event(models.Model):
     notes = models.TextField(blank=True)
 
     class Meta:
-        ordering = ['theater', 'title']
+        ordering = ['date', 'theater', 'title']
     
     def __str__(self):
         event = str(self.date) + ", " + self.title
