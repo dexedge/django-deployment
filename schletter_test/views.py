@@ -11,7 +11,7 @@ class Index(TemplateView):
 class DateList(ListView):
     context_object_name = 'calendar'
     model = models.Date
-    paginate_by = 50
+    paginate_by = 25
     template_name = 'schletter_test/calendar.html'
 
 class EventList(ListView):

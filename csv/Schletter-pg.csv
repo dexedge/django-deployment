@@ -140,18 +140,18 @@ id,date,theater,company,title,genre,author,composer,notes
 139,1781-04-01,Kth,NA,"Concert, Tonkünstler-Societät",NA,NA,NA,Albrechtsberger's Die Pilgrime auf Golgatha was performed.
 140,1781-04-03,Kth,NA,"Concert, Tonkünstler-Societät",NA,NA,NA,Albrechtsberger's Die Pilgrime auf Golgatha was performed.A Mozart symphony was performed and he played the piano.
 141,1781-04-05,Kth,NA,"Concert, Elisabeth Mara",NA,NA,NA,NA
-142,1781-04-16,Bth,Court,Agnes Bernauerinn,Trauerspiel,Toerring,NA,NA
+142,1781-04-16,Bth,Court,Agnes Bernauerinn,Trauerspiel,Toerring,NA,"Zinendorf attended this premiere, calling it a ""mauvaise tragedie"", noting, however, ""Schroeder qui fit le rôle du Duc Albert de Bavière, joua comme un ange."""
 618,1781-04-17,Bth,Court,Die Pilgrime von Mekka,Singspiel,Dancourt,Gluck,NA
 619,1781-04-17,Kth,French,Eugenie,Trauerspiel,Beaumarchais,NA,NA
 620,1781-04-17,Kth,French,L'Epoux par supercherie,Comédie,Boissy,NA,NA
 621,1781-04-18,Bth,Court,Agnes Bernauerinn,Trauerspiel,Toerring,NA,"This performance was attended by the Emperor, Archduchesses Maria Anna, Maria, and Maria Elisabeth, and Duke Albert von Sachsen-Teschen (WZ, Sat, 21 Apr 1781, no. 32, [6]"
-143,1781-04-19,Bth,Court,Die verfolgte Unbekannte,Singspiel,Petrosellini,Anfossi,NA
+143,1781-04-19,Bth,Court,Die verfolgte Unbekannte,Singspiel,Petrosellini,Anfossi,"Zinzendorf attended this performance, writing ""Belle musique."""
 144,1781-04-19,Kth,French,L'Homme du jour,Comédie,Boissy,NA,NA
 145,1781-04-19,Kth,French,Les Legs,Comédie,Marivaux,NA,NA
 146,1781-04-20,Bth,unknown,Wissenschaft geht vor Schönheit,Lustspiel,Goldoni,NA,"This performance in the Burgtheater is not in Hadamowsky or Von Alth/Obzyna. Because it took place on a Friday, it may have been a benefit. Hadamowsky has the Burgtheater as ""geschlossen"" on this day.""Wissenschaft. geht vor / Schonheit [sic]. / L. in 3. A. n. G. v. B."""
 147,1781-04-21,Bth,Court,Die Gefahren der Verführung,Schauspiel,Mercier,NA,Performed only four times before being dropped.
 148,1781-04-21,Bth,Court,"Adelaide, oder die Antipathie gegen die Liebe",Lustspiel,Du Doyer de Gastels,NA,Performed only three times
-149,1781-04-22,Bth,Court,Die Gefahren der Verführung,Schauspiel,Mercier,NA,NA
+149,1781-04-22,Bth,Court,Die Gefahren der Verführung,Schauspiel,Mercier,NA,"Zinzendorf attended this performance, writing: ""Je trouvois Schroeter excellent en vieillard, jeu noble, [debit] agréable."""
 150,1781-04-22,Kth,French,Les Deux Chasseurs et la Laitière,Comédie mêlée d'ariettes,Anseaume,Duni,"""L'Offcier & le grand Baillif. C. 5. / la Laitiere. C. 1. a.""Identification of ""La Laitiere"" as the work by Anseaume and Duni is provisional."
 151,1781-04-22,Kth,French,L'Officier et le grand Baillif,Comédie,unknown,NA,NA
 152,1781-04-23,Bth,Court,Die große Batterie,Lustspiel,Ayrenhoff,NA,NA
@@ -174,14 +174,14 @@ id,date,theater,company,title,genre,author,composer,notes
 169,1781-04-28,Kth,French,Pygmalion,Melodrama,Rousseau,Coignet,NA
 170,1781-04-29,Bth,Court,Die Schwäger,Trauerspiel,Eckardt,NA,NA
 171,1781-04-29,Bth,Court,Der dankbare Sohn,Lustspiel,Engel,NA,NA
-172,1781-04-29,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,NA
-173,1781-04-29,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
+172,1781-04-29,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,"Zinzendorf attended these performances: ""Le soir au Theatre de la porte de Carinthie. L'Homme comme il y en a peu. Dalainval, Calet et le jolie M:elle Laurens jouerent fort bien. La Servante maitresse bien jouée et mal chantée."""
+173,1781-04-29,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,"On Zinzendorf's reaction, see the preceding entry."
 174,1781-04-30,Bth,Court,Der Rauchfangkehrer,Singspiel,Auenbrugger,Salieri,NA
 175,1781-05-01,Bth,Court,Der sehende Blinde,Lustspiel,Legrand,NA,NA
 176,1781-05-01,Bth,Court,Andromeda und Perseus,Schauspiel,Kempelen,Zimmermann,NA
 177,1781-05-01,Kth,French,La Servante maitresse,Opéra comique,Favart,unknown,NA
 178,1781-05-01,Kth,French,Monsieur de St. Charles,Comédie,Gernevalde,NA,NA
-179,1781-05-02,Bth,Court,Der flatterhafte Ehemann,Lustspiel,Cibber,NA,NA
+179,1781-05-02,Bth,Court,Der flatterhafte Ehemann,Lustspiel,Cibber,NA,"Zinzendorf attended this performance: ""Le soir au Spectacle der flatterhaffte Liebhaber [sic]. Schroeter y joua a merveille en pauvre rôle [...]"""
 180,1781-05-02,Kth,NA,"Concert, Brigida Banti",NA,NA,NA,NA
 181,1781-05-03,Bth,Court,Die abgenöthige Einwilligung,Lustspiel,Guyot de Merville,NA,NA
 182,1781-05-03,Bth,Court,Der eifersüchtige Liebhaber,Singspiel,Hales,Grétry,NA
@@ -647,3 +647,36 @@ id,date,theater,company,title,genre,author,composer,notes
 647,1781-11-14,Bth,Court,Progne und Philomele,Ballet,unknown,Winter,Performed only twice
 648,1781-11-15,Bth,Court,Hamlet,Trauerspiel,Shakespeare,NA,NA
 649,1781-11-15,Kth,French,L'Amoreux de quinze ans,Comédie mêlée d'ariettes,Laujon,Martini,NA
+650,1781-11-16,Bth,Kinder,Präsentirt das Gewehr,Lustspiel,Müller,NA,"Not specified as being done by the Kindertheater, but Präsentirt das Gewehr was in their repertoire."
+651,1781-11-16,Bth,Kinder,"Peter du bleibst, oder Der Hausfreund auf dem Lande",Singspiel,unknown,Walter,NA
+652,1781-11-16,Kth,NA,"Concert, Mademoiselle Hauck (giantess)",NA,NA,NA,The program of this concert is known from a surviving poster.
+653,1781-11-17,Bth,Court,Der Weise in der That,Schauspiel,Sedaine,NA,"Hadamowsky has a performance of Der Weise in der That as early as 14 May 1768, and it had been in the repertory of the Nationaltheater since 2 Jul 1776."
+654,1781-11-17,Bth,Court,Der Arrestant,Lustspiel,Carmontelle,NA,Performed only twice.
+655,1781-11-17,Kth,French,L'Impromptu du coeur,NA,unknown,unknown,NA
+656,1781-11-17,Kth,French,L'Ami de la maison,Comédie mêlée d'ariettes,Marmontel,Grétry,NA
+657,1781-11-18,Bth,Court,Thorheit und Betrügerey,Lustspiel,Stephanie d. Ä.,NA,NA
+658,1781-11-18,Kth,French,"L'Olympiade, ou le Triomphe de l'amitié",Drame mêlé de musique,Metastasio,Sacchini,NA
+659,1781-11-19,Bth,Court,Der Arrestant,Lustspiel,Carmontelle,NA,Final performance
+660,1781-11-19,Bth,Court,Die eingebildeten Philosophen,Singspiel,Bertati,Paisiello,NA
+661,1781-11-19,Kth,French,Les Deux Billets,Comédie,Florian,NA,NA
+662,1781-11-19,Kth,French,Sara ou la Fermière ecossaise,Comédie mêlée d'ariettes,Collet de Messine,Vachon,NA
+663,1781-11-20,Bth,Court,Der Barbier von Sevilien,Lustspiel,Beaumarchais,NA,NA
+664,1781-11-21,Bth,Court,Zemire und Azor,Opéra comique,Marmontel,Grétry,NA
+665,1781-11-22,Bth,Court,Das Testament,Lustspiel,Schröder,NA,NA
+666,1781-11-23,Bth,unknown,Die Haushaltung nach der Mode,Lustspiel,Heufeld,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Theaterschule?
+667,1781-11-24,Bth,Court,Olivie,Trauerspiel,Brandes,NA,NA
+668,1781-11-24,Bth,Court,Pyrrhus und Polixene,Ballet,unknown,Winter,Final performance
+669,1781-11-24,Kth,French,Les Trois Fermiers,Comédie mêlée d'ariettes,Monvel,Dezède,NA
+670,1781-11-24,Kth,French,"L'Erreur d'un moment, ou la Suite de Julie",Comédie mêlée d'ariettes,Monvel,Dezède,NA
+671,1781-11-25,Bth,Court,Der Neugierige,Lustspiel,Stephanie d. J.,NA,NA
+672,1781-11-25,Kth,French,Sara ou la Fermière ecossaise,Comédie mêlée d'ariettes,Collet de Messine,Vachon,NA
+673,1781-11-25,Kth,French,Les Deux Billets,Comédie,Florian,NA,NA
+674,1781-11-26,Bth,Court,Das Landmädchen,Lustspiel,Wycherley,NA,NA
+675,1781-11-26,Kth,French,Les Pèlereins de la Mecque,Singspiel,Dancourt,Gluck,NA
+676,1781-11-27,Bth,Court,Iphigenie auf Tauris,Singspiel,Guillard,Gluck,NA
+677,1781-11-28,NA,NA,Theaters closed (anniversary of Maria Theresia's death),NA,NA,NA,NA
+678,1781-11-29,NA,NA,Theaters closed (anniversary of Maria Theresia's death),NA,NA,NA,NA
+679,1781-11-30,Bth,unknown,Reinhold und Armida,Melodrama,Babo,Winter,This Friday performances is not in Hadamowsky or Von Alth/Obzyna. Theaterschule?
+680,1781-11-30,Bth,unknown,Die Geschwisterliebe,Schauspiel,Weiße,NA,This Friday performances is not in Hadamowsky or Von Alth/Obzyna. Theaterschule?
+681,1781-11-30,Bth,NA,Three arias sung by Giorgio Crinazzi,NA,NA,NA,"Tenor Giorgio Crinazzi (1750–1782) was in Vienna by the early months of 1781, where he was the singing teacher of the daughters of Leopold von Auenbrugger. On 23 Jun 1781 he signed a four-month contract with the Esterházy kapelle, but fell ill and returned to Vienna in the fall. He died in Vienna on 31 Dec 1782. See https://it.wikipedia.org/wiki/Giorgio_Crinazzi (which cites no sources)."
+682,1781-11-30,Kth,NA,"Concert, Mademoiselle Hauck (giantess)",NA,NA,NA,Mademoiselle Hauck's second concert in the Kärntnertortheater was previously unknown.

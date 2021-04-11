@@ -11,7 +11,7 @@ class Date(models.Model):
         return date
 
 class Event(models.Model):
-    """Simple model for Schletter flat file"""
+    """Schletter Event model"""
     date = models.ForeignKey(Date, on_delete=models.CASCADE)
     theater = models.CharField(max_length=3)
     company = models.CharField(max_length=10)

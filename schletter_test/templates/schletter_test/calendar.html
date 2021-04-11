@@ -1,18 +1,22 @@
 {% extends 'schletter_test/base.html' %}
-
+{% block page_header %}<h2>Calendar</h2>{% endblock %}
 {% block content %}
   <ul>
     {% for date in calendar %}
-      <li>{{date}}</li>
-      <ul>
+      <li class="font-weight-bold mt-2 mb-2">{{date}}</li>
+      <div class="list-group">
         {% for event in date.event_set.all %}
           {% if event.title == "No title" or event.title == "" or event.genre == "NA" %}
-          <li>{{event.theater}}, {{ event.title }}</li>
-        {% else %}
-          <li>{{event.theater}}, <em>{{ event.title }}</em></li>
-        {% endif %}
+            <a href="{% url 'schletter_test:event' event.pk %}" class="list-group-item list-group-item-action">
+              {{event.theater}}, {{ event.title }}
+            </a>
+          {% else %}
+            <a href="{% url 'schletter_test:event' event.pk %}" class="list-group-item list-group-item-action">
+              {{event.theater}}, <em>{{ event.title }}</em>, {{event.genre}}
+            </a>
+          {% endif %}
         {% endfor %}
-      </ul>
+      <div>
     {% endfor %}
   </ul>
 
