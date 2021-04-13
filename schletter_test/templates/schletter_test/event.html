@@ -7,17 +7,19 @@
   <p>Theater: {{ event.theater }}</p>
   <p>Company: {{ event.company }}</p>
   <p>Title: 
-      {% if event.title == "No title" or event.genre == "NA" %}
+      {% if event.title == "No title" or event.company == "NA" %}
         {{ event.title }}
       {% else %}
         <em>{{ event.title }}</em>
       {% endif %}
   </p>
-  <p>Genre: {{ event.genre }}</p>
-  <p>Author: {{ event.author }}</p>
-  <p>Composer: {{ event.composer }}</p>
+  <p>Genre: {{ event.work_set.all.first.genre }}</p>
+  <p>Author: {{ event.work_set.all.first.author }}</p>
+  <p>Composer: {{ event.work_set.all.first.composer }}</p>
+  <p>Hadamowsky: {{event.hadamowsky}}</p>
+  <p>Morrow: {{event.morrow}}</p>
   {% if event.notes != "NA" %}
-    <p>Notes: {{ event.notes }}</p>
+    <p>Notes: </hp> {{ event.notes|safe }}
   {% endif %}
   
 {% endblock content %}

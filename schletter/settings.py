@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'schletter_test',
     'bootstrap4',
     'django_extensions',
+    'tinymce',
 ]
 
 MIDDLEWARE = [

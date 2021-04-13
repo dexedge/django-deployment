@@ -12,5 +12,9 @@ urlpatterns = [
     # Events page
     path('events/', views.EventList.as_view(), name='events'),
     # Event detail page
-    path('events/<int:pk>/', views.EventDetail.as_view(), name='event')
+    path('events/<int:pk>/', views.EventDetail.as_view(), name='event'),
+    # Works page
+    path('works/', views.WorkList.as_view(), name="works"),
+    # Work detail page
+    path('work/<int:pk>', views.WorkDetail.as_view(), name='work'),
 ]
