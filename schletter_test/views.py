@@ -25,15 +25,12 @@ class EventDetail(DetailView):
     model = models.Event
     template_name = 'schletter_test/event.html'
 
+class WorkList(ListView):
+    context_object_name = 'works'
+    model = models.Work
+    template_name = 'schletter_test/works.html'
 
-# def events(request):
-#     """Show all events"""
-#     events = Event.objects.order_by('date')
-#     context = {'events': events}
-#     return render(request, 'schletter_test/events.html', context)
-
-# def event(request, event_id):
-#     """Show detail on single event"""
-#     event = Event.objects.get(id=event_id)
-#     context = {'event': event}
-#     return render(request, 'schletter_test/event.html', context)
+class WorkDetail(DetailView):
+    context_object_name = 'work'
+    model = models.Work
+    template_name = 'schletter_test/work.html'

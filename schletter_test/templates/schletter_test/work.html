@@ -1,0 +1,25 @@
+{% extends 'schletter_test/base.html' %}
+{% block page_header %}
+  <h2><em>{{work.title}}</em></h2>
+{% endblock page_header %}
+
+{% block content %}
+  <p>Genre: {{ work.genre }}</p>
+  <p>Author: {{ work.author }}</p>
+  <p>Composer: {{ work.composer }}</p>
+  <p>Performance(s):</p>
+  <ul>
+    {% for performance in work.events.all %}
+      <li>{{performance.date}} ({{performance.theater}}, {{performance.company}}){% if performance.title != work.title %}, as <em>{{performance.title}}</em>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  <p>Total: {{work.events.all.count}}</p>
+  {% if work.notes != "NA" %}
+    <p>Notes:</p>
+    <p>{{work.notes}}</p>
+  {% endif %}
+  {% if work.url != "NA" %}
+    <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>
+  {% endif %}
+{% endblock content %}

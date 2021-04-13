@@ -1,0 +1,19 @@
+{% extends 'schletter_test/base.html' %}
+{% block page_header %}
+  <h2>Works</h2>
+  <p class="pb-1">Click on a row to see the detail view for that work</p>
+{% endblock page_header %}
+{% block content %}
+  <ul>
+    {% for work in works %}
+      <a href="{% url 'schletter_test:work' work.pk %}" class="list-group-item list-group-item-action">
+              {% if work.title == "No title" %}
+                {{work.title}}
+              {% else %}
+                <em>{{work.title}}</em>
+              {% endif %} ({{work.genre}})
+      </a>
+    {% endfor %}
+  </ul>
+
+{% endblock content %}
