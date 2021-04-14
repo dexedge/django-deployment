@@ -16,5 +16,5 @@ urlpatterns = [
     # Works page
     path('works/', views.WorkList.as_view(), name="works"),
     # Work detail page
-    path('work/<int:pk>', views.WorkDetail.as_view(), name='work'),
+    path('works/<int:pk>', views.WorkDetail.as_view(), name='work'),
 ]

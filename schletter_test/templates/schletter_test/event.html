@@ -1,16 +1,18 @@
 {% extends 'schletter_test/base.html' %}
 {% block page_header %}
-    <h2>{{event.date}}</h2>
-  {% endblock page_header %}
+  <h2>{{event.date}}</h2>
+{% endblock page_header %}
 
 {% block content %}
   <p>Theater: {{ event.theater }}</p>
   <p>Company: {{ event.company }}</p>
   <p>Title: 
-      {% if event.title == "No title" or event.company == "NA" %}
-        {{ event.title }}
+      {% if event.company == "NA" %}
+          {{ event.title }}
+      {% elif event.title == "No title" %}
+        <a href="{% url 'schletter_test:work' event.work_set.all.first.pk %}">{{ event.title }}</a>
       {% else %}
-        <em>{{ event.title }}</em>
+        <a href="{% url 'schletter_test:work' event.work_set.all.first.pk %}"><em>{{ event.title }}</em></a>
       {% endif %}
   </p>
   <p>Genre: {{ event.work_set.all.first.genre }}</p>

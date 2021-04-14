@@ -9,8 +9,8 @@
   <p>Composer: {{ work.composer }}</p>
   <p>Performance(s):</p>
   <ul>
-    {% for performance in work.events.all %}
-      <li>{{performance.date}} ({{performance.theater}}, {{performance.company}}){% if performance.title != work.title %}, as <em>{{performance.title}}</em>{% endif %}
+    {% for event in work.events.all %}
+      <li><a href="{% url 'schletter_test:event' event.pk %}">{{event.date}}</a> ({{event.theater}}, {{event.company}}){% if event.title != work.title %}, as <em>{{event.title}}</em>{% endif %}
       </li>
     {% endfor %}
   </ul>

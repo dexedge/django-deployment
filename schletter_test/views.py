@@ -28,6 +28,7 @@ class EventDetail(DetailView):
 class WorkList(ListView):
     context_object_name = 'works'
     model = models.Work
+    paginate_by = 50
     template_name = 'schletter_test/works.html'
 
 class WorkDetail(DetailView):
