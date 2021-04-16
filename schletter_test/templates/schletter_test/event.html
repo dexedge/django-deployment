@@ -15,8 +15,8 @@
   </p>
   <p>Type: {{ event.event_type }}</p>
   <p>Genre: {{ event.work_set.first.genre }}</p>
-  <p>Author: <a href="{% url 'schletter_test:author' event.work_set.first.authorworks.first.pk %}">{{ event.work_set.first.authorworks.first }}</a></p>
-  {% if event.work_set.first.composerworks.first.last_name != "NA" %}<p>Composer: <a href="{% url 'schletter_test:composer' event.work_set.first.composerworks.first.pk %}">{{ event.work_set.first.composerworks.first }}</a></p>
+  <p>Author: <a href="{% url 'schletter_test:author' event.work_set.first.authorworks.first.pk %}">{{ event.work_set.first.authorworks.first.last_name }}{% if event.work_set.first.authorworks.first.first_names != "NA" %}{{event.work_set.first.authorworks.first.first_names }}{% endif %}</a></p>
+  {% if event.work_set.first.composerworks.first.last_name != "NA" %}<p>Composer: <a href="{% url 'schletter_test:composer' event.work_set.first.composerworks.first.pk %}">{{ event.work_set.first.composerworks.first.last_name }}{% if event.work_set.first.composerworks.first.first_names != "NA" %}{{event.work_set.first.composerworks.first.first_names }}{% endif %}</a></p>
   {% endif %}
   <p>Hadamowsky: {{event.hadamowsky}}</p>
   {% if event.morrow != "NA" %}
