@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, ListView, DetailView
-from . import models
+from schletter_test.models import Date, Event, Work
 
 # Create your views here.
 class Index(TemplateView):
@@ -10,28 +10,29 @@ class Index(TemplateView):
 
 class DateList(ListView):
     context_object_name = 'calendar'
-    model = models.Date
+    model = Date
     paginate_by = 50
     template_name = 'schletter_test/calendar.html'
 
 class EventList(ListView):
     context_object_name = 'events'
-    model = models.Event
+    model = Event
     paginate_by = 50
     template_name = 'schletter_test/events.html'
 
 class EventDetail(DetailView):
     context_object_name = 'event'
-    model = models.Event
+    model = Event
     template_name = 'schletter_test/event.html'
 
 class WorkList(ListView):
     context_object_name = 'works'
-    model = models.Work
+    # Omit first Work, which is "NA"
+    queryset = Work.objects.all()[1:]
     paginate_by = 50
     template_name = 'schletter_test/works.html'
 
 class WorkDetail(DetailView):
     context_object_name = 'work'
-    model = models.Work
+    model = Work
     template_name = 'schletter_test/work.html'

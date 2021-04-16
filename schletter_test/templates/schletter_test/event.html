@@ -7,19 +7,20 @@
   <p>Theater: {{ event.theater }}</p>
   <p>Company: {{ event.company }}</p>
   <p>Title: 
-      {% if event.company == "NA" %}
-          {{ event.title }}
-      {% elif event.title == "No title" %}
+      {% if event.title == "No title" or event.work_set.all.first.genre == "Concert" %}
         <a href="{% url 'schletter_test:work' event.work_set.all.first.pk %}">{{ event.title }}</a>
       {% else %}
         <a href="{% url 'schletter_test:work' event.work_set.all.first.pk %}"><em>{{ event.title }}</em></a>
       {% endif %}
   </p>
+  <p>Type: {{ event.event_type }}</p>
   <p>Genre: {{ event.work_set.all.first.genre }}</p>
   <p>Author: {{ event.work_set.all.first.author }}</p>
   <p>Composer: {{ event.work_set.all.first.composer }}</p>
   <p>Hadamowsky: {{event.hadamowsky}}</p>
-  <p>Morrow: {{event.morrow}}</p>
+  {% if event.morrow != "NA" %}
+    <p>Morrow: {{event.morrow}}</p>
+  {% endif %}
   {% if event.notes != "NA" %}
     <p>Notes: </hp> {{ event.notes|safe }}
   {% endif %}

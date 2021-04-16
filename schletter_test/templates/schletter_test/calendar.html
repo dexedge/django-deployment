@@ -9,7 +9,7 @@
       <li class="font-weight-bold mt-2 mb-2">{{date}}</li>
       <div class="list-group">
         {% for event in date.event_set.all %}
-          {% if event.title == "No title" or event.title == "" or event.company == "NA" %}
+          {% if event.title == "No title" or event.title == "" or event.work_set.all.first.genre == "Concert" %}
             <a href="{% url 'schletter_test:event' event.pk %}" class="list-group-item list-group-item-action">
               {{event.theater}}, {{event.title}}
             </a>
@@ -22,5 +22,4 @@
       <div>
     {% endfor %}
   </ul>
-
 {% endblock content %}
