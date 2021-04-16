@@ -17,4 +17,12 @@ urlpatterns = [
     path('works/', views.WorkList.as_view(), name="works"),
     # Work detail page
     path('works/<int:pk>', views.WorkDetail.as_view(), name='work'),
+    # Authors page
+    path('authors/', views.AuthorList.as_view(), name='authors'),
+    # Author detail page
+    path('authors/<int:pk>/', views.AuthorDetail.as_view(), name='author'),
+    # Composers page
+    path('composers/', views.ComposerList.as_view(), name='composers'),
+    # Composer detail page
+    path('composers/<int:pk>/', views.ComposerDetail.as_view(), name='composer'),
 ]

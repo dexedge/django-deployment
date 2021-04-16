@@ -14,9 +14,10 @@
       {% endif %}
   </p>
   <p>Type: {{ event.event_type }}</p>
-  <p>Genre: {{ event.work_set.all.first.genre }}</p>
-  <p>Author: {{ event.work_set.all.first.author }}</p>
-  <p>Composer: {{ event.work_set.all.first.composer }}</p>
+  <p>Genre: {{ event.work_set.first.genre }}</p>
+  <p>Author: <a href="{% url 'schletter_test:author' event.work_set.first.authorworks.first.pk %}">{{ event.work_set.first.authorworks.first }}</a></p>
+  {% if event.work_set.first.composerworks.first.last_name != "NA" %}<p>Composer: <a href="{% url 'schletter_test:composer' event.work_set.first.composerworks.first.pk %}">{{ event.work_set.first.composerworks.first }}</a></p>
+  {% endif %}
   <p>Hadamowsky: {{event.hadamowsky}}</p>
   {% if event.morrow != "NA" %}
     <p>Morrow: {{event.morrow}}</p>

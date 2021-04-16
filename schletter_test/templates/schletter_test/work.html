@@ -9,8 +9,17 @@
 
 {% block content %}
   <p>Genre: {{ work.genre }}</p>
-  <p>Author: {{ work.author }}</p>
-  <p>Composer: {{ work.composer }}</p>
+  <p>Author(s):</p>
+    <ul>
+      {% for aw in work.authorwork_set.all %}
+        <li>
+          <a href="{% url 'schletter_test:author' aw.author.pk %}">{{aw.author.last_name}}{% if aw.author.first_names != "NA" %}, {{aw.author.first_names}}{% endif %}</a> ({{aw.role}})
+        </li>
+      {% endfor %}
+    </ul>
+  {% if work.composerwork_set.all.first.last_name != "NA" %}
+    <p>Composer: <a href="{% url 'schletter_test:composer' work.composerworks.first.pk %}">{{ work.composerworks.first }}</a></p>
+  {% endif %}
   <p>Performance(s):</p>
   <ul>
     {% for event in work.events.all %}

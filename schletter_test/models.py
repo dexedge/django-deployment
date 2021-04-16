@@ -36,8 +36,6 @@ class Work(models.Model):
     genre = models.CharField(max_length=50)
     notes = HTMLField()
     url = models.URLField(max_length=200)
-    author = models.CharField(max_length=100)
-    composer = models.CharField(max_length=100) 
 
     def __str__(self):
         return self.title
@@ -50,5 +48,42 @@ class WorkEvent(models.Model):
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     work = models.ForeignKey(Work, on_delete=models.CASCADE)
 
+class Author(models.Model):
+    works = models.ManyToManyField(Work, through="AuthorWork", related_name="authorworks")
+    last_name = models.CharField(max_length=100)
+    first_names = models.CharField(max_length=200)
+    birth = models.IntegerField()
+    death = models.IntegerField()
+    notes = models.TextField()
 
+    def __str__(self):
+        return self.last_name + ", " + self.first_names
 
+    class Meta:
+        ordering = ['last_name', 'first_names']
+
+class AuthorWork(models.Model):
+    id = models.IntegerField(primary_key=True)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    work = models.ForeignKey(Work, on_delete=models.CASCADE)
+    role = models.CharField(max_length=100)
+
+class Composer(models.Model):
+    works = models.ManyToManyField(Work, through="ComposerWork",related_name="composerworks")
+    last_name = models.CharField(max_length=100)
+    first_names = models.CharField(max_length=200)
+    birth = models.IntegerField()
+    death = models.IntegerField()
+    notes = models.TextField()
+
+    def __str__(self):
+        return self.last_name + ", " + self.first_names
+
+    class Meta:
+        ordering = ['last_name', 'first_names']
+
+class ComposerWork(models.Model):
+    id = models.IntegerField(primary_key=True)
+    composer = models.ForeignKey(Composer, on_delete=models.CASCADE)
+    work = models.ForeignKey(Work, on_delete=models.CASCADE)
+    role = models.CharField(max_length=100)

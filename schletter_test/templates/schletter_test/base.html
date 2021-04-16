@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="{% static 'schletter/style.css' %}">
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light mb-4 border">
+  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light mb-4 border">
     <a href="{% url 'schletter_test:index' %}" class="navbar-brand">Schletter</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span></button>
@@ -24,6 +24,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{% url 'schletter_test:works' %}">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'schletter_test:authors' %}">Authors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'schletter_test:composers' %}">Composers</a>
         </li>
         {% comment %} <li class="nav-item">
           <a class="nav-link" href="{% url 'schletter_test:events' %}" >Events</a>
