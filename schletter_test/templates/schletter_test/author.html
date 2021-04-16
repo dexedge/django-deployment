@@ -1,9 +1,9 @@
 {% extends 'schletter_test/base.html' %}
-{% block page_header %}<h2>{{author}}</h2>{% endblock page_header %}
+{% block page_header %}<h2>{{author.last_name}}</h2>{% if author.first_names != "NA" %}{{author.first_names}}{% endif %}{% endblock page_header %}
 
 {% block content %}
-  <p>Birth: {{ author.birth }}</p>
-  <p>Death: {{ author.death }}</p>
+  {% if author.birth > 0 %}<p>Birth: {{ author.birth }}</p>{% endif %}
+  {% if author.death > 0 %}<p>Death: {{ author.death }}</p>{% endif %}
   <p>Works(s):</p>
   <ul>
     {% for work in author.works.all %}

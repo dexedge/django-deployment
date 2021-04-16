@@ -17,8 +17,8 @@
         </li>
       {% endfor %}
     </ul>
-  {% if work.composerwork_set.all.first.last_name != "NA" %}
-    <p>Composer: <a href="{% url 'schletter_test:composer' work.composerworks.first.pk %}">{{ work.composerworks.first }}</a></p>
+  {% if work.composerworks.first.last_name != "NA" %}
+    <p>Composer: <a href="{% url 'schletter_test:composer' work.composerworks.first.pk %}">{{ work.composerworks.first.last_name }}{% if work.composerworks.first.first_names != "NA" %}{{ work.composerworks.first.first_names }}{% endif %}</a></p>
   {% endif %}
   <p>Performance(s):</p>
   <ul>
