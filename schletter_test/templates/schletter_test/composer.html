@@ -1,0 +1,21 @@
+{% extends 'schletter_test/base.html' %}
+{% block page_header %}<h2>{{composer}}</h2>{% endblock page_header %}
+
+{% block content %}
+  <p>Birth: {{ composer.birth }}</p>
+  <p>Death: {{ composer.death }}</p>
+  <p>Works(s):</p>
+  <ul>
+    {% for work in composer.works.all %}
+      <li><a href="{% url 'schletter_test:work' work.pk %}">
+            <em>{{work.title}}</em>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <p>Total: {{composer.works.all.count}}</p>
+  {% if composer.notes != "NA" %}
+    <p>Notes:</p>
+    <p>{{composer.notes}}</p>
+  {% endif %}
+{% endblock content %}
