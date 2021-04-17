@@ -1,8 +1,8 @@
 {% extends 'schletter_test/base.html' %}
-{% block page_header %}<h2>{{composer.last_name}}{% if composer.first_names != "NA" %}{{composer.first_names}}{% endif %}</h2>{% endblock page_header %}
+{% block page_header %}<h2>{{composer.last_name}}{% if composer.first_names != "NA" %}, {{composer.first_names}}{% endif %}</h2>{% endblock page_header %}
 
 {% block content %}
-  {% if composer.birth > 0 %}<p>Birth: {{ composer.birth }}</p><p>Birth: {{ composer.birth }}</p>{% endif %}
+  {% if composer.birth > 0 %}<p>Birth: {{ composer.birth }}</p>{% endif %}
   {% if composer.death > 0 %}<p>Death: {{ composer.death }}</p>
   <p>Works(s):</p>{% endif %}
   <ul>
