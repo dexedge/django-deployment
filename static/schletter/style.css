@@ -1,6 +1,14 @@
 /* Local styles for schletter_test */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+html {
+  font-size: 18px;
+}
+
+a {
+  color: #006ee6;
+}
+
 .home {
   background: url("images/Kth.jpg");
   background-size: cover;
@@ -15,3 +23,6 @@
 
   font-family: 'Playfair Display', serif;
 }
+
+
+

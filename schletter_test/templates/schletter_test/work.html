@@ -1,9 +1,9 @@
 {% extends 'schletter_test/base.html' %}
 {% block page_header %}
   {% if work.title == "Concert" %}
-    <h2>Concerts</h2>
+    <h3 class="pb-2">Concerts</h3>
   {% else %}
-    <h2><em>{{work.title}}</em></h2>
+    <h3 class="pb-2"><em>{{work.title}}</em></h3>
   {% endif %}
 {% endblock page_header %}
 
@@ -18,7 +18,7 @@
       {% endfor %}
     </ul>
   {% if work.composerworks.first.last_name != "NA" %}
-    <p>Composer: <a href="{% url 'schletter_test:composer' work.composerworks.first.pk %}">{{ work.composerworks.first.last_name }}{% if work.composerworks.first.first_names != "NA" %}{{ work.composerworks.first.first_names }}{% endif %}</a></p>
+    <p>Composer: <a href="{% url 'schletter_test:composer' work.composerworks.first.pk %}">{{ work.composerworks.first.last_name }}{% if work.composerworks.first.first_names != "NA" %}, {{ work.composerworks.first.first_names }}{% endif %}</a></p>
   {% endif %}
   <p>Performance(s):</p>
   <ul>
@@ -28,11 +28,11 @@
     {% endfor %}
   </ul>
   <p>Total: {{work.events.all.count}}</p>
-  {% if work.notes != "NA" %}
+  {% if work.notes != "" %}
     <p>Notes:</p>
     <p>{{work.notes}}</p>
   {% endif %}
-  {% if work.url != "NA" %}
+  {% if work.url != "" %}
     <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>
   {% endif %}
 {% endblock content %}
