@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'csvimport.app.CSVImportConf',
-    'schletter_test',
+    'schletter_app',
     'bootstrap4',
     'django_extensions',
     'tinymce',

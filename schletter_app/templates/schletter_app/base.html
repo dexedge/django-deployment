@@ -13,26 +13,26 @@
 </head>
 <body>
   <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light mb-4 border">
-    <a href="{% url 'schletter_test:index' %}" class="navbar-brand">Schletter</a>
+    <a href="{% url 'schletter_app:index' %}" class="navbar-brand">Schletter</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span></button>
    
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'schletter_test:calendar' %}">Calendar</a>
+          <a class="nav-link" href="{% url 'schletter_app:calendar' %}">Calendar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'schletter_test:works' %}">Works</a>
+          <a class="nav-link" href="{% url 'schletter_app:works' %}">Works</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'schletter_test:authors' %}">Authors</a>
+          <a class="nav-link" href="{% url 'schletter_app:authors' %}">Authors</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'schletter_test:composers' %}">Composers</a>
+          <a class="nav-link" href="{% url 'schletter_app:composers' %}">Composers</a>
         </li>
         {% comment %} <li class="nav-item">
-          <a class="nav-link" href="{% url 'schletter_test:events' %}" >Events</a>
+          <a class="nav-link" href="{% url 'schletter_app:events' %}" >Events</a>
         </li> {% endcomment %}
         <li class="nav-item">
           <a class="nav-link" href="{% url 'admin:index' %}">Admin</a>

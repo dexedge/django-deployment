@@ -1,4 +1,4 @@
-{% extends 'schletter_test/base.html' %}
+{% extends 'schletter_app/base.html' %}
 {% block page_header %}
   {% if work.title == "Concert" %}
     <h3 class="pb-2">Concerts</h3>
@@ -13,17 +13,17 @@
     <ul>
       {% for aw in work.authorwork_set.all %}
         <li>
-          <a href="{% url 'schletter_test:author' aw.author.pk %}">{{aw.author.last_name}}{% if aw.author.first_names != "NA" %}, {{aw.author.first_names}}{% endif %}</a> ({{aw.role}})
+          <a href="{% url 'schletter_app:author' aw.author.pk %}">{{aw.author.last_name}}{% if aw.author.first_names != "NA" %}, {{aw.author.first_names}}{% endif %}</a> ({{aw.role}})
         </li>
       {% endfor %}
     </ul>
   {% if work.composerworks.first.last_name != "NA" %}
-    <p>Composer: <a href="{% url 'schletter_test:composer' work.composerworks.first.pk %}">{{ work.composerworks.first.last_name }}{% if work.composerworks.first.first_names != "NA" %}, {{ work.composerworks.first.first_names }}{% endif %}</a></p>
+    <p>Composer: <a href="{% url 'schletter_app:composer' work.composerworks.first.pk %}">{{ work.composerworks.first.last_name }}{% if work.composerworks.first.first_names != "NA" %}, {{ work.composerworks.first.first_names }}{% endif %}</a></p>
   {% endif %}
   <p>Performance(s):</p>
   <ul>
     {% for event in work.events.all %}
-      <li><a href="{% url 'schletter_test:event' event.pk %}">{{event.date}}</a> ({{event.theater}}{% if event.company != "NA" %}, {{event.company}}{% endif %}){% if work.genre == "Concert" %}, {{event.title}}{% elif event.title != work.title %}, as <em>{{event.title}}</em>{% endif %}
+      <li><a href="{% url 'schletter_app:event' event.pk %}">{{event.date}}</a> ({{event.theater}}{% if event.company != "NA" %}, {{event.company}}{% endif %}){% if work.genre == "Concert" %}, {{event.title}}{% elif event.title != work.title %}, as <em>{{event.title}}</em>{% endif %}
       </li>
     {% endfor %}
   </ul>

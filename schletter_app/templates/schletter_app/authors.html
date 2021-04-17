@@ -1,4 +1,4 @@
-{% extends 'schletter_test/base.html' %}
+{% extends 'schletter_app/base.html' %}
 {% block page_header %}
   <h2>Authors &#38; Choreographers</h2>
   <p class="pb-1">Click on a row to see the detail view for the person</p>
@@ -6,7 +6,7 @@
 {% block content %}
   <ul>
     {% for author in authors %}
-      <a href="{% url 'schletter_test:author' author.pk %}" class="list-group-item list-group-item-action">
+      <a href="{% url 'schletter_app:author' author.pk %}" class="list-group-item list-group-item-action">
         {{ author }}            
       </a>
     {% endfor %}
