@@ -6,10 +6,10 @@
   {% if author.death > 0 %}<p>Death: {{ author.death }}</p>{% endif %}
   <p>Works(s):</p>
   <ul>
-    {% for work in author.works.all %}
-      <li><a href="{% url 'schletter_test:work' work.pk %}">
-            <em>{{work.title}}</em>
-        </a>
+    {% for aw in author.authorwork_set.all %}
+      <li><a href="{% url 'schletter_test:work' aw.work.pk %}">
+            <em>{{aw.work.title}}</em>
+        </a> ({{aw.role}})
       </li>
     {% endfor %}
   </ul>
