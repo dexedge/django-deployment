@@ -1,6 +1,6 @@
 {% extends 'schletter_app/base.html' %}
 {% block page_header %}
-  <h3 class="pb-2">{{event.date}}</h3>
+  <h3 class="pb-2">Event: {{event.date}}</h3>
 {% endblock page_header %}
 
 {% block content %}
@@ -15,15 +15,41 @@
   </p>
   <p>Type: {{ event.event_type }}</p>
   <p>Genre: {{ event.work_set.first.genre }}</p>
-  <p>Author: <a href="{% url 'schletter_app:author' event.work_set.first.authorworks.first.pk %}">{{ event.work_set.first.authorworks.first.last_name }}{% if event.work_set.first.authorworks.first.first_names != "NA" %}, {{event.work_set.first.authorworks.first.first_names }}{% endif %}</a></p>
-  {% if event.work_set.first.composerworks.first.last_name != "NA" %}<p>Composer: <a href="{% url 'schletter_app:composer' event.work_set.first.composerworks.first.pk %}">{{ event.work_set.first.composerworks.first.last_name }}{% if event.work_set.first.composerworks.first.first_names != "NA" %}, {{event.work_set.first.composerworks.first.first_names }}{% endif %}</a></p>
-  {% endif %}
+  <p>Author(s): </p>
+    <ul>
+      {% for aw in event.work_set.first.authorwork_set.all %}
+        <li><a href="{% url 'schletter_app:author' aw.author.pk %}">{{ aw.author.last_name }}{% if aw.author.first_names != "NA" %}, {{aw.author.first_names }}{% endif %}</a> ({{aw.role}})</li>
+      {% endfor %}
+    </ul>
+  {% with composer=event.work_set.first.composerworks.first %}
+    {% if composer.last_name != "NA" %}
+      <p>Composer: <a href="{% url 'schletter_app:composer' composer.pk %}">{{ composer.last_name }}{% if composer.first_names != "NA" %}, {{composer.first_names }}{% endif %}</a></p>
+    {% endif %}
+  {% endwith %}
   <p>Hadamowsky: {{event.hadamowsky}}</p>
   {% if event.morrow != "NA" %}
     <p>Morrow: {{event.morrow}}</p>
   {% endif %}
   {% if event.notes != "NA" %}
-    <p>Notes: </hp> {{ event.notes|safe }}
+    <p>Notes:</p> 
+    <p class="indent">{{ event.notes|safe }}</p>
   {% endif %}
-  
+  <hr>
+  <div style="font-size:16px"> 
+    <p>All events in the theaters on this day:</p>
+    <ul>
+      {% for event in event.date.event_set.all %}
+        <li>
+          {% with work=event.work_set.all.first  %}
+          <a href="{% url 'schletter_app:work' work.pk %}">
+              {% if work.title == "No title" %}
+                {{work.title}}
+              {% else %}
+                <em>{{work.title}}</em>
+              {% endif %}</a> ({{event.theater}}, {{work.genre}})
+          {% endwith %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 {% endblock content %}

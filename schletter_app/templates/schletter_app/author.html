@@ -16,6 +16,6 @@
   <p>Total: {{author.works.all.count}}</p>
   {% if author.notes != "NA" %}
     <p>Notes:</p>
-    <p>{{author.notes|safe}}</p>
+    <p class="indent">{{author.notes|safe}}</p>
   {% endif %}
 {% endblock content %}

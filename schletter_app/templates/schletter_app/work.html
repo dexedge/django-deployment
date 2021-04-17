@@ -30,7 +30,7 @@
   <p>Total: {{work.events.all.count}}</p>
   {% if work.notes != "" %}
     <p>Notes:</p>
-    <p>{{work.notes}}</p>
+    <p class="indent">{{work.notes|safe}}</p>
   {% endif %}
   {% if work.url != "" %}
     <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>

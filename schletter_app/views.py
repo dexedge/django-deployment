@@ -27,8 +27,7 @@ class EventDetail(DetailView):
 
 class WorkList(ListView):
     context_object_name = 'works'
-    # Omit first Work, which is "NA"
-    queryset = Work.objects.all()[1:]
+    model = Work
     paginate_by = 50
     template_name = 'schletter_app/works.html'
 
