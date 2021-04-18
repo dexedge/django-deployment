@@ -1,7 +1,15 @@
 {% extends 'schletter_app/base.html' %}
 {% block page_header %}
   <h2>Authors &#38; Choreographers</h2>
-  <p class="pb-1">Click on a row to see the detail view for the person</p>
+  <div class="row pb-3">
+    <div class="col-sm-6 mt-2">Click on a row to see the detail view for the person</div>
+    <div class="col-sm-6">
+      <a class="btn btn-secondary ml-2 float-right" href="{% url 'schletter_app:authors' %}" role="button">Reset</a>
+      <form class="form-inline float-right" action="{% url 'schletter_app:authors' %}" method="get">
+        <input name="q" class="form-control" type="text" placeholder="Search">
+      </form>
+    </div>
+  </div>
 {% endblock page_header %}
 {% block content %}
   <ul>

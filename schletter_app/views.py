@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, ListView, DetailView
+from django.db.models import Q
 from schletter_app.models import Date, Event, Work, Author, Composer
 
 # Create your views here.
@@ -31,6 +32,13 @@ class WorkList(ListView):
     paginate_by = 50
     template_name = 'schletter_app/works.html'
 
+    def get_queryset(self):
+        query = self.request.GET.get('q')
+        if query is not None:
+            return Work.objects.filter(Q(title__icontains=query) | Q(genre__icontains=query))
+        else:
+            return Work.objects.all()
+
 class WorkDetail(DetailView):
     context_object_name = 'work'
     model = Work
@@ -41,7 +49,15 @@ class AuthorList(ListView):
     model = Author
     paginate_by = 50
     template_name = 'schletter_app/authors.html'
-
+    
+    def get_queryset(self):
+        query = self.request.GET.get('q')
+        if query is not None:
+            return Author.objects.filter(Q(last_name__icontains=query) | Q(first_names__icontains=query))
+        else:
+            return Author.objects.all()
+    
+    
 class AuthorDetail(DetailView):
     context_object_name = 'author'
     model = Author
@@ -52,6 +68,13 @@ class ComposerList(ListView):
     model = Composer
     paginate_by = 50
     template_name = 'schletter_app/composers.html'
+
+    def get_queryset(self):
+        query = self.request.GET.get('q')
+        if query is not None:
+            return Composer.objects.filter(Q(last_name__icontains=query) | Q(first_names__icontains=query))
+        else:
+            return Composer.objects.all()
 
 class ComposerDetail(DetailView):
     context_object_name = 'composer'

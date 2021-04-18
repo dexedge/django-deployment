@@ -1,5 +1,6 @@
 /* Local styles for schletter_app */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
 
 html {
   font-size: 18px;
@@ -22,6 +23,12 @@ a {
   border-color: #787878;
 
   font-family: 'Playfair Display', serif;
+}
+
+.navbar-brand {
+  font-family: 'UnifrakturCook', cursive;
+  color: #787878 !important;
+  margin-bottom: 3px;
 }
 
 .indent {

@@ -19,7 +19,7 @@
         {% endfor %}
       </ul>
   {% endif %}
-  {% if work.composerworks.exists %}
+  {% if work.composerworks.exists and work.composerworks.first.last_name != "NA" %}
     <p>Composer: <a href="{% url 'schletter_app:composer' work.composerworks.first.pk %}">{{ work.composerworks.first.last_name }}{% if work.composerworks.first.first_names != "NA" %}, {{ work.composerworks.first.first_names }}{% endif %}</a></p>
   {% endif %}
   <p>Performance(s):</p>
