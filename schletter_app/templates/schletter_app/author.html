@@ -4,7 +4,7 @@
 {% block content %}
   {% if author.birth > 0 %}<p>Birth: {{ author.birth }}</p>{% endif %}
   {% if author.death > 0 %}<p>Death: {{ author.death }}</p>{% endif %}
-  <p>Works(s):</p>
+  <p>Work(s):</p>
   <ul>
     {% for aw in author.authorwork_set.all %}
       <li><a href="{% url 'schletter_app:work' aw.work.pk %}">

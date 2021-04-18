@@ -4,12 +4,12 @@
 {% block content %}
   {% if composer.birth > 0 %}<p>Birth: {{ composer.birth }}</p>{% endif %}
   {% if composer.death > 0 %}<p>Death: {{ composer.death }}</p>
-  <p>Works(s):</p>{% endif %}
+  <p>Work(s):</p>{% endif %}
   <ul>
     {% for work in composer.works.all %}
       <li><a href="{% url 'schletter_app:work' work.pk %}">
-            <em>{{work.title}}</em>
-        </a>
+            <em>{{work.title}}</em></a> ({{work.genre}})
+        
       </li>
     {% endfor %}
   </ul>
