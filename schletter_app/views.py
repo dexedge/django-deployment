@@ -14,7 +14,15 @@ class DateList(ListView):
     model = Date
     paginate_by = 40
     template_name = 'schletter_app/calendar.html'
-
+    
+    def get_queryset(self):
+        date_min = self.request.GET.get('date_min')
+        date_max = self.request.GET.get('date_max')
+        if date_min is not None and date_max is not None:
+            return Date.objects.all().filter(date__gte=date_min, date__lte=date_max)
+        else:
+            return Date.objects.all()
+    
 class EventList(ListView):
     context_object_name = 'events'
     model = Event
@@ -31,13 +39,6 @@ class WorkList(ListView):
     model = Work
     paginate_by = 50
     template_name = 'schletter_app/works.html'
-
-    def get_queryset(self):
-        query = self.request.GET.get('q')
-        if query is not None:
-            return Work.objects.filter(Q(title__icontains=query) | Q(genre__icontains=query))
-        else:
-            return Work.objects.all()
 
 class WorkDetail(DetailView):
     context_object_name = 'work'
