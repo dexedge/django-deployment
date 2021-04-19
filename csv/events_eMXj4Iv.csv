@@ -1,790 +1,0 @@
-id,date_id,title,theater,company,event_type,hadamowsky,morrow,notes
-1,1781-01-21,Irene,Bth,Court,premiere,Yes,NA,"Irene was premiered in the Burgtheater on 21 Jan 1781, and performed only three times before being dropped."
-2,1781-01-21,Die Freundschaft auf der Probe,Bth,Court,reprise,Yes,NA,NA
-3,1781-01-21,Der Sturm,Kth,Kinder,unknown,No,NA,"""Der Sturm nach Schakes= / prar [sic] von Schink.""'"
-4,1781-01-21,Matrosen Ballet,Kth,Kinder,unknown,No,NA,"""Matrosen Ballet v. Decamp."""
-5,1781-01-22,Die Feldmühle,Bth,Court,reprise,Yes,NA,NA
-6,1781-01-22,Die Freundschaft auf der Probe,Bth,Court,premiere,Yes,NA,Performed only twice before being dropped.
-7,1781-01-22,La Belle Arsène,Kth,French,reprise,No,NA,"""La Belle Arsene O. 3. A. / avec Ballets"""
-8,1781-01-23,Irene,Bth,Court,reprise,Yes,NA,NA
-9,1781-01-23,Die Rechnung ohne den Wirth,Bth,Court,reprise,Yes,NA,NA
-10,1781-01-23,Die Näscherinn,Kth,Kinder,unknown,Yes,NA,NA
-11,1781-01-23,Die Geschwisterliebe,Kth,Kinder,unknown,No,NA,NA
-12,1781-01-23,Matrosen Ballet,Kth,Kinder,reprise,No,NA,NA
-13,1781-01-24,Juliane von Lindorak,Bth,Court,reprise,Yes,NA,"""Juliane v. Lindorack. / L. in 5 A. n. Gozzi / v. Schöder."""
-14,1781-01-24,Der Bettelstudent,Bth,Court,reprise,Yes,NA,"""Der Bettelstudent L. in / 2. A. v. Weidmann."""
-15,1781-01-24,"L'Amant jaloux, ou les Fausses Apparences",Kth,French,reprise,No,NA,NA
-16,1781-01-24,No title,Kth,French,reprise,No,NA,"""D. Ballet."""
-17,1781-01-25,Der Barbier von Sevilien,Bth,Court,reprise,Yes,NA,NA
-18,1781-01-25,Der Sturm,Kth,Kinder,reprise,No,NA,NA
-19,1781-01-25,Matrosen Ballet,Kth,Kinder,reprise,No,NA,NA
-20,1781-01-26,Die donnernde Legion,Bth,Court,concert,No,Yes,"Morrow (249) cites a poster in the Theatermuseum, but does not give the title. Weidmann is named as the librettist on Czech Wikipedia. His name is not on the libretto."
-24,1781-01-26,Die kleine Aehrenleserin,Kth,Kinder,unknown,No,NA,NA
-25,1781-01-26,Die Kroaten,Kth,Kinder,unknown,No,NA,NA
-21,1781-01-27,Irene,Bth,Court,benefit,Yes,NA,"Final performance.""Irene. / (Die Einnahme war / Mlle. Jaquet bestimmt."""
-22,1781-01-27,Die Freundschaft auf der Probe,Bth,Court,reprise,Yes,NA,NA
-23,1781-01-27,Die Näscherinn,Kth,Kinder,reprise,No,NA,NA
-26,1781-01-27,Betrug für Betrug,Bth,Court,reprise,Yes,NA,NA
-27,1781-01-28,"Aline, reine de Golconde",Kth,French,reprise,No,NA,"""La Reine Golconde op. / 3. A. et Ballet."""
-28,1781-01-29,Der Bettler,Bth,Court,reprise,Yes,NA,NA
-29,1781-01-29,Die Freundschaft auf der Probe,Bth,Court,reprise,Yes,NA,Second of only two performances before being dropped.
-30,1781-01-29,Edelmuth in Niedrigkeit,Kth,Kinder,unknown,No,NA,"""Edelmuth in Niederigkeit. / L. 1. A. Die Strafe im / Sturz. B. v Sacco."""
-31,1781-01-29,Die Strafe im Sturz,Kth,Kinder,unknown,No,NA,NA
-32,1781-01-30,Das Landmädchen,Bth,Court,reprise,Yes,NA,"""Das Landmädchen L. in / 5. A. a. d. Engl."""
-33,1781-01-30,Zémire et Azor,Kth,French,reprise,No,NA,"""Zemire &. Azor. O. 4. A. / et Ballet."""
-34,1781-01-31,Der Westindier,Bth,Court,reprise,Yes,NA,NA
-35,1781-01-31,Präsentirt das Gewehr,Kth,Kinder,unknown,No,NA,"""Präsentirt das Gewehr L. / 2. A. Die Matrosen.""Präsentirt das Gewehr had been in the repertory of the court theater since 17 Jun 1775, but this performance in the Kärntnertortheater is not in Hadamowsky."
-36,1781-01-31,Matrosen Ballet,Kth,Kinder,reprise,No,NA,"""Präsentirt das Gewehr L. / 2. A. Die Matrosen.""Not specified whether this is actually the ""Matrosen Ballet"" of earlier in the month."
-37,1781-02-01,Die Verlobung,Bth,Court,reprise,Yes,NA,NA
-38,1781-02-01,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Bth,Court,reprise,Yes,NA,"""Die schöne Schusterinn / S. in 2. A. a. d. Fr."""
-39,1781-02-01,La Rosière de Salency,Kth,French,reprise,No,NA,"""La Rosiere de Salency O. / 3. A. et Ballet.""A German version, Das Rosenfest zu Salenci, has been in the repertory of the court theater company since 9 Sep 1779."
-40,1781-02-02,"Concert, Peter Winter and Franz Tausch",Bth,NA,concert,No,No,"""Musikalische Akademie zum Vortheil der Herrn Winter und Tausch. In Churbayer. Diensten.""Cf. 26 Mar"
-41,1781-02-03,Wahrheit ist gut Ding,Bth,Court,premiere,Yes,NA,"""Wahrheit ist gut Ding / L. in 5. A. / nach dem Lügner d. Gold. / frey bearbeitet v. Schle= / ter."""
-42,1781-02-03,Le Barbier de Séville,Kth,French,reprise,No,NA,"""Babier [sic] de Seville O. [sic] 4. A. / La belle Cordoniere. O. / 2. A."""
-43,1781-02-03,La Belle Cordonniere,Kth,French,reprise,No,NA,"""Babier [sic] de Seville O. [sic] 4. A. / La belle Cordoniere. O. / 2. A.""May be Les souliers mors-dorés, ou La cordonniere allemande (see work record)."
-44,1781-02-04,Die Näscherinn,Kth,Kinder,reprise,No,NA,"""Die kleine Näscherinn. L. / 1. A. die Horazier. B.""Probably = to ""Die Näscherinn""?"
-45,1781-02-04,Die Horazier,Kth,Kinder,unknown,No,NA,NA
-46,1781-02-04,Wahrheit ist gut Ding,Bth,Court,reprise,Yes,NA,NA
-47,1781-02-05,Die junge Indianerinn,Bth,Court,reprise,Yes,NA,Earliest Viennese performance in Hadamowsky on 5 Apr 1769 in the Kärntnertortheater.
-48,1781-02-05,Was erhält die Männer treu?,Bth,Court,reprise,Yes,NA,NA
-49,1781-02-05,L'Ami de la maison,Kth,French,reprise,No,NA,NA
-50,1781-02-05,No title,Kth,French,reprise,No,NA,NA
-51,1781-02-06,Die Holländer,Bth,Court,reprise,Yes,NA,NA
-52,1781-02-06,Die natürliche Zauberey,Kth,Kinder,unknown,No,NA,NA
-53,1781-02-06,Die Horazier,Kth,Kinder,reprise,No,NA,NA
-54,1781-02-07,Erwine von Steinheim,Bth,Court,reprise,Yes,NA,"""Ermine [sic] v. Steinheim / Tr. im 5. A. v. Blum= / auer."""
-55,1781-02-07,La Fausse Magie,Kth,French,reprise,No,NA,Hadamowsky has a production by the court theater premiering on 27 Jun 1809.
-56,1781-02-07,No title,Kth,French,reprise,No,NA,NA
-57,1781-02-08,Bekir und Gulroui,Bth,Court,reprise,Yes,NA,NA
-58,1781-02-08,Der eifersüchtige Liebhaber,Bth,Court,reprise,Yes,NA,NA
-59,1781-02-08,Die Näscherinn,Kth,Kinder,reprise,No,NA,NA
-60,1781-02-08,Die Horazier,Kth,Kinder,reprise,No,NA,NA
-61,1781-02-09,"Concert, Johann Konrad Schlick and Christian Danner",Bth,NA,concert,No,NA,"""Musikalische Akademie. zum Vortheil Herrn. Schlick. K. M. aus Gotha und Herrn Tanner aus München."""
-62,1781-02-10,Der Hausvater,Bth,Court,reprise,Yes,NA,Only performance in 1781. First performed in Vienna in 1770.
-63,1781-02-10,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Kth,Kinder,unknown,No,NA,NA
-64,1781-02-10,Adelheid von Ponthieu,Kth,Kinder,unknown,No,NA,"""Adelheit v. Ponthieu, B."""
-65,1781-02-11,Die Wildschützen,Bth,Court,reprise,Yes,NA,NA
-66,1781-02-11,L'Amoreux de quinze ans,Kth,French,reprise,No,NA,NA
-67,1781-02-11,No title,Kth,French,reprise,No,NA,NA
-68,1781-02-12,Die Pilgrime von Mekka,Bth,Court,reprise,Yes,NA,Premiere in the Burgtheater on 26 Jul 1780
-69,1781-02-12,Die natürliche Zauberey,Kth,Kinder,reprise,No,NA,NA
-70,1781-02-12,Die Horazier,Kth,Kinder,reprise,No,NA,NA
-71,1781-02-13,Der Spleen,Bth,Court,reprise,Yes,NA,NA
-72,1781-02-13,Der Sklavenhändler von Smyrna,Bth,Court,premiere,Yes,NA,Premiere. Performed only one more time on 21 Feb before being permanently dropped.
-73,1781-02-13,La Bonne Fille,Kth,French,reprise,No,NA,NA
-74,1781-02-13,Le François à Londres,Kth,French,reprise,No,NA,NA
-75,1781-02-14,Der Graf von Walltron,Bth,Court,reprise,Yes,NA,NA
-76,1781-02-14,Die Näscherinn,Kth,Kinder,reprise,No,NA,NA
-77,1781-02-14,Agamemnon,Kth,Kinder,unknown,No,NA,NA
-78,1781-02-15,Die Liebe unter den Handwerksleuten,Bth,Court,reprise,Yes,NA,NA
-79,1781-02-15,Le Déserteur,Kth,French,reprise,No,NA,NA
-80,1781-02-15,No title,Kth,French,reprise,No,NA,NA
-81,1781-02-16,"Concert, Anton Ulbrich",Bth,NA,concert,No,No,"""Musikalische Akadamie zum Vortheil Hr. Anton Ulbrich, von WIen.""""Anton"" may have been either Anton Ignaz Ulbrich (1706–1796) or his son Anton Johann Nepomuk (1754–1830), both trombonists. Neither is known to have composed. One wonders whether this might have been a family concert, perhaps also including Johann Nepomuk Maximilian (1743–1814), who was a composer."
-82,1781-02-17,Das Loch in der Thüre,Bth,Court,premiere,Yes,NA,NA
-83,1781-02-17,Les Talens à la mode,Kth,French,reprise,No,NA,NA
-84,1781-02-17,La Double Frayeur,Kth,French,reprise,No,NA,NA
-85,1781-02-17,No title,Kth,French,reprise,No,NA,NA
-86,1781-02-18,Das Loch in der Thüre,Bth,Court,reprise,Yes,NA,NA
-87,1781-02-18,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Kth,Kinder,reprise,No,NA,NA
-88,1781-02-18,Die Horazier,Kth,Kinder,reprise,No,NA,NA
-89,1781-02-19,Die Liebe unter den Handwerksleuten,Bth,Court,reprise,Yes,NA,NA
-90,1781-02-19,Les Talens à la mode,Kth,French,reprise,No,NA,NA
-91,1781-02-19,Le Tonnellier,Kth,French,reprise,No,NA,NA
-92,1781-02-19,No title,Kth,French,reprise,No,NA,NA
-93,1781-02-20,Der Jurist und der Bauer,Bth,Court,reprise,Yes,NA,NA
-94,1781-02-20,Ariadne auf Naxos,Kth,Kinder,unknown,No,NA,NA
-95,1781-02-20,Medea,Bth,Court,reprise,Yes,NA,NA
-96,1781-02-20,Die Horazier,Kth,Kinder,premiere,No,NA,NA
-97,1781-02-21,"Soliman der Zweyte, oder Die drey Sultaninnen",Bth,Court,reprise,Yes,NA,NA
-98,1781-02-21,Der Sklavenhändler von Smyrna,Bth,Court,reprise,Yes,NA,Second and final performance
-99,1781-02-21,Le Mercure galant ou la Comédie sans titre,Kth,French,reprise,No,NA,NA
-100,1781-02-21,La Double Frayeur,Kth,French,reprise,No,NA,NA
-101,1781-02-21,No title,Kth,French,reprise,No,NA,NA
-102,1781-02-22,Das Winterquartier in Amerika,Bth,Court,reprise,Yes,NA,"Zinzendorf attended this performance and that of Der eifersüchtige Liebhaber. It was his first attendance of a public theatrical performances since his return from Trieste.""♃. 22. Fevrier. [...] Dela au Spectacle national. D[as] WinterQuartier in America. La Jaquet, jolie actrice. Der eifersüchtige Liebhaber opera comique françois traduit. belle musique. Adamberger chanta bien. La Lang qui est grosse point parfaitement, Vischer bien. L'air de Alonso Sans jalousie point d'amour. J'etois avec M:e de Thun dans la loge du C:te Rosenberg."""
-103,1781-02-22,Der eifersüchtige Liebhaber,Bth,Court,reprise,Yes,NA,NA
-104,1781-02-22,Die wahre Liebe,Kth,Kinder,unknown,No,NA,NA
-105,1781-02-22,Die Näscherinn,Kth,Kinder,reprise,No,NA,NA
-106,1781-02-22,Adelheid von Ponthieu,Kth,Kinder,reprise,No,NA,"""Adelheid von Ponthieu."""
-107,1781-02-23,"Concert, Tebaldo Monzani",Bth,NA,concert,No,No,This was Monzani's only known appearance in Vienna
-108,1781-02-24,Das Loch in der Thüre,Bth,Court,benefit,Yes,NA,"""Hr. Autors Einnahme.""This was the third performance, and the proceeds went to Stephanie d. J.Zinendorf attempted to go to this performance, but couldn't find a seat."
-109,1781-02-24,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Kth,Kinder,reprise,No,NA,NA
-110,1781-02-24,Die wahre Liebe,Kth,Kinder,reprise,No,NA,NA
-111,1781-02-24,Die Horazier,Kth,Kinder,reprise,No,NA,NA
-112,1781-02-25,Die Rechnung ohne den Wirth,Bth,Court,reprise,Yes,NA,NA
-113,1781-02-25,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Bth,Court,reprise,Yes,NA,NA
-114,1781-02-25,Don Japhet d'Armenie,Kth,French,reprise,No,NA,NA
-115,1781-02-25,No title,Kth,French,reprise,No,NA,NA
-116,1781-02-26,Wahrheit ist gut Ding,Bth,Court,reprise,Yes,NA,NA
-117,1781-02-26,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Kth,Kinder,reprise,No,NA,NA
-118,1781-02-26,Die Näscherinn,Kth,Kinder,reprise,No,NA,NA
-119,1781-02-26,Die Horazier,Kth,Kinder,reprise,No,NA,NA
-120,1781-02-27,Der Schneider und sein Sohn,Bth,Court,reprise,Yes,NA,NA
-121,1781-02-27,Der Faßbinder,Bth,Court,reprise,Yes,NA,NA
-122,1781-02-27,L'Amoreux de quinze ans,Kth,French,reprise,No,NA,NA
-123,1781-02-27,Rose et Colas,Kth,French,reprise,No,NA,NA
-124,1781-02-27,No title,Kth,French,reprise,No,NA,NA
-125,1781-03-04,"Concert, Valentin Adamberger",Bth,NA,concert,No,NA,"""Musikalische Akademie. / Zum Vortheil Hr. Adambergers Mitglied d. K. K. / N. H. Schaubühne."""
-126,1781-03-06,"Concert, Mathias Thurner",Bth,NA,concert,No,No,"""Dergleichen z. V. Hr. Thurners, M. d. Orchest. b. Nationaltheater.""Mathias Thurner was a flutist in the orchestra of the court orchestra in Vienna; see Steblin, JAMIS 2008."
-127,1781-03-08,"Concert, French company",Bth,NA,concert,No,No,"""Dergleichen z. V. der Unternehmer des Franz. Schauspiels."""
-128,1781-03-11,Alcide al bivio (TKS),Kth,NA,concert,No,Yes,"""Dergleichen z. V. der Tonkünstler Gesellschaft allhier. Alcid am Scheidwege.""The planned concerts of the Tonkünstler-Societät before Christmas 1780 had been postponed because of the death of Empress Maria Theresia on 29 Nov 1780. The society's concerts on 11 and 13 Mar 1781 made up for these; the society also held its usual concerts at the end of Lent, on 1 and 3 Apr 1781."
-129,1781-03-12,"Concert, Ludwig Fischer",Bth,NA,concert,No,No,NA
-130,1781-03-13,Alcide al bivio (TKS),Kth,NA,concert,No,Yes,"""Wie am Sonntag den 11. d. M."""
-131,1781-03-15,"Concert, Józef Boruwłaski (dwarf)",Bth,NA,concert,No,Yes,"""Dergleichen / z. V. Hr. Boruwlaski in Königl. Pohlnischen / Diensten.""See Boruwłaski's description of his visit to Vienna in 1781 and his concert in his autobiography, 159ffMorrow (249) notes that the concert is in Zinzendorf, who mentions a guitar player and Adamberger"
-132,1781-03-18,Il natale di Apollo (concert),Bth,NA,concert,No,No,"""Dergleichen / z. V. Hr. Righini, gen. Apolls Geburtstag.""Il natale di Apollo is usually said to have been composed for the concert of the Tonkünstler-Societät in Dec 1789 (see Christoph Henzel, ""Righini, Vincenzo,"" Grove Music Online). This performance in 1781 suggests that the work may have existed in some form at this earlier date."
-133,1781-03-19,"Concert, Friedrich Ramm",Bth,NA,concert,No,No,"""Dergleichen / z. V. Hr. Ramms in Churbayer. Diensten."""
-134,1781-03-20,"Concert, Elisabeth Mara",Kth,NA,concert,No,Yes,"""Dergleichen / z. V. der Madame Mara.""In Schletter, the date appears as ""Dienstag / d. a2. [sic]""MBA, iii:101, Wolfgang to Leopold, 24 Mar:""die Mara ist hier; – sie hat vergangen dienstag eine accademie im Theater gegeben. – ihr Mann hat sich nicht dürfen sehen lassen, sonst hätte das orchstre nicht accompagnirt, weil er in die Zeitungen gedruckt hat, i ganz Wien seye kein Mensch im stande ihm zu accompagniren."""
-135,1781-03-25,Il natale di Apollo (concert),Bth,NA,concert,No,No,Reprise of Il natale di Apollo
-136,1781-03-26,"Concert, Peter Winter and Franz Tausch",Bth,NA,concert,No,No,"""Dergleichen / z. V. Hr. Winter und Tausch, in Churbayer. / Diensten.""Cf. 2 Feb"
-137,1781-03-27,"Concert, Madame Olivieri",Bth,NA,concert,No,No,"""Dergleichen / z. V. der Madame Olivieri.""Madame Olivieri not yet identified"
-138,1781-03-29,"Concert, Madame Varenne",Bth,NA,concert,No,Yes,"""Dergleichen / z. V. der Madam Varennes.""In ZinzendorfMadame Varenne played in concerts at the French ambassador's on 24 Mar, 28 Mar, 7 Apr, and 5 May 1781 (on 7 Apr with ""Herr Varene"", violin), and on 4 Apr at Prince Paar."
-139,1781-04-01,Die Pilgrime auf Golgotha (TKS),Kth,NA,concert,No,Yes,"The oratorio Die Pilgrime auf Golgotha was composed by Johann Georg Albrechtsberger (1736–1809). All four vocal soloists were members of the ensemble of the court theater in Vienna, and all created roles in Mozart's Die Entführung aus dem Serail the following year: Caterina Cavalieri (1755–1801; Konstanze); Therese Teyber (1760–1830; Blonde); Valentin Adamberger (1743?–1804; Belmonte); and Ludwig Fischer (1745–1825; Osmin)."
-140,1781-04-03,Die Pilgrime auf Golgotha (TKS),Kth,NA,concert,No,Yes,Albrechtsberger's Die Pilgrime auf Golgatha was performed.A Mozart symphony was performed and he played the piano.
-141,1781-04-05,"Concert, Elisabeth Mara",Kth,NA,concert,No,No,NA
-142,1781-04-16,Agnes Bernauerinn,Bth,Court,premiere,Yes,NA,"Zinendorf attended this premiere, calling it a ""mauvaise tragedie"", noting, however, ""Schroeder qui fit le rôle du Duc Albert de Bavière, joua comme un ange."""
-618,1781-04-17,Die Pilgrime von Mekka,Bth,Court,reprise,Yes,NA,NA
-619,1781-04-17,Eugenie,Kth,French,reprise,No,NA,NA
-620,1781-04-17,L'Epoux par supercherie,Kth,French,reprise,No,NA,NA
-621,1781-04-18,Agnes Bernauerinn,Bth,Court,reprise,Yes,NA,"This performance was attended by the Emperor, Archduchesses Maria Anna, Maria, and Maria Elisabeth, and Duke Albert von Sachsen-Teschen (WZ, Sat, 21 Apr 1781, no. 32, [6]"
-143,1781-04-19,Die verfolgte Unbekannte,Bth,Court,reprise,Yes,NA,"Zinzendorf attended this performance, writing ""Belle musique."""
-144,1781-04-19,L'Homme du jour,Kth,French,unknown,No,NA,NA
-145,1781-04-19,Les Legs,Kth,French,unknown,No,NA,NA
-146,1781-04-20,Wissenschaft geht vor Schönheit,Bth,unknown,benefit,No,NA,"This performance in the Burgtheater is not in Hadamowsky or Von Alth/Obzyna. Because it took place on a Friday, it may have been a benefit. Hadamowsky has the Burgtheater as ""geschlossen"" on this day.""Wissenschaft. geht vor / Schonheit [sic]. / L. in 3. A. n. G. v. B."""
-147,1781-04-21,Die Gefahren der Verführung,Bth,Court,premiere,Yes,NA,Performed only four times before being dropped.
-148,1781-04-21,"Adelaide, oder die Antipathie gegen die Liebe",Bth,Court,premiere,Yes,NA,Performed only three times
-149,1781-04-22,Die Gefahren der Verführung,Bth,Court,premiere,Yes,NA,"Zinzendorf attended this performance, writing: ""Je trouvois Schroeter excellent en vieillard, jeu noble, [debit] agréable."""
-150,1781-04-22,Les Deux Chasseurs et la Laitière,Kth,French,unknown,No,NA,"""L'Offcier & le grand Baillif. C. 5. / la Laitiere. C. 1. a.""Identification of ""La Laitiere"" as the work by Anseaume and Duni is provisional."
-151,1781-04-22,L'Officier et le grand Baillif,Kth,French,unknown,No,NA,NA
-152,1781-04-23,Die große Batterie,Bth,Court,reprise,Yes,NA,NA
-153,1781-04-23,Andromeda und Perseus,Bth,Court,premiere,Yes,NA,Performed only four times before being dropped.
-154,1781-04-24,Die gegenseitige Probe,Bth,Court,reprise,Yes,NA,NA
-155,1781-04-24,Der Hausfreund,Bth,Court,reprise,Yes,NA,NA
-156,1781-04-24,Les Trois Jumeaux vénetiens,Kth,French,unknown,No,NA,"""Les 3. jumeaux venetiens. C. 3. 2."""
-157,1781-04-24,"L'Amant, Auteur et Valet",Kth,French,unknown,No,NA,NA
-158,1781-04-25,Emilia Galotti,Bth,Court,reprise,Yes,NA,NA
-159,1781-04-25,Les Folies amoureuses,Kth,French,unknown,No,NA,NA
-160,1781-04-25,"L'Homme noir, ou le Spleen",Kth,French,unknown,No,NA,Identification of work mildly uncertain
-161,1781-04-26,"Jenny, oder die Uneigennützigkeit",Bth,Court,reprise,Yes,NA,NA
-163,1781-04-26,"Adrast und Isidore, oder die Nachtmusik",Bth,Court,premiere,Yes,NA,Performed only twice
-162,1781-04-27,Die verstorbene Ehefrau,Bth,unknown,benefit,No,NA,Not in Hadamowsky or Von Alth/Obzyna. Possibly a benefit.
-164,1781-04-27,"Concert, Johann Lausch",Kth,NA,concert,No,No,"""Musikalische Akademie / z. V. Hr. Johann Lausch."""
-165,1781-04-28,Die Schwäger,Kth,Court,premiere,Yes,NA,Performed only three times
-166,1781-04-28,"Adelaide, oder die Antipathie gegen die Liebe",Bth,Court,reprise,Yes,NA,NA
-167,1781-04-28,Le Tableau parlant,Kth,French,unknown,No,NA,NA
-168,1781-04-28,Les Précieuses ridicules,Kth,French,unknown,No,NA,NA
-169,1781-04-28,Pygmalion,Kth,French,unknown,No,NA,NA
-170,1781-04-29,Die Schwäger,Bth,Court,reprise,Yes,NA,NA
-171,1781-04-29,Der dankbare Sohn,Bth,Court,reprise,Yes,NA,NA
-172,1781-04-29,Monsieur de St. Charles,Kth,French,unknown,No,NA,"Zinzendorf attended these performances: ""Le soir au Theatre de la porte de Carinthie. L'Homme comme il y en a peu. Dalainval, Calet et le jolie M:elle Laurens jouerent fort bien. La Servante maitresse bien jouée et mal chantée."""
-173,1781-04-29,La Servante maitresse,Kth,French,unknown,No,NA,"On Zinzendorf's reaction, see the preceding entry."
-174,1781-04-30,Der Rauchfangkehrer,Bth,Court,premiere,Yes,NA,NA
-175,1781-05-01,Der sehende Blinde,Bth,Court,reprise,Yes,NA,NA
-176,1781-05-01,Andromeda und Perseus,Bth,Court,reprise,Yes,NA,NA
-177,1781-05-01,La Servante maitresse,Kth,French,reprise,No,NA,NA
-178,1781-05-01,Monsieur de St. Charles,Kth,French,reprise,No,NA,NA
-179,1781-05-02,Der flatterhafte Ehemann,Bth,Court,reprise,Yes,NA,"Zinzendorf attended this performance: ""Le soir au Spectacle der flatterhaffte Liebhaber [sic]. Schroeter y joua a merveille en pauvre rôle [...]"""
-180,1781-05-02,"Concert, Brigida Banti",Kth,NA,concert,No,No,NA
-181,1781-05-03,Die abgenöthige Einwilligung,Bth,Court,reprise,Yes,NA,NA
-182,1781-05-03,Der eifersüchtige Liebhaber,Bth,Court,reprise,Yes,NA,NA
-183,1781-05-03,L'École des femmes,Kth,French,unknown,No,NA,NA
-184,1781-05-03,Les Deux Chasseurs et la Laitière,Kth,French,reprise,No,NA,NA
-185,1781-05-04,Die verstorbene Ehefrau,Bth,unknown,unknown,No,NA,"Not in Hadamowsky or Von Alth/Obzyna. Benefit? Hadamowsky has the Burgtheater as ""geschlossen"" on this day."
-186,1781-05-05,Die Schwäger,Bth,Court,benefit,Yes,NA,"""Autors Einnahme"". Final performance."
-187,1781-05-05,Wer wird sie kriegen,Bth,Court,premiere,Yes,NA,Premiere on the same day as the last of three performances of Eckardt's Die Schwäger. Performed only three times.
-188,1781-05-05,Rose et Colas,Kth,French,reprise,No,NA,NA
-189,1781-05-05,Democrite amoureux,Kth,French,unknown,No,NA,NA
-190,1781-05-06,Der Neugierige,Bth,Court,reprise,Yes,NA,NA
-191,1781-05-06,Elle a raison,Kth,French,unknown,No,NA,NA
-192,1781-05-06,Monsieur de St. Charles,Kth,French,reprise,No,NA,NA
-193,1781-05-07,Der Schubkarren des Essighändlers,Bth,Court,reprise,Yes,NA,"""Der Eßighandler. / L. in 3. A. a. d. Fr.""Adapted from Mercier's La Brouette du vinaigrier.Zinzendorf attended these peformances: ""Le soir au Theatre. der Wein Eßig Händler. mauvais pièce que Schroeter rendit tres suportable par son jeu excellent. Ariadne zu Naxos Ein melodrama. M:e Schroeter tres bien [****], joua assez bien. L'orage a merveille."""
-194,1781-05-07,Ariadne auf Naxos,Bth,Court,reprise,Yes,NA,"Zinzendorf attended these peformances: ""Le soir au Theatre. der Wein Eßig Händler. mauvais pièce que Schroeter rendit tres suportable par son jeu excellent. Ariadne zu Naxos Ein melodrama. M:e Schroeter tres bien [****], joua assez bien. L'orage a merveille."""
-195,1781-05-08,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-196,1781-05-08,Le Père de famille,Kth,French,unknown,No,NA,NA
-197,1781-05-09,Wahrheit ist gut Ding,Bth,Court,reprise,Yes,NA,NA
-198,1781-05-09,"Concert, Brigida Banti",Kth,NA,concert,No,Yes,"Morrow, 250, based on entry in Zinzendorf"
-199,1781-05-10,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-200,1781-05-10,Le Sorcier,Kth,French,unknown,No,NA,"""Du Sorcier. O. 2. a."""
-201,1781-05-10,Dupuis et Desronais,Kth,French,unknown,No,NA,"""Dupuis & des Ronæls.C. / 3. a.""This title only in Bender (based on Schletter). Schinke has ""Depuis & de Ronais""."
-202,1781-05-11,Der Zaubergürtel,Bth,unknown,benefit,No,NA,"Not in Hadamowsky or Von Alth/Obzyna. Friday benefit? Hadamowsky has the Burgtheater as ""geschlossen."""
-203,1781-05-11,Ariadne auf Naxos,Bth,Kinder,reprise,No,NA,"Not in Hadamowsky or Von Alth/Obzyna. Friday benefit? Hadamowsky has the Burgtheater as ""geschlossen."""
-204,1781-05-12,"Geschwind, eh es jemand erfährt",Bth,Court,reprise,Yes,NA,NA
-205,1781-05-12,Andromeda und Perseus,Bth,Court,reprise,Yes,NA,"Zinzendorf attended this performance: ""Andromede melodrame musique de M. Zimmer,ann. M:e Sacco joua comme un ange. le mot de Wahrheit quelle expression elle lui donna, en [***]ant a Persée qu'elle l'aime."""
-206,1781-05-12,Le Maréchal ferrant,Kth,French,unknown,No,NA,NA
-207,1781-05-12,Elle a raison,Kth,French,reprise,No,NA,NA
-208,1781-05-13,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-209,1781-05-13,L'Officieux,Kth,French,unknown,No,NA,"Zinzendorf attended these perfromances: ""Au Spectac;le françois. L'homme officieux, puis Nanette et Lucas."""
-210,1781-05-13,Nanette et Lucas,Kth,French,unknown,No,NA,NA
-211,1781-05-14,Das Loch in der Thüre,Bth,Court,reprise,Yes,NA,NA
-212,1781-05-14,Monsieur de St. Charles,Kth,French,reprise,No,NA,NA
-213,1781-05-14,Silvain,Kth,French,unknown,No,NA,NA
-214,1781-05-15,Der Oberamtmann und die Soldaten,Bth,Court,reprise,Yes,NA,From Calderon's Alcalde de Zalamea
-215,1781-05-16,Die Pilgrime von Mekka,Bth,Court,reprise,Yes,NA,NA
-216,1781-05-16,Turcaret,Kth,French,unknown,No,NA,NA
-218,1781-05-16,Le Sorcier,Kth,French,reprise,No,NA,NA
-217,1781-05-17,Die Gefahren der Verführung,Bth,Court,reprise,Yes,NA,NA
-219,1781-05-17,Wer wird sie kriegen,Bth,Court,reprise,Yes,NA,NA
-220,1781-05-17,Le Cercle ou la Soirée à la mode,Kth,French,unknown,No,NA,"""La Soiree a la Mode. C. 1. a."""
-221,1781-05-17,Les Trois Frères rivaux,Kth,French,unknown,No,NA,NA
-222,1781-05-17,Les Deux Avares,Kth,French,unknown,No,NA,NA
-223,1781-05-18,Die Brüder,Bth,unknown,benefit,No,NA,"Not in Hadamowsky or Von Alth/Obzyna. Perhaps a Friday benefit. Hadamowsky has the Burgtheater as ""geschlossen"" on this day."
-224,1781-05-18,"Concert, Monsieur Cervasi",Kth,NA,concert,No,NA,"Sartori:	Matteo Gervasi, composer of La Mistica vittoria (1772)	Giuseppe Gervasoni, a singer active in the early 1780s	Susanna Gervasio, singerGerber 1790, only name even close is Mr. Gervais, violinist who appeared at the Concert spirituel in Paris.There was a tenor Cesare Cervasi in the 1820s"
-225,1781-05-19,Hamlet,Bth,Court,reprise,Yes,NA,Probably with Schröder in the title role?
-226,1781-05-20,Der Bettelstudent,Bth,Court,reprise,Yes,NA,NA
-227,1781-05-20,Nacht und Ungefähr,Bth,Court,reprise,Yes,NA,NA
-228,1781-05-20,Les Pêcheurs,Kth,French,unknown,No,NA,NA
-229,1781-05-20,Les Fourberies de Scapin,Kth,French,unknown,No,NA,NA
-230,1781-05-21,Henriette,Bth,Court,reprise,Yes,NA,NA
-231,1781-05-22,"Jenny, oder die Uneigennützigkeit",Bth,Court,reprise,Yes,NA,NA
-232,1781-05-22,Die eingebildeten Philosophen,Bth,Court,premiere,Yes,NA,NA
-235,1781-05-22,L'Avocat Patelin,Kth,French,unknown,No,NA,NA
-236,1781-05-22,Nanette et Lucas,Kth,French,reprise,No,NA,NA
-237,1781-05-23,Athelstan,Bth,Court,reprise,Yes,NA,NA
-233,1781-05-24,Le Tartuffe,Kth,French,unknown,No,NA,NA
-234,1781-05-24,Le Tableau parlant,Kth,French,reprise,No,NA,NA
-238,1781-05-24,Das Portrait,Bth,Court,reprise,Yes,NA,NA
-239,1781-05-24,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-240,1781-05-25,Theaters closed,NA,NA,closed,NA,NA,NA
-241,1781-05-26,Der argwöhnische Ehemann,Bth,Court,premiere,Yes,NA,NA
-242,1781-05-26,Le Legataire universel,Kth,French,unknown,No,NA,NA
-243,1781-05-26,Le Milicien,Kth,French,unknown,No,NA,NA
-244,1781-05-27,Der argwöhnische Ehemann,Bth,Court,reprise,Yes,NA,NA
-245,1781-05-27,Le Tartuffe,Kth,French,reprise,No,NA,NA
-246,1781-05-27,Rose et Colas,Kth,French,reprise,No,NA,NA
-247,1781-05-28,Die Widersprecherin,Bth,Court,reprise,Yes,NA,NA
-248,1781-05-28,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-249,1781-05-29,Der Schmuck,Bth,Court,premiere,Yes,NA,NA
-250,1781-05-29,La Servante maitresse,Kth,French,reprise,No,NA,NA
-251,1781-05-29,Monsieur de St. Charles,Kth,French,reprise,No,NA,NA
-252,1781-05-30,Die Trauer,Bth,Court,reprise,Yes,NA,NA
-253,1781-05-30,"Adrast und Isidore, oder die Nachtmusik",Bth,Court,reprise,Yes,NA,Second and final performance
-254,1781-05-31,Romeo und Julie,Bth,Court,reprise,Yes,NA,NA
-255,1781-05-31,Le Tartuffe,Kth,French,reprise,No,NA,NA
-256,1781-05-31,La Servante maitresse,Kth,French,reprise,No,NA,NA
-258,1781-06-01,"Hanns bleibt Hanns, oder der Bauer, ein Fürst",Bth,Kinder,reprise,No,NA,"Not in Hadamowsky or Von Alth/Obzyna. Perhaps a Friday benefit? Hadamowsky has the Burgtheater as ""geschlossen""  on this day."
-259,1781-06-01,Die Geschwisterliebe,Bth,Kinder,reprise,No,NA,"Not in Hadamowsky or Von Alth/Obzyna. Perhaps a Friday benefit? Hadamowsky has the Burgtheater as ""geschlossen""  on this day."
-260,1781-06-02,Der Herr Gevatter,Bth,Court,reprise,Yes,NA,NA
-261,1781-06-02,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-262,1781-06-02,Le Legataire universel,Kth,French,reprise,No,NA,NA
-263,1781-06-02,Le Huron,Kth,French,unknown,No,NA,NA
-264,1781-06-03,Theaters closed for Pentecost (Pfingsten),NA,NA,NA,NA,NA,"""Vacat wegen Pfingstfestes"""
-265,1781-06-04,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-266,1781-06-04,Le Huron,Kth,French,reprise,No,NA,NA
-267,1781-06-04,Le Page étourdi,Kth,French,unknown,No,NA,NA
-268,1781-06-05,"Eugenie, oder Die Tugend in Gefahr",Bth,Court,reprise,Yes,NA,NA
-269,1781-06-05,Die Rechnung ohne den Wirth,Bth,Court,reprise,Yes,NA,NA
-270,1781-06-06,Die Liebe unter den Handwerksleuten,Bth,Court,reprise,Yes,NA,NA
-271,1781-06-07,Die Nebenbuhler,Bth,Court,reprise,Yes,NA,NA
-272,1781-06-07,Zémire et Azor,Kth,French,reprise,No,NA,NA
-273,1781-06-08,Theaters closed,NA,NA,closed,NA,NA,NA
-274,1781-06-09,Richard der Dritte,Bth,Court,reprise,Yes,NA,NA
-275,1781-06-09,Jeannot et Colin,Kth,French,unknown,No,NA,"First performed in Paris for the first time 14 Nov 1780. Adapted from a ""conte philosophique"" by Voltaire (1764)"
-276,1781-06-09,La Servante maitresse,Kth,French,reprise,No,NA,NA
-277,1781-06-10,Die Wölfe in der Heerde,Bth,Court,reprise,Yes,NA,NA
-278,1781-06-10,Zémire et Azor,Kth,French,reprise,No,NA,NA
-279,1781-06-11,Die Wirthschaftlerinn,Bth,Court,reprise,Yes,NA,NA
-280,1781-06-11,Die abgeredte Zauberey,Bth,Court,reprise,Yes,NA,NA
-281,1781-06-11,"Concert, Floravante Agostinelli",Kth,NA,concert,No,No,"""Musikalische Akademie z. V. v. Mrs. Agostinelli.""""Mrs."" is probably ""Monsieur,"" based on Schletter's apparent usage. There is a soprano Angela (Angelica) Agostinelli in Sartori in libretti from 1765 to 1767.""Agostinelli"" not in Gerber 1790 or Morrow. See Bernardini 1988, on the Venetian oboist/flutist Floravante Agostinelli (1741–1809). See his note 12. Alternate first names are ""Francesco Saverio"" and ""Florante"". He was employed by the Thurn und Taxis court for 32 years. Burney heard him in Ludwigsburg in 1772.Often referred to (Badley, Murray, Powell) as ""Florante"""
-282,1781-06-12,Edwin und Emma,Bth,Court,reprise,Yes,NA,NA
-283,1781-06-12,Le Sorcier,Kth,French,reprise,No,NA,NA
-284,1781-06-12,Le Mari retrouvé,Kth,French,unknown,No,NA,NA
-285,1781-06-13,Die verfolgte Unbekannte,Bth,Court,reprise,Yes,NA,NA
-286,1781-06-14,Theaters closed (Corpus Christi),NA,NA,closed,NA,NA,NA
-287,1781-06-15,Theaters closed,NA,NA,closed,NA,NA,NA
-288,1781-06-16,Die heimliche Heyrath,Bth,Court,premiere,Yes,NA,NA
-289,1781-06-16,Zémire et Azor,Kth,French,reprise,No,NA,NA
-290,1781-06-17,Die heimliche Heyrath,Bth,Court,reprise,Yes,NA,NA
-291,1781-06-17,La Fausse Magie,Kth,French,reprise,No,NA,NA
-292,1781-06-17,La Fausse Suivante,Kth,French,unknown,No,NA,NA
-293,1781-06-18,Die verfolgte Unbekannte,Bth,Court,reprise,Yes,NA,NA
-294,1781-06-19,König Lear,Bth,Court,reprise,Yes,NA,NA
-295,1781-06-19,L'Ami de la maison,Kth,French,reprise,No,NA,NA
-296,1781-06-19,Les Trois Frères rivaux,Kth,French,reprise,No,NA,NA
-297,1781-06-20,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-298,1781-06-20,La Servante maitresse,Kth,French,reprise,No,NA,NA
-299,1781-06-20,L'Ami de la maison,Kth,French,reprise,No,NA,NA
-300,1781-06-21,Der argwöhnische Ehemann,Bth,Court,reprise,Yes,NA,NA
-301,1781-06-21,Tom Jones,Kth,French,unknown,No,NA,NA
-302,1781-06-22,Theaters closed,NA,NA,NA,NA,NA,NA
-303,1781-06-23,Das Findelkind,Bth,Court,premiere,Yes,NA,NA
-304,1781-06-23,Yariko,Bth,Court,reprise,Yes,NA,NA
-305,1781-06-23,La Fausse Magie,Kth,French,reprise,No,NA,NA
-306,1781-06-23,La Pupille,Kth,French,unknown,No,NA,NA
-307,1781-06-24,Das Findelkind,Bth,Court,reprise,Yes,NA,NA
-308,1781-06-24,Der Wittwer,Bth,Court,reprise,Yes,NA,NA
-309,1781-06-24,Le Déserteur,Kth,French,reprise,No,NA,NA
-310,1781-06-25,Nacht und Ungefähr,Bth,Court,reprise,Yes,NA,NA
-311,1781-06-25,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-312,1781-06-26,Die heimliche Heyrath,Bth,Court,reprise,Yes,NA,NA
-313,1781-06-27,Die verfolgte Unbekannte,Bth,Court,reprise,Yes,NA,NA
-314,1781-06-27,Zémire et Azor,Kth,French,reprise,No,NA,NA
-315,1781-06-28,Richard der Dritte,Bth,Court,reprise,Yes,NA,NA
-316,1781-06-28,Le Mazet,Kth,French,unknown,No,NA,NA
-317,1781-06-28,Crispin médecin,Kth,French,unknown,No,NA,NA
-318,1781-06-29,Theaters closed,NA,NA,NA,NA,NA,NA
-319,1781-06-30,Die Gefahren der Verführung,Bth,Court,reprise,Yes,NA,Final performance
-320,1781-06-30,Der Dichterling,Bth,Court,premiere,Yes,NA,NA
-321,1781-06-30,Orphée et Euridice,Kth,French,unknown,No,NA,NA
-322,1781-07-01,Der Dichterling,Bth,Court,reprise,Yes,NA,NA
-323,1781-07-01,Der Faßbinder,Bth,Court,reprise,Yes,NA,NA
-324,1781-07-01,Orphée et Euridice,Kth,French,reprise,No,NA,NA
-325,1781-07-02,Juliane von Lindorak,Bth,Court,reprise,Yes,NA,NA
-326,1781-07-02,Die abgenöthige Einwilligung,Bth,Court,reprise,Yes,NA,NA
-327,1781-07-02,Das Gärtnermädchen von Fraskati,Kth,Preßburg,unknown,No,NA,NA
-328,1781-07-02,Die Faßbinder,Kth,Preßburg,unknown,No,NA,NA
-329,1781-07-03,Die Ungetreuen,Bth,Court,premiere,Yes,NA,NA
-330,1781-07-03,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Bth,Court,reprise,Yes,NA,NA
-331,1781-07-03,La Colonie,Kth,French,unknown,No,NA,NA
-332,1781-07-03,"Crispin, Rival de son maître",Kth,French,unknown,No,NA,NA
-333,1781-07-04,Der Graf von Walltron,Bth,Court,reprise,Yes,NA,NA
-334,1781-07-04,Das Gärtnermädchen von Fraskati,NA,Preßburg,reprise,No,NA,NA
-335,1781-07-04,Bauern verstehn nicht Spaß,Kth,Preßburg,unknown,No,NA,NA
-336,1781-07-05,Die unversehene Wette,Bth,Court,premiere,Yes,NA,NA
-337,1781-07-05,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-338,1781-07-05,La Colonie,Kth,French,reprise,No,NA,NA
-339,1781-07-05,Les Deux Avares,Kth,French,reprise,No,NA,NA
-340,1781-07-06,Theaters closed,NA,NA,NA,NA,NA,NA
-341,1781-07-07,Der Dienstfertige,Bth,Court,premiere,Yes,NA,NA
-348,1781-07-07,Der Dichterling,Bth,Court,reprise,Yes,NA,NA
-349,1781-07-07,Le Tout en peu,Kth,French,unknown,No,NA,NA
-350,1781-07-07,"Les Menechmes, ou les Jumeaux",Kth,French,unknown,No,NA,NA
-342,1781-07-08,Der Sklavenhändler von Smyrna,Bth,Court,reprise,Yes,NA,NA
-343,1781-07-08,Der Stolz des Grafen Barcelona,Kth,Preßburg,unknown,No,NA,The singspiel is unidentified
-344,1781-07-08,Die sieben Schwaben,Kth,Preßburg,unknown,No,NA,"""Die 7. Schwaben. B."""
-345,1781-07-09,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-346,1781-07-09,Le Somnambule,Kth,French,unknown,No,NA,NA
-347,1781-07-09,La Fausse Magie,Kth,French,reprise,No,NA,NA
-351,1781-07-10,Der Barbier von Sevilien,Bth,Court,reprise,Yes,NA,NA
-352,1781-07-10,Milton und Elmire,Kth,Preßburg,unknown,No,NA,"""Milton und Elmire / A. v. Göthe. Ballet.""Schletter may have confused Milton und Elmire with Goethe's Erwin und Elmire, which had been in the repertory of the court theater since 1776."
-353,1781-07-10,No title,Kth,Preßburg,unknown,No,NA,NA
-354,1781-07-11,Der Liebhaber als ein Schriftsteller und Bedienter,Bth,Court,reprise,Yes,NA,NA
-355,1781-07-11,Die Wâschermädchen,Bth,Court,premiere,Yes,NA,Performed only three times
-356,1781-07-11,"Héraclite, ou le Triomphe de la Beauté",Kth,French,unknown,No,NA,NA
-357,1781-07-11,Les Précieuses ridicules,Kth,French,reprise,No,NA,NA
-358,1781-07-12,Der gutherzige Murrkopf,Bth,Court,reprise,Yes,NA,NA
-359,1781-07-12,Andromeda und Perseus,Bth,Court,reprise,Yes,NA,Final performance
-360,1781-07-12,Ariadne auf Naxos,Kth,Preßburg,unknown,No,NA,NA
-361,1781-07-12,Inkle und Yariko,Kth,Preßburg,reprise,No,NA,Confusion over multiple works with this or related titles.
-362,1781-07-12,No title,Kth,Preßburg,unknown,No,NA,NA
-363,1781-07-13,Theaters closed,NA,NA,NA,NA,NA,NA
-364,1781-07-14,Der Dienstfertige,Bth,Court,reprise,Yes,NA,NA
-365,1781-07-14,Der verlogene Bediente,Bth,Court,premiere,Yes,NA,NA
-366,1781-07-14,Der Jahrmarkt von Venedig,Kth,Preßburg,unknown,No,NA,NA
-367,1781-07-15,Der verlogene Bediente,Bth,Court,reprise,Yes,NA,NA
-368,1781-07-15,Die Wâschermädchen,Bth,Court,reprise,NA,NA,NA
-369,1781-07-15,"La Comédie à l'impromptu, ou les Dupes",Kth,French,unknown,No,NA,NA
-370,1781-07-15,Le Tonnellier,Kth,French,reprise,No,NA,NA
-371,1781-07-15,La Servante maitresse,Kth,French,reprise,No,NA,NA
-372,1781-07-16,Die heimliche Heyrath,Bth,Court,reprise,Yes,NA,NA
-373,1781-07-16,Inkle und Yariko,Kth,French,reprise,No,NA,NA
-374,1781-07-16,No title,Kth,French,unknown,No,NA,NA
-375,1781-07-16,Springerkünde (tumblers),Kth,French,unknown,No,NA,NA
-376,1781-07-17,"Adelaide, oder die Antipathie gegen die Liebe",Bth,Court,reprise,Yes,NA,Final performance
-377,1781-07-17,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Bth,Court,reprise,Yes,NA,NA
-378,1781-07-17,Le Roi et le Fermier,Kth,French,unknown,No,NA,NA
-379,1781-07-17,"La Comédie à l'impromptu, ou les Dupes",Kth,French,reprise,No,NA,NA
-380,1781-07-18,Olivie,Bth,Court,reprise,Yes,NA,NA
-381,1781-07-18,Wer wird sie kriegen,Bth,Court,reprise,Yes,NA,NA
-382,1781-07-18,Der Jahrmarkt von Venedig,Kth,Preßburg,reprise,No,NA,NA
-383,1781-07-19,Zemire und Azor,Bth,Court,reprise,Yes,NA,In German
-384,1781-07-20,Theaters closed,NA,NA,NA,NA,NA,NA
-385,1781-07-21,Die dürftige Familie,Bth,Court,premiere,Yes,NA,NA
-388,1781-07-21,Der Teufel steckt in ihm,Bth,Court,reprise,Yes,NA,NA
-389,1781-07-21,La Belle Arsène,Kth,French,reprise,No,NA,NA
-386,1781-07-22,Der Kühehirt,Bth,Court,reprise,Yes,NA,NA
-387,1781-07-22,Die zwey Gräfinnen,Kth,Preßburg,unknown,No,NA,"German version of Le due contesse, which had been performed in Vienna in 1776 and 1777."
-390,1781-07-22,Die dürftige Familie,Bth,Court,reprise,Yes,NA,NA
-391,1781-07-23,Der Todte ein Freyer,Bth,Court,reprise,Yes,NA,NA
-392,1781-07-23,Die abgeredte Zauberey,Bth,Court,reprise,Yes,NA,NA
-393,1781-07-23,Zémire et Azor,Kth,French,reprise,No,NA,NA
-394,1781-07-24,Der Westindier,Bth,Court,reprise,Yes,NA,NA
-395,1781-07-25,Der Barbier von Sevilien,Bth,Court,reprise,Yes,NA,NA
-396,1781-07-25,Monsieur de St. Charles,Kth,French,reprise,No,NA,NA
-397,1781-07-25,L'Ami de la maison,Kth,French,reprise,No,NA,NA
-398,1781-07-26,Die Pilgrime von Mekka,Bth,Court,reprise,Yes,NA,NA
-399,1781-07-26,Le Maréchal ferrant,Kth,French,reprise,No,NA,NA
-400,1781-07-26,L'Ami de la maison,Kth,French,reprise,No,NA,NA
-401,1781-07-27,Theaters closed,NA,NA,NA,NA,NA,NA
-402,1781-07-28,Elfride,Bth,Court,reprise,Yes,NA,NA
-403,1781-07-28,Die große Batterie,Bth,Court,reprise,Yes,NA,NA
-404,1781-07-28,La Rosière de Salency,Kth,French,reprise,No,NA,NA
-405,1781-07-29,Betrug für Betrug,Bth,Court,reprise,Yes,NA,NA
-406,1781-07-29,La Belle Arsène,Kth,French,reprise,No,NA,NA
-407,1781-07-30,Die gegenseitige Probe,Bth,Court,reprise,Yes,NA,NA
-408,1781-07-30,Der Hausfreund,Bth,Court,reprise,Yes,NA,NA
-409,1781-07-30,L'Amitié à l'epreuve,Kth,French,unknown,No,NA,NA
-410,1781-07-30,Les Folies amoureuses,Kth,French,reprise,No,NA,NA
-411,1781-07-31,Erwine von Steinheim,NA,Court,reprise,Yes,NA,NA
-412,1781-08-01,Bekir und Gulroui,Bth,Court,reprise,Yes,NA,Final performance
-413,1781-08-01,Der Deserteur,Bth,Court,reprise,Yes,NA,"In German, as a singspiel"
-414,1781-08-01,La Colonie,Kth,French,reprise,No,NA,NA
-415,1781-08-01,La Pupille,Kth,French,reprise,No,NA,NA
-416,1781-08-02,Die dürftige Familie,Bth,Court,reprise,Yes,NA,NA
-417,1781-08-02,La Servante maitresse,Kth,French,reprise,No,NA,NA
-418,1781-08-02,Le Mazet,Kth,French,premiere,No,NA,NA
-419,1781-08-03,Theaters closed,NA,NA,NA,NA,NA,NA
-420,1781-08-04,Der dankbare Sohn,Bth,Court,reprise,Yes,NA,NA
-421,1781-08-04,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-422,1781-08-04,Ninette à la cour,Kth,French,unknown,No,NA,NA
-423,1781-08-04,Les Trois Frères rivaux,Kth,French,reprise,No,NA,NA
-424,1781-08-05,Das Landmädchen,Bth,Court,reprise,Yes,NA,NA
-425,1781-08-05,La Bonne Fille,Kth,French,reprise,No,NA,NA
-426,1781-08-06,Wahrheit ist gut Ding,Bth,Court,reprise,Yes,NA,NA
-427,1781-08-06,Democrite amoureux,Kth,French,reprise,No,NA,NA
-428,1781-08-06,Le Tableau parlant,Kth,French,reprise,No,NA,NA
-429,1781-08-07,Die Uebereilung,Bth,Court,reprise,Yes,NA,NA
-430,1781-08-07,Die Sklavinn,Bth,Court,premiere,Yes,NA,Performed only twice
-431,1781-08-08,Zu gut ist nicht gut,Bth,Court,reprise,Yes,NA,Final performance
-432,1781-08-08,Le Tartuffe,Kth,French,reprise,No,NA,NA
-433,1781-08-08,La Bonne Fille,Kth,French,reprise,No,NA,NA
-434,1781-08-09,Die Trauer,Bth,Court,reprise,Yes,NA,NA
-435,1781-08-09,Die Wâschermädchen,Bth,Court,reprise,Yes,NA,Final performance
-436,1781-08-09,La Fausse Suivante,Kth,French,reprise,No,NA,NA
-437,1781-08-09,Silvain,Kth,French,reprise,No,NA,NA
-438,1781-08-10,Theaters closed,NA,NA,NA,NA,NA,NA
-439,1781-08-11,Gianetta Montaldi,Bth,Court,premiere,Yes,NA,NA
-440,1781-08-11,Le Marchand de Smyrne,Kth,French,unknown,No,NA,"""Le Marchand de Smirne / O. 1. a."""
-441,1781-08-11,La Fausse Magie,Kth,French,reprise,No,NA,NA
-442,1781-08-12,Gianetta Montaldi,Bth,Court,reprise,Yes,NA,NA
-443,1781-08-12,La Servante maitresse,Kth,French,reprise,No,NA,NA
-444,1781-08-12,La Sérénade,Kth,French,unknown,No,NA,NA
-445,1781-08-12,"La Comédie à l'impromptu, ou les Dupes",Kth,French,reprise,No,NA,"""Les Dupes. O. 1. a.""Uncertain whether this work, listed as an opera, is the same as La Comédie à l'impromptu, ou les Dupes performed by the French company in July."
-446,1781-08-13,Der Bettler,Bth,Court,reprise,Yes,NA,NA
-447,1781-08-13,Was erhält die Männer treu?,Bth,Court,reprise,Yes,NA,NA
-448,1781-08-14,Die heimliche Heyrath,Bth,Court,reprise,Yes,NA,NA
-449,1781-08-14,Le Procureur arbitre,Kth,French,unknown,No,NA,NA
-450,1781-08-14,L'Amoreux de quinze ans,Kth,French,reprise,No,NA,NA
-451,1781-08-15,Der Dichterling,Bth,Court,reprise,Yes,NA,NA
-452,1781-08-15,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-453,1781-08-15,Zémire et Azor,Kth,French,reprise,No,NA,NA
-454,1781-08-16,Die dürftige Familie,Bth,Court,reprise,Yes,NA,Final perfomance
-455,1781-08-16,Der verlogene Bediente,Bth,Court,reprise,Yes,NA,NA
-456,1781-08-16,La Rosière de Salency,Kth,French,reprise,No,NA,NA
-457,1781-08-17,Theaters closed,NA,NA,NA,NA,NA,NA
-458,1781-08-18,Theaters closed (anniversary of death of Francis Stephen),NA,NA,NA,NA,NA,NA
-459,1781-08-19,Zemire und Azor,Bth,Court,reprise,Yes,NA,In German as singspiel
-460,1781-08-19,Les Battus paient l'amende,Kth,French,unknown,No,NA,NA
-461,1781-08-19,Rose et Colas,Kth,French,reprise,No,NA,NA
-462,1781-08-19,La Servante maitresse,Kth,French,reprise,No,NA,NA
-463,1781-08-20,Der argwöhnische Ehemann,Bth,Court,reprise,Yes,NA,NA
-464,1781-08-21,Romeo und Julie,Bth,Court,reprise,Yes,NA,NA
-465,1781-08-21,La Bonne Fille,Kth,French,reprise,No,NA,NA
-466,1781-08-21,Les Battus paient l'amende,Kth,French,reprise,No,NA,NA
-467,1781-08-22,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-468,1781-08-23,Der Barbier von Sevilien,Bth,Court,reprise,Yes,NA,NA
-469,1781-08-23,Le Mari retrouvé,Kth,French,reprise,No,NA,NA
-470,1781-08-23,Silvain,Kth,French,reprise,No,NA,NA
-471,1781-08-24,Theaters closed,NA,NA,NA,NA,NA,NA
-472,1781-08-25,Der Dienstfertige,Bth,Court,reprise,Yes,NA,NA
-473,1781-08-25,Die Eroberung von Saint-Lucie,Bth,Court,premiere,Yes,NA,Performed only three times.
-474,1781-08-25,Les Pèlerins de la Mecque,Kth,French,unknown,No,NA,NA
-475,1781-08-26,Die Wildschützen,Bth,Court,reprise,Yes,NA,NA
-476,1781-08-26,Les Pèlerins de la Mecque,Kth,French,reprise,No,NA,NA
-477,1781-08-27,Die Pilgrime von Mekka,Bth,Court,reprise,Yes,NA,NA
-478,1781-08-28,Der Schubkarren des Essighändlers,Bth,Court,reprise,Yes,NA,NA
-479,1781-08-28,Die Wirthschaftlerinn,Bth,Court,reprise,No,NA,Hadamowsky has Die Widersprecherin on this date
-480,1781-08-28,L'Amoreux de quinze ans,Kth,French,reprise,No,NA,NA
-481,1781-08-28,Pygmalion,Kth,French,reprise,No,NA,NA
-482,1781-08-29,Die Eroberung von Saint-Lucie,Bth,Court,reprise,Yes,NA,NA
-483,1781-08-29,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-484,1781-08-30,Gianetta Montaldi,Bth,Court,reprise,Yes,NA,NA
-485,1781-08-30,La Colonie,Kth,French,reprise,No,NA,NA
-486,1781-08-30,Les Deux Chasseurs et la Laitière,Kth,French,reprise,No,NA,NA
-487,1781-08-31,Adelheit von Veltheim,Bth,Kinder,premiere,No,NA,This work and performance is not in Hadamowsky.
-488,1781-09-01,"Jenny, oder die Uneigennützigkeit",Bth,Court,reprise,Yes,NA,NA
-489,1781-09-01,Die unvermutheten Zufälle,Bth,Court,premiere,Yes,NA,Performed only four times.
-490,1781-09-01,La Fée Urgèle,Kth,French,unknown,No,NA,NA
-491,1781-09-02,Der Kobold,Bth,Court,reprise,Yes,NA,NA
-492,1781-09-02,Les Pèlerins de la Mecque,Kth,French,reprise,No,NA,NA
-493,1781-09-03,Die Rechnung ohne den Wirth,Bth,Court,reprise,Yes,NA,NA
-494,1781-09-03,Die unvermutheten Zufälle,Bth,Court,reprise,Yes,NA,NA
-495,1781-09-04,Athelstan,Bth,Court,reprise,Yes,NA,NA
-496,1781-09-04,La Servante maitresse,Kth,French,reprise,No,NA,NA
-497,1781-09-04,Dupuis et Desronais,Kth,French,reprise,No,NA,NA
-498,1781-09-05,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-499,1781-09-06,Die gute Tochter,Bth,Court,reprise,Yes,NA,NA
-500,1781-09-07,Adelheit von Veltheim,Bth,Kinder,reprise,No,NA,See 31 Aug 1781
-501,1781-09-08,Theaters closed for Mariä Geburt (Nativity of Mary),NA,NA,NA,NA,NA,NA
-502,1781-09-09,Die Ungetreuen,Bth,Court,reprise,Yes,NA,Final performance
-503,1781-09-09,Die unvermutheten Zufälle,Bth,Court,reprise,Yes,NA,NA
-504,1781-09-09,Le Déserteur,Kth,French,reprise,No,NA,"The directors of the French company absconded from Vienna on 8 Sep 1781 because of the company's poor finances. The company chose Le Petit as in interim internal director. They were allowed to continue their performances, but the emperor resolved on 8 Sep: “aber ihre Effecten, die vermutlich denen Entrepreneurs gehörten, sind für die Schuldner in Beschlag zu nehmen"" (Hadamowsky, 464)."
-505,1781-09-10,Richard der Dritte,Bth,Court,reprise,Yes,NA,NA
-506,1781-09-11,Das Lustlager,Bth,Court,reprise,Yes,NA,Final performance
-507,1781-09-11,"Die pücefarbnen Schuhe, oder Die schöne Schusterin",Bth,Court,reprise,Yes,NA,NA
-508,1781-09-11,Le Tonnellier,Kth,French,reprise,No,NA,NA
-509,1781-09-11,Le Magnifique,Kth,French,unknown,No,NA,NA
-510,1781-09-12,Der Graf von Olsbach,Bth,Court,reprise,Yes,NA,NA
-511,1781-09-13,Die Verlobung,Bth,Court,reprise,Yes,NA,NA
-512,1781-09-13,Der Hausfreund,Kth,Court,reprise,Yes,NA,NA
-513,1781-09-14,Die Schwiegermutter,Kth,Kinder,unknown,No,NA,"This performance, on a Friday, is not in Hadamowsky or Von Alth/Obzyna/"
-514,1781-09-14,Der Aepfeldieb,Bth,Kinder,unknown,No,NA,"From the 1781 Viennese libretto: ""Aufgeführt auf dem k. k. Hof=Nationaltheater von der in der Schauspielkunst sich übenden Jugend."""
-515,1781-09-15,Das öffentliche Geheimniß,Bth,Court,premiere,Yes,NA,NA
-516,1781-09-15,"L'Amant jaloux, ou les Fausses Apparences",Kth,French,reprise,No,NA,NA
-517,1781-09-16,Das öffentliche Geheimniß,Bth,Court,reprise,Yes,NA,NA
-518,1781-09-16,"L'Amant jaloux, ou les Fausses Apparences",Kth,French,reprise,No,NA,NA
-519,1781-09-17,Der Dichterling,Bth,Court,reprise,Yes,NA,NA
-520,1781-09-17,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-521,1781-09-18,Das öffentliche Geheimniß,Bth,Court,reprise,Yes,NA,NA
-522,1781-09-19,Die Wirthschaftlerinn,Bth,Court,reprise,Yes,NA,NA
-523,1781-09-19,Die unvermutheten Zufälle,Bth,Court,reprise,Yes,NA,Final performance
-524,1781-09-20,Das öffentliche Geheimniß,Bth,Court,reprise,Yes,NA,NA
-525,1781-09-20,Le Jugement de Midas,Kth,French,unknown,No,NA,NA
-526,1781-09-21,Die Schwiegermutter,Bth,Kinder,reprise,No,NA,NA
-527,1781-09-21,Der Aepfeldieb,Bth,Kinder,reprise,No,NA,NA
-528,1781-09-22,Percy,Bth,Court,reprise,Yes,NA,NA
-529,1781-09-22,Le Maître en droit,Kth,French,unknown,No,NA,NA
-530,1781-09-22,"L'Erreur d'un moment, ou la Suite de Julie",Kth,French,unknown,No,NA,NA
-531,1781-09-23,Die Wölfe in der Heerde,Bth,Court,reprise,Yes,NA,Final performance
-532,1781-09-23,Sancho Pança dans son isle,Kth,French,unknown,No,NA,NA
-533,1781-09-23,La Clochette,Kth,French,unknown,No,NA,NA
-534,1781-09-24,Die Eroberung von Saint-Lucie,Bth,Court,reprise,Yes,NA,Final performance
-535,1781-09-24,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-536,1781-09-25,Wahrheit ist gut Ding,Bth,Court,reprise,Yes,NA,NA
-537,1781-09-25,Le Jugement de Midas,Kth,French,reprise,No,NA,NA
-538,1781-09-26,Zemire und Azor,Bth,Court,reprise,Yes,NA,"Schletter: ""Zemire u. Apor [sic] mit / Ballet."""
-539,1781-09-27,Das Loch in der Thüre,Bth,Court,reprise,Yes,NA,NA
-540,1781-09-28,Adelheit von Veltheim,Bth,Kinder,reprise,No,NA,NA
-541,1781-09-29,Der seltne Freyer,Bth,Court,premiere,Yes,NA,NA
-542,1781-09-29,Der Herr Gevatter,Bth,Court,reprise,Yes,NA,Final performance
-543,1781-09-29,"L'Olympiade, ou le Triomphe de l'amitié",Kth,French,unknown,No,NA,NA
-544,1781-09-30,Das öffentliche Geheimniß,Bth,Court,reprise,Yes,NA,NA
-545,1781-09-30,Julie,Kth,French,unknown,No,NA,NA
-546,1781-09-30,"L'Erreur d'un moment, ou la Suite de Julie",Kth,French,reprise,No,NA,NA
-547,1781-10-01,Zemire und Azor,Bth,Court,reprise,Yes,NA,NA
-548,1781-10-02,Der seltne Freyer,Bth,Court,reprise,Yes,NA,NA
-549,1781-10-02,Die Trauer,Bth,Court,reprise,Yes,NA,NA
-550,1781-10-02,L'Ami de la maison,Kth,French,reprise,No,NA,NA
-551,1781-10-02,Lucile,Kth,French,unknown,No,NA,NA
-552,1781-10-03,Der seltne Freyer,Bth,Court,reprise,Yes,NA,NA
-553,1781-10-03,Der Faßbinder,Bth,Court,reprise,Yes,NA,NA
-554,1781-10-04,Inkle und Yariko,Bth,Court,reprise,Yes,NA,NA
-555,1781-10-04,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-556,1781-10-04,La Rosière de Salency,Kth,French,reprise,No,NA,NA
-557,1781-10-05,Reinhold und Armida,Bth,Kinder,premiere,No,NA,"Possibly a benefit for composer Peter Winter, who seems still to have been in Vienna? Or Theaterschule"
-558,1781-10-06,Edwin und Emma,Bth,Court,reprise,Yes,NA,NA
-559,1781-10-06,Tom Jones,Kth,French,reprise,No,NA,NA
-560,1781-10-07,Zemire und Azor,Bth,Court,reprise,Yes,NA,NA
-561,1781-10-07,Les Pèlerins de la Mecque,Kth,French,reprise,No,NA,NA
-562,1781-10-08,Das öffentliche Geheimniß,Bth,Court,reprise,Yes,NA,NA
-563,1781-10-08,Fencing academy,Kth,unknown,NA,No,NA,"""Fechtakademie"""
-564,1781-10-09,Betrug für Betrug,Bth,Court,reprise,Yes,NA,NA
-565,1781-10-09,La Bonne Fille,Kth,French,reprise,No,NA,NA
-566,1781-10-09,Les Deux Chasseurs et la Laitière,Kth,French,reprise,No,NA,NA
-567,1781-10-10,Das Findelkind,Bth,Court,reprise,Yes,NA,NA
-568,1781-10-10,Der Dichterling,Bth,Court,reprise,Yes,NA,Final performance
-569,1781-10-11,Die gegenseitige Probe,Bth,Court,reprise,Yes,NA,NA
-570,1781-10-11,Die Sklavinn,Bth,Court,reprise,Yes,NA,Final performance
-571,1781-10-11,L'Amitié à l'epreuve,Kth,French,reprise,No,NA,NA
-572,1781-10-11,Les Deux Avares,Kth,French,reprise,No,NA,NA
-573,1781-10-12,Reinhold und Armida,Bth,Kinder,reprise,No,NA,NA
-574,1781-10-12,Die Geschwisterliebe,Bth,Kinder,reprise,No,NA,NA
-575,1781-10-13,Der Ostindienfahrer,Bth,Court,premiere,Yes,NA,"Performed just three times in 1781, and revived for two performances in 1785."
-576,1781-10-14,"L'Olympiade, ou le Triomphe de l'amitié",Kth,French,reprise,No,NA,NA
-577,1781-10-15,Theaters closed (Saint Teresa's Day),NA,NA,NA,NA,NA,NA
-578,1781-10-16,Die Liebe unter den Handwerksleuten,Bth,Court,reprise,Yes,NA,NA
-579,1781-10-16,"Le Bûcheron, ou les Trois souhaits",Kth,French,unknown,No,NA,NA
-580,1781-10-16,Ninette à la cour,Kth,French,reprise,No,NA,NA
-581,1781-10-17,Der Barbier von Sevilien,Bth,Court,reprise,Yes,NA,NA
-582,1781-10-17,Pyrrhus und Polixene,Bth,Court,premiere,Yes,NA,NA
-583,1781-10-18,Die Pilgrime von Mekka,Bth,Court,reprise,Yes,NA,NA
-584,1781-10-18,Julie,Kth,French,reprise,No,NA,NA
-585,1781-10-18,Le Tableau parlant,Kth,French,reprise,No,NA,NA
-586,1781-10-19,Adelheit von Veltheim,Kth,Kinder,reprise,No,NA,NA
-587,1781-10-20,Der Ostindienfahrer,Bth,Court,reprise,Yes,NA,"Third performance. SchletterL ""Der Ostindienfahrer / (Autors Einnahme.)"""
-588,1781-10-20,Pyrrhus und Polixene,Bth,Court,reprise,Yes,NA,NA
-589,1781-10-21,Die abgeredte Zauberey,Bth,Court,reprise,Yes,NA,NA
-590,1781-10-21,Pyrrhus und Polixene,Bth,Court,reprise,Yes,NA,NA
-591,1781-10-21,La Belle Cordonniere,Kth,French,reprise,No,NA,NA
-592,1781-10-21,"Le Bûcheron, ou les Trois souhaits",Kth,French,reprise,No,NA,NA
-593,1781-10-22,Der Dienstfertige,Bth,Court,reprise,Yes,NA,Final performance of Schletter's version.
-594,1781-10-22,Der verlogene Bediente,Bth,Court,reprise,Yes,NA,NA
-595,1781-10-23,Iphigenie auf Tauris,Bth,Court,premiere,Yes,NA,NA
-596,1781-10-23,Le Maître en droit,Kth,French,reprise,No,NA,NA
-597,1781-10-23,On ne s'avise jamais de tout,Kth,French,unknown,No,NA,NA
-598,1781-10-24,Henriette,Bth,Court,reprise,Yes,NA,NA
-599,1781-10-24,Das Winterquartier in Amerika,Bth,Court,reprise,Yes,NA,NA
-600,1781-10-25,Iphigenie auf Tauris,Bth,Court,reprise,Yes,NA,NA
-601,1781-10-25,Le Magnifique,Kth,French,reprise,No,NA,NA
-602,1781-10-25,Rose et Colas,Kth,French,reprise,No,NA,NA
-603,1781-10-26,Theaters closed,NA,NA,NA,NA,NA,NA
-604,1781-10-27,Die Familie,Bth,Court,premiere,Yes,NA,NA
-605,1781-10-27,Der Wittwer,Bth,Court,reprise,Yes,NA,NA
-606,1781-10-28,Die Familie,Bth,Court,reprise,Yes,NA,NA
-607,1781-10-28,La Belle Arsène,Kth,French,reprise,No,NA,NA
-608,1781-10-29,Der Hausfreund,Bth,Court,reprise,Yes,NA,NA
-609,1781-10-29,Pyrrhus und Polixene,Bth,Court,reprise,Yes,NA,NA
-610,1781-10-30,Iphigenie auf Tauris,Bth,Court,free,Yes,NA,"Entry to the theater was free in celebration of the news of Marie Antoinette's successful delivery of a male child and potential heir to the French throne, Louis-Joseph de France, on 22 Oct 1781. (Louis-Joseph died on 4 Jun 1789.)"
-611,1781-10-30,Das Landmädchen,Kth,unknown,free,No,NA,Das Landmädchen was in the repertory of the court theater company. This free performance in the Kärntnertortheater is not in Hadamowsky.
-612,1781-10-31,Juliane von Lindorak,Bth,Court,reprise,Yes,NA,NA
-613,1781-10-31,Der dankbare Sohn,Bth,Court,reprise,Yes,NA,NA
-614,1781-10-31,La Belle Cordonniere,Kth,French,free,No,NA,"Free in celebration of the news of Marie Antoinette's successful delivery of a male child and potential heir to the French throne, Louis-Joseph de France, on 22 Oct 1781. (Louis-Joseph died on 4 Jun 1789.)"
-615,1781-10-31,Le Tonnellier,Kth,French,free,No,NA,NA
-616,1781-11-01,Theaters closed for All Saints (Allerheiligen),NA,NA,NA,NA,NA,NA
-617,1781-11-02,Der Furchtsame,Bth,Court,reprise,No,NA,"Hadamowsky has the Burgtheater closed on this day. The earliest performance of Der Furchtsame in Hadamowsky was on 1 Sep 1764, and the latest on 19 Jan 1779."
-622,1781-11-03,Das Testament,Bth,Court,premiere,Yes,NA,NA
-623,1781-11-03,Les Evénements imprévus,Kth,French,unknown,No,NA,NA
-624,1781-11-03,Les Pêcheurs,Kth,French,reprise,No,NA,NA
-625,1781-11-04,Das Testament,Bth,Court,reprise,Yes,NA,NA
-626,1781-11-04,"L'Amant jaloux, ou les Fausses Apparences",Kth,French,reprise,No,NA,NA
-627,1781-11-05,Robert und Kalliste,Bth,Court,reprise,Yes,NA,First performed by the court theater in Vienna on 1 Oct 1778.
-628,1781-11-06,Der Deserteur aus Kindesliebe,Bth,Court,reprise,Yes,NA,NA
-629,1781-11-06,Pyrrhus und Polixene,Bth,Court,reprise,Yes,NA,NA
-630,1781-11-06,Le Jugement de Midas,Kth,French,reprise,No,NA,NA
-631,1781-11-07,Minna von Barnhelm,Bth,Court,reprise,Yes,NA,NA
-632,1781-11-08,Iphigenie auf Tauris,Bth,Court,reprise,Yes,NA,NA
-633,1781-11-09,Philotas,Bth,Kinder,premiere,No,NA,Perhaps given by the Theaterschule? No Viennese playbook in the ÖNB.
-634,1781-11-09,"Peter du bleibst, oder Der Hausfreund auf dem Lande",Bth,Kinder,unknown,No,NA,NA
-635,1781-11-09,Les Pèlereins de la Mecque,Kth,French,reprise,No,NA,NA
-636,1781-11-10,Das Testament,Bth,Court,reprise,Yes,NA,"""Das Testament / (Autors Einnahme)"". Third performance"
-637,1781-11-10,Die schöne Nanette,Bth,Court,premiere,Yes,NA,Performed just once.
-638,1781-11-11,Iphigenie auf Tauris,Bth,Court,reprise,Yes,NA,NA
-639,1781-11-11,La Belle Arsène,Kth,French,reprise,No,NA,NA
-640,1781-11-12,Die Familie,Bth,Court,reprise,Yes,NA,NA
-641,1781-11-12,Inkle und Yariko,Bth,Court,reprise,Yes,NA,NA
-642,1781-11-12,La Fausse Magie,Kth,French,reprise,No,NA,NA
-643,1781-11-12,L'impromptu du coeur,Kth,French,unknown,No,NA,"""L'impro di Coeur a l'occas. / de la Naissance de Mgr. le Dauphine."" The reference is to the potential heir to the French throne, Louis-Joseph de France, born on 22 Oct 1781. (Louis-Joseph died on 4 Jun 1789.)"
-644,1781-11-13,Der stürmische Liebhaber,Bth,Court,reprise,Yes,NA,NA
-645,1781-11-13,Die Liebe unter den Handwerksleuten,Bth,Court,reprise,No,NA,This performance is missing in Hadamowsky.
-646,1781-11-14,Der eifersüchtige Liebhaber,Bth,Court,reprise,Yes,NA,NA
-647,1781-11-14,Progne und Philomele,Bth,Court,premiere,Yes,NA,Performed only twice
-648,1781-11-15,Hamlet,Bth,Court,reprise,Yes,NA,NA
-649,1781-11-15,L'Amoreux de quinze ans,Kth,French,reprise,No,NA,NA
-650,1781-11-16,Präsentirt das Gewehr,Bth,Kinder,reprise,No,NA,"Not specified as being done by the Kindertheater, but Präsentirt das Gewehr was in their repertoire."
-651,1781-11-16,"Peter du bleibst, oder Der Hausfreund auf dem Lande",Bth,Kinder,reprise,No,NA,NA
-652,1781-11-16,"Concert, Mademoiselle Hauck (giantess)",Kth,NA,concert,No,Yes,The program of this concert is known from a surviving poster.
-653,1781-11-17,Der Weise in der That,Bth,Court,reprise,Yes,Yes,"Hadamowsky has a performance of Der Weise in der That as early as 14 May 1768, and it had been in the repertory of the Nationaltheater since 2 Jul 1776."
-654,1781-11-17,Der Arrestant,Bth,Court,premiere,Yes,NA,Performed only twice.
-655,1781-11-17,L'Impromptu du coeur,Kth,French,reprise,No,NA,NA
-656,1781-11-17,L'Ami de la maison,Kth,French,reprise,No,NA,NA
-657,1781-11-18,Thorheit und Betrügerey,Bth,Court,reprise,Yes,NA,NA
-658,1781-11-18,"L'Olympiade, ou le Triomphe de l'amitié",Kth,French,reprise,No,NA,NA
-659,1781-11-19,Der Arrestant,Bth,Court,reprise,Yes,NA,Final performance
-660,1781-11-19,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-661,1781-11-19,Les Deux Billets,Kth,French,unknown,No,NA,NA
-662,1781-11-19,Sara ou la Fermière ecossaise,Kth,French,unknown,No,NA,NA
-663,1781-11-20,Der Barbier von Sevilien,Bth,Court,reprise,Yes,NA,NA
-664,1781-11-21,Zemire und Azor,Bth,Court,reprise,Yes,NA,NA
-665,1781-11-22,Das Testament,Bth,Court,reprise,Yes,NA,NA
-666,1781-11-23,Die Haushaltung nach der Mode,Bth,Kinder,unknown,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Theaterschule?
-667,1781-11-24,Olivie,Bth,Court,reprise,Yes,NA,NA
-668,1781-11-24,Pyrrhus und Polixene,Bth,Court,reprise,Yes,NA,Final performance
-669,1781-11-24,Les Trois Fermiers,Kth,French,unknown,No,NA,NA
-670,1781-11-24,"L'Erreur d'un moment, ou la Suite de Julie",Kth,French,reprise,No,NA,NA
-671,1781-11-25,Der Neugierige,Bth,Court,reprise,Yes,NA,NA
-672,1781-11-25,Sara ou la Fermière ecossaise,Kth,French,reprise,No,NA,NA
-673,1781-11-25,Les Deux Billets,Kth,French,reprise,No,NA,NA
-674,1781-11-26,Das Landmädchen,Bth,Court,reprise,Yes,NA,NA
-675,1781-11-26,Les Pèlereins de la Mecque,Kth,French,reprise,No,NA,NA
-676,1781-11-27,Iphigenie auf Tauris,Bth,Court,reprise,Yes,NA,NA
-677,1781-11-28,Theaters closed (anniversary of Maria Theresia's death),NA,NA,closed,NA,NA,NA
-678,1781-11-29,Theaters closed (anniversary of Maria Theresia's death),NA,NA,closed,NA,NA,NA
-679,1781-11-30,Reinhold und Armida,Bth,Kinder,reprise,No,NA,This Friday performances is not in Hadamowsky or Von Alth/Obzyna. Theaterschule?
-680,1781-11-30,Die Geschwisterliebe,Bth,Kinder,reprise,No,NA,This Friday performances is not in Hadamowsky or Von Alth/Obzyna. Theaterschule?
-681,1781-11-30,Three arias sung by Giorgio Crinazzi,Bth,NA,concert,No,NA,"Tenor Giorgio Crinazzi (1750–1782) was in Vienna by the early months of 1781, where he was the singing teacher of the daughters of Leopold von Auenbrugger. On 23 Jun 1781 he signed a four-month contract with the Esterházy kapelle, but fell ill and returned to Vienna in the fall. He died in Vienna on 31 Dec 1782. See https://it.wikipedia.org/wiki/Giorgio_Crinazzi (which cites no sources)."
-682,1781-11-30,"Concert, Mademoiselle Hauck (giantess)",Kth,NA,concert,No,NA,Mademoiselle Hauck's second concert in the Kärntnertortheater was previously unknown.
-683,1781-12-01,Die Mediceer,Bth,Court,reprise,Yes,NA,NA
-684,1781-12-01,Der Dorfjahrmarkt in Elsaß,Bth,Court,premiere,Yes,NA,Performed only four times
-685,1781-12-01,"L'Amant jaloux, ou les Fausses Apparences",Kth,French,reprise,No,NA,NA
-686,1781-12-01,"Nanette et Lucas, ou La Paysanne curieuse",Kth,French,reprise,No,NA,NA
-687,1781-12-02,Die Holländer,Bth,Court,reprise,Yes,NA,NA
-688,1781-12-02,La Belle Cordonniere,Kth,French,reprise,No,NA,NA
-689,1781-12-02,Le Tonnellier,Kth,French,reprise,No,NA,NA
-690,1781-12-03,Alceste,Bth,Court,revival,Yes,NA,NA
-691,1781-12-04,Die Familie,Bth,Court,reprise,Yes,NA,NA
-692,1781-12-04,Die große Batterie,Bth,Court,reprise,Yes,NA,NA
-693,1781-12-05,Die Pilgrime von Mekka,Bth,Court,reprise,Yes,NA,NA
-694,1781-12-05,La Fausse Magie,Kth,French,reprise,No,NA,NA
-695,1781-12-05,Le Pucheron,Kth,French,unknown,No,NA,NA
-696,1781-12-06,Das öffentliche Geheimniß,Bth,Court,reprise,Yes,NA,NA
-697,1781-12-06,Der Dorfjahrmarkt in Elsaß,Bth,Court,reprise,Yes,NA,NA
-698,1781-12-07,Der kleine Grenadier,Bth,Kinder,unknown,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Perhaps Theaterschule?
-699,1781-12-07,Der letzte Rausch,Bth,Kinder,unknown,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Perhaps Theaterschule?
-700,1781-12-08,König Lear,Bth,Court,reprise,Yes,NA,NA
-701,1781-12-08,La Rosière de Salency,Kth,French,reprise,No,NA,NA
-702,1781-12-09,Iphigenie auf Tauris,Bth,Court,reprise,Yes,NA,NA
-703,1781-12-09,Divertissement,Bth,Court,premiere,No,NA,This divertissement is not In Hadamowsky.
-704,1781-12-09,La Bonne Fille,Kth,French,reprise,No,NA,NA
-705,1781-12-10,Das Loch in der Thüre,Bth,Court,reprise,Yes,NA,This divertissement is not In Hadamowsky.
-706,1781-12-11,Der Schubkarren des Essighändlers,Bth,Court,reprise,Yes,NA,NA
-707,1781-12-11,Der Jurist und der Bauer,Bth,Court,reprise,Yes,NA,NA
-708,1781-12-11,Les Deux Avares,Kth,French,reprise,No,NA,NA
-709,1781-12-11,Les Trois Fermiers,Kth,French,reprise,No,NA,NA
-710,1781-12-12,Der Rauchfangkehrer,Bth,Court,reprise,Yes,NA,NA
-711,1781-12-13,Alceste,Bth,Court,reprise,Yes,NA,NA
-712,1781-12-14,Adelheit von Veltheim,Bth,Kinder,reprise,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Theaterscule?
-713,1781-12-15,Natur und Liebe im Streit,Bth,Court,reprise,Yes,NA,NA
-714,1781-12-15,La Fenisse,Kth,French,unknown,No,NA,NA
-715,1781-12-15,La Servante maitresse,Kth,French,reprise,No,NA,NA
-716,1781-12-16,Die schöne Wienerinn,Bth,Court,reprise,Yes,NA,NA
-717,1781-12-16,Le Déserteur,Kth,French,reprise,No,NA,NA
-718,1781-12-16,Percy,Bth,Court,reprise,Yes,NA,NA
-719,1781-12-16,No title,Bth,Court,unknown,No,NA,This ballet performance is not in Hadamowsky.
-720,1781-12-18,Der seltne Freyer,Bth,Court,reprise,Yes,NA,NA
-721,1781-12-18,Der Dorfjahrmarkt in Elsaß,Bth,Court,reprise,Yes,NA,NA
-722,1781-12-19,Alceste,Bth,Court,reprise,Yes,NA,NA
-723,1781-12-19,La Colonie,Kth,French,reprise,No,NA,NA
-724,1781-12-20,Die eingebildeten Philosophen,Bth,Court,reprise,Yes,NA,NA
-725,1781-12-20,Medea,Bth,Court,reprise,Yes,NA,NA
-726,1781-12-21,Der Furchtsame,Bth,Kinder,reprise,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Perhaps Theaterschule.
-727,1781-12-21,Der Aepfeldieb,Bth,Kinder,reprise,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Perhaps Theaterschule.
-728,1781-12-22,Santa Elena al Calvario (TKS),Kth,NA,concert,Yes,Yes,"Schletter: ""Musikalisce Akademie. z. V. Der errichteten Tonkünstlergesellschaft, im Kärnt. Th. Theater, genannt: Helena am Calvarienberge, von Haße.""The oratorio was Hasse's Santa Elena al Calverio."
-729,1781-12-23,Santa Elena al Calvario (TKS),Kth,NA,concert,Yes,Yes,NA
-730,1781-12-24,Theaters closed,NA,NA,closed,NA,NA,NA
-731,1781-12-25,Theaters closed for Christmas,NA,NA,closed,NA,NA,NA
-732,1781-12-26,Die heimliche Heyrath,Bth,Court,reprise,Yes,NA,NA
-733,1781-12-26,Toinon et Toinette,Kth,French,unknown,No,NA,NA
-734,1781-12-26,Les Vendangeurs ou les Deux Baillis,Kth,French,unknown,No,NA,NA
-735,1781-12-27,Alceste,Bth,Court,reprise,Yes,NA,NA
-736,1781-12-28,Der Geburtstag,Bth,Kinder,unknown,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Perhaps Theaterschule?
-737,1781-12-28,"Peter du bleibst, oder Der Hausfreund auf dem Lande",Bth,Kinder,reprise,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Perhaps Theaterschule?
-738,1781-12-28,"Concert, Luisa Todi",Kth,NA,concert,No,Yes,NA
-739,1781-12-29,Der Codrus,Bth,Court,reprise,Yes,NA,NA
-740,1781-12-29,La Fausse Magie,Kth,French,reprise,No,NA,NA
-741,1781-12-29,Les Vendangeurs ou les Deux Baillis,Kth,French,reprise,No,NA,NA
-742,1781-12-30,Der Kobold,Bth,Court,reprise,Yes,NA,NA
-743,1781-12-30,Les Trois Fermiers,Kth,French,reprise,No,NA,NA
-744,1781-12-30,Le Tonnellier,Kth,French,reprise,No,NA,NA
-745,1781-12-31,Orfeo ed Euridice,Bth,Court,revival,Yes,NA,NA
-746,1782-01-01,Die schöne Wienerinn,Bth,Court,reprise,Yes,NA,NA
-747,1782-01-02,Doktor Guldenschnitt,Bth,French,premiere,Yes,NA,Performed just once.
-748,1782-01-03,Der dankbare Sohn,Bth,Court,reprise,Yes,NA,NA
-749,1782-01-03,Orfeo ed Euridice,Bth,Court,reprise,Yes,NA,NA
-750,1782-01-04,Der Geburtstag,Bth,Kinder,reprise,No,NA,Not in Hadamowsky or Von Alth/Obzyna. Theaterschule?
-751,1782-01-04,Leonardo und Blandine,Bth,Kinder,unknown,No,NA,NA
-752,1782-01-05,Der Schmuck,Bth,Court,reprise,Yes,NA,NA
-753,1782-01-05,Die Bachanten,Bth,Court,unknown,No,NA,NA
-754,1782-01-05,"Concert, Michael Wöggel",Kth,NA,concert,NA,NA,NA
-755,1782-01-06,Der Deserteur aus Kindesliebe,Bth,Court,reprise,Yes,NA,NA
-756,1782-01-07,Iphigenie auf Tauris,Bth,Court,reprise,Yes,NA,NA
-757,1782-01-08,Das Testament,Bth,Court,reprise,Yes,NA,Final performance until 19 Oct 1789.
-758,1782-01-09,Athelstan,Bth,Court,reprise,Yes,NA,NA
-759,1782-01-10,Die Pilgrime von Mekka,Bth,Court,reprise,Yes,NA,NA
-760,1782-01-11,"Stirbt der Fuchs, so gilt sein Balg",Bth,Kinder,unknown,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obyna. Theaterschule?
-761,1782-01-11,Reinhold und Armida,Bth,Kinder,reprise,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obyna. Theaterschule?
-762,1782-01-12,Emilia Galotti,Bth,Court,reprise,Yes,NA,NA
-763,1782-01-13,Der argwöhnische Ehemann,Bth,Court,reprise,Yes,NA,NA
-764,1782-01-14,Alceste,Bth,Court,reprise,Yes,NA,NA
-765,1782-01-15,Der Schmuck,Bth,Court,reprise,Yes,NA,NA
-766,1782-01-16,Die Gunst der Fürsten,Bth,Court,reprise,Yes,NA,NA
-767,1782-01-17,Das Irrlicht,Bth,Court,premiere,Yes,NA,NA
-768,1782-01-18,Der Dorfdeputirten,Bth,Kinder,unknown,No,NA,This Friday performance is not in Hadamowsky or Von Alth/Obzyna. Theaterschule.
-769,1782-01-18,"Concert, Luisa Todi",Kth,NA,concert,No,Yes,NA
-770,1782-01-19,Die eifersüchtige Ehefrau,Bth,Court,reprise,Yes,NA,NA
-771,1782-01-20,Das Irrlicht,Bth,Court,reprise,Yes,NA,NA
-787,1782-01-20,Merope,Bth,Court,premiere,Yes,NA,Premiere by the Nationaltheater.
-772,1782-01-21,Die Familie,Bth,Court,reprise,Yes,NA,NA
-773,1782-01-21,Der Dorfjahrmarkt in Elsaß,Bth,Court,reprise,Yes,NA,Final performance.
-774,1782-01-22,Philotas,Bth,Court,reprise,Yes,NA,See 9 Nov 1782.
-775,1782-01-22,Orfeo ed Euridice,Bth,Court,reprise,Yes,NA,NA
-776,1782-01-23,Iphigenie auf Tauris,Bth,Court,reprise,Yes,NA,NA
-777,1782-01-23,Divertissement,Bth,Court,unknown,No,NA,NA
-778,1782-01-24,Der Adjutant,Bth,Court,reprise,Yes,NA,NA
-779,1782-01-24,Die junge Indianerinn,Bth,Court,reprise,Yes,NA,NA
-780,1782-01-25,Der Dorfdeputirten,Bth,Kinder,reprise,No,NA,See 18 Jan 1782.
-781,1782-01-26,Alceste,Bth,Court,reprise,Yes,NA,NA
-782,1782-01-27,Das Irrlicht,Bth,Court,reprise,Yes,NA,NA
-783,1782-01-28,Der seltne Freyer,Bth,Court,reprise,Yes,NA,NA
-784,1782-01-28,Der Freundschaft der Weiber,Bth,Court,premiere,Yes,NA,Performed only twice.
-785,1782-01-29,Der Freundschaft der Weiber,Bth,Court,reprise,Yes,NA,Final performance.
-786,1782-01-29,Orfeo ed Euridice,Bth,Court,reprise,Yes,NA,NA
-788,1782-01-31,Iphigenie auf Tauris,Bth,Court,reprise,Yes,NA,NA
-789,1782-01-31,Divertissement,Bth,Court,reprise,No,NA,NA
-790,1782-02-01,Der Dorfdeputirten,Bth,Kinder,reprise,No,NA,NA
