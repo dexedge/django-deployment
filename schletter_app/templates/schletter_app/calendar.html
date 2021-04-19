@@ -25,7 +25,7 @@
             <a class="list-group-item list-group-item-action">
               {{event.title}}
             </a>
-          {% elif event.title == "No title" or event.work_set.all.first.genre == "Concert" %}
+          {% elif event.title == "No title" or event.event_type == "Concert" %}
             <a href="{% url 'schletter_app:event' event.pk %}" class="list-group-item list-group-item-action">
               {{event.theater}}, {{event.title}}
             </a>
