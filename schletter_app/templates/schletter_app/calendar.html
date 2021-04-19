@@ -2,7 +2,7 @@
 {% block page_header %}
       <div class="row pb-4">
         <h2>Calendar</h2>
-      <div class="col-sm-8 pt-2 ml-auto">
+      <div class="col-sm-9 pt-2 ml-auto">
           <form class="form-inline" action="{% url 'schletter_app:calendar' %}" method="get">
             <label>Date range: </label>
             <input name="date_min" class="form-control ml-2" type="text" min="1781-01-21" max="1782-12-31" placeholder="1781-01-21" required>
