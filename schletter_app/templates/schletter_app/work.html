@@ -14,13 +14,13 @@
       <ul>
         {% for aw in work.authorwork_set.all %}
           <li>
-            <a href="{% url 'schletter_app:author' aw.author.pk %}">{{aw.author.last_name}}{% if aw.author.first_names != "NA" %}, {{aw.author.first_names}}{% endif %}</a> ({{aw.role}})
+            <a href="{% url 'schletter_app:author' aw.author.pk %}">{{aw.author}}</a> ({{aw.role}})
           </li>
         {% endfor %}
       </ul>
   {% endif %}
   {% if work.composerworks.exists and work.composerworks.first.last_name != "NA" %}
-    <p>Composer: <a href="{% url 'schletter_app:composer' work.composerworks.first.pk %}">{{ work.composerworks.first.last_name }}{% if work.composerworks.first.first_names != "NA" %}, {{ work.composerworks.first.first_names }}{% endif %}</a></p>
+    <p>Composer: <a href="{% url 'schletter_app:composer' work.composerworks.first.pk %}">{{ work.composerworks.first }}</a></p>
   {% endif %}
   <p>Performance(s):</p>
   <ul>

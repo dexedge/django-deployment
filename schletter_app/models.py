@@ -57,7 +57,10 @@ class Author(models.Model):
     notes = models.TextField()
 
     def __str__(self):
-        return self.last_name + ", " + self.first_names
+        if self.first_names == "NA":
+            return self.last_name
+        else:
+            return self.last_name + ", " + self.first_names
 
     class Meta:
         ordering = ['last_name', 'first_names']
@@ -77,7 +80,10 @@ class Composer(models.Model):
     notes = models.TextField()
 
     def __str__(self):
-        return self.last_name + ", " + self.first_names
+        if self.first_names == "NA":
+            return self.last_name
+        else:
+            return self.last_name + ", " + self.first_names
 
     class Meta:
         ordering = ['last_name', 'first_names']

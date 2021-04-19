@@ -72,9 +72,9 @@ class ComposerList(ListView):
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query is not None:
-            return Composer.objects.filter(Q(last_name__icontains=query) | Q(first_names__icontains=query))
+            return Composer.objects.exclude(last_name="NA").filter(Q(last_name__icontains=query) | Q(first_names__icontains=query))
         else:
-            return Composer.objects.all()
+            return Composer.objects.exclude(last_name="NA")
 
 class ComposerDetail(DetailView):
     context_object_name = 'composer'
