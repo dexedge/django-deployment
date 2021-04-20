@@ -34,3 +34,7 @@ a {
 .indent {
   margin-left: 2rem;
 }
+
+.indent p {
+  margin-bottom: 6px;
+}

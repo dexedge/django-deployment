@@ -31,8 +31,10 @@
     <p>Morrow: {{event.morrow}}</p>
   {% endif %}
   {% if event.notes != "NA" %}
-    <p>Notes:</p> 
-    <p class="indent">{{ event.notes|safe }}</p>
+    <p>Notes:</p>
+    <div class="row col-sm-8">
+      <div class="indent">{{ event.notes|safe }}</div>
+    </div>
   {% endif %}
   <hr>
   <div style="font-size:16px"> 

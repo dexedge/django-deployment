@@ -1,8 +1,8 @@
-"""URLs for schletter_test"""
+"""URLs for schletter_app"""
 from django.urls import path
 from . import views
 
-app_name = 'schletter_test'
+app_name = 'schletter_app'
 
 urlpatterns = [
     # Home page

@@ -32,7 +32,9 @@
   <p>Total: {{work.events.all.count}}</p>
   {% if work.notes != "" %}
     <p>Notes:</p>
-    <p class="indent">{{work.notes|safe}}</p>
+    <div class="row col-sm-8 mb-3">
+      <div class="indent">{{ work.notes|safe }}</div>
+    </div>
   {% endif %}
   {% if work.url != "" %}
     <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>

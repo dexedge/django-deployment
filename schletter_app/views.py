@@ -40,6 +40,13 @@ class WorkList(ListView):
     paginate_by = 50
     template_name = 'schletter_app/works.html'
 
+    def get_queryset(self):
+        query = self.request.GET.get('q')
+        if query is not None:
+            return Work.objects.filter(Q(title__icontains=query))
+        else:
+            return Work.objects.all()
+
 class WorkDetail(DetailView):
     context_object_name = 'work'
     model = Work

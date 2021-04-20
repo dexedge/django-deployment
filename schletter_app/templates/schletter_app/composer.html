@@ -17,6 +17,8 @@
   <p>Total: {{composer.works.all.count}}</p>
   {% if composer.notes != "NA" %}
     <p>Notes:</p>
-    <p class="indent">{{composer.notes|safe}}</p>
+    <div class="row col-sm-8">
+      <div class="indent">{{ composer.notes|safe }}</div>
+    </div>
   {% endif %}
 {% endblock content %}
