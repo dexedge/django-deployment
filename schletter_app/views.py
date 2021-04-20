@@ -81,4 +81,3 @@ class ComposerDetail(DetailView):
     context_object_name = 'composer'
     model = Composer
     template_name = 'schletter_app/composer.html'
-
