@@ -1,7 +1,8 @@
 {% extends 'schletter_app/base.html' %}
 {% block page_header %}
   <div class="row">
-    <h2 class="pb-2">Events</h2>
+    <h2>Events</h2>
+    <span class="pt-2 pl-4"> ({{ paginator.count }})</span>
     <form class="form-inline mb-3 ml-auto" action="." method="get">
       <div class="form-group">
         <select id="theater" name="theater" class="form-control" type="text">
@@ -59,8 +60,6 @@
       <p>There are no events</p>
     {% endfor %}
   </table>
-
-  
 
 {% endblock content %}
 

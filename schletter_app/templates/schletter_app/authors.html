@@ -1,6 +1,9 @@
 {% extends 'schletter_app/base.html' %}
 {% block page_header %}
-  <h2>Authors &#38; Choreographers</h2>
+  <div class="row">
+    <h2>Authors &#38; Choreographers</h2>
+    <span class="mt-2 pl-4"> ({{ paginator.count }})</span>
+  </div>
   <div class="row pb-3">
     <div class="col-sm-6 mt-2">Click on a row to see the detail view for the person</div>
     <div class="col-sm-6">

@@ -25,7 +25,6 @@ class DateList(ListView):
     
 class EventList(ListView):
     context_object_name = 'events'
-    model = Event
     paginate_by = 50
     template_name = 'schletter_app/events.html'
 
