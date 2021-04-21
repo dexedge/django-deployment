@@ -10,8 +10,7 @@
   <ul>
     {% for aw in author.authorwork_set.all %}
       <li><a href="{% url 'schletter_app:work' aw.work.pk %}">
-            <em>{{aw.work.title}}</em>
-        </a> ({{aw.role}})
+            <em>{{aw.work.title}}</em></a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %} 
       </li>
     {% endfor %}
   </ul>

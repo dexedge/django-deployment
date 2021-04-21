@@ -38,3 +38,7 @@ a {
 .indent p {
   margin-bottom: 6px;
 }
+
+.table {
+  font-size: 16px;
+}

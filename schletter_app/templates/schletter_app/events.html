@@ -1,31 +1,59 @@
 {% extends 'schletter_app/base.html' %}
-{% block page_header %}<h2>Events</h2>{% endblock %}
+{% block page_header %}
+  <div class="row">
+    <h2 class="pb-2">Events</h2>
+    <form class="form-inline mb-3 ml-auto" action="." method="get">
+      <div class="form-group">
+        <select id="theater" name="theater" class="form-control" type="text">
+          <option value="">Theater</option>
+          <option value="Bth">Bth</option>
+          <option value="Kth">Kth</option>
+        </select>
+      </div>
+      <div class="form-group ml-2">
+        <select id="company" name="company" class="form-control" type="text">
+          <option value="">Company</option>
+          <option value="Court">Court</option>
+          <option value="French">French</option>
+          <option value="Kinder">Kinder</option>
+          <option value="Preßburg">Preßburg</option>
+          <option value="unknown">unknown</option>
+        </select>
+      </div>
+      <button class="btn btn-primary ml-2" type="submit">Search</button>
+      <a class="btn btn-secondary ml-2" href="{% url 'schletter_app:events' %}" role="button">Reset</a>
+    </form>
+  </div>
+{% endblock %}
 
 {% block content %}
   <table class="table table-striped">
     <thead class="thead-light">
       <tr>
-        <th class="text-right">Date</td>
-        <th>Theater</td>
-        <th>Company</td>
-        <th>Genre</td>
-        <th>Title</td>
+        <th class="text-right" style="width: 18%">Date</td>
+        <th style="width: 7%">Theater</td>
+        <th style="width: 8%">Company</td>
+        <th style="width: 22%">Genre</td>
+        <th style="width: 45%">Title</td>
       </tr>
     </thead>
     {% for event in events %}
       <tr>
         <td class="text-right">
           <a href="{% url 'schletter_app:event' event.pk %}">{{ event.date }}</a>
-
         </td>
         <td>{{ event.theater }}</td>
         <td>{{ event.company }}</td>
-        <td>{{ event.genre }}</td>
-        {% if event.title == "No title" or event.title == "" or event.genre == "NA" %}
-          <td>{{ event.title }}</td>
-        {% else %}
-          <td><em>{{ event.title }}</em></td>
-        {% endif %}
+        <td>{{ event.work_set.all.first.genre }}</td>
+        {% with event.work_set.all.first as work %}
+          {% if event.event_type == "closed" or not work %}
+            <td>{{event.title}}</td>
+          {% elif event.title == "No title" or event.title == "" or event.event_type == "concert" %}
+            <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title }}</a></td>
+          {% else %}
+            <td><a href="{% url 'schletter_app:work' work.pk %}"><em>{{ event.title }}</em></a></td>
+          {% endif %}
+        {% endwith %}
       </tr>
     {% empty%}
       <p>There are no events</p>
