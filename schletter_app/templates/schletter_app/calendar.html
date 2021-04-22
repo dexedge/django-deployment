@@ -1,4 +1,5 @@
 {% extends 'schletter_app/base.html' %}
+{% load my_tags %}
 {% block page_header %}
   <div class="row pb-4">
     <h2>Calendar</h2>
@@ -23,19 +24,13 @@
       <li class="font-weight-bold mt-2 mb-2">{{date}}</li>
       <div class="list-group">
         {% for event in date.event_set.all %}
-          {% if event.event_type == "closed" %}
-            <a class="list-group-item list-group-item-action">
-              {{event.title}}
-            </a>
-          {% elif event.title == "No title" or event.event_type == "concert" %}
-            <a href="{% url 'schletter_app:event' event.pk %}" class="list-group-item list-group-item-action">
-              {{event.theater}}, {{event.title}}
-            </a>
-          {% else %}
-            <a href="{% url 'schletter_app:event' event.pk %}" class="list-group-item list-group-item-action">
-              {{event.theater}}, <em>{{event.title}}</em>, {{event.work_set.all.first.genre}}
-            </a>
-          {% endif %}
+          {% with event.work_set.all.first as work %}
+            {% if event.event_type == "closed" %}
+              <li class="list-group-item list-group-item-action">{{event.title}}</li>
+            {% else %}
+              <a href="{% url 'schletter_app:work' work.pk %}" class="list-group-item list-group-item-action">{{ event.title | display_title:work.genre | safe }}</a>
+            {% endif %}
+          {% endwith %}
         {% endfor %}
       <div>
     {% empty %}

@@ -1,9 +1,25 @@
-
-
 from django import template
+from django.template.defaultfilters import stringfilter
 
 register = template.Library()
 
+@register.filter(name="display_title")
+def display_title(value, arg=""):
+    
+    if arg == "Concert" or value == "No title": 
+        pass
+    elif arg == "Oratorio" or arg == "Cantata" or arg =="Festa teatrale":
+        i = value.find('(')
+        if i > 0:
+            title = value[:i-1]
+            tag = value[i:]
+            value = f"<em>{title}</em> " + tag
+        else:
+            value = f"<em>{value}</em>"
+    else:
+        value = f"<em>{value}</em>"
+
+    return value
 
 
 # Adapted from:

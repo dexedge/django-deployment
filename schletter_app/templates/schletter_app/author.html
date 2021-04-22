@@ -9,8 +9,14 @@
   <p>Work(s):</p>
   <ul>
     {% for aw in author.authorwork_set.all %}
-      <li><a href="{% url 'schletter_app:work' aw.work.pk %}">
-            <em>{{aw.work.title}}</em></a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %} 
+      <li>
+        {% if aw.work.title == "No title" %}
+          <a href="{% url 'schletter_app:work' aw.work.pk %}">
+              {{aw.work.title}}</a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %} 
+        {% else %}
+          <a href="{% url 'schletter_app:work' aw.work.pk %}">
+              <em>{{aw.work.title}}</em></a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %} 
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

@@ -1,4 +1,5 @@
 {% extends 'schletter_app/base.html' %}
+{% load my_tags %}
 {% block page_header %}
   <div class="row">
     <h2>Events</h2>
@@ -46,9 +47,9 @@
     <thead class="thead-light">
       <tr>
         <th class="text-right" style="width: 20%">Date</th>
-        <th style="width: 5%">Theater</th>
-        <th style="width: 8%">Company</th>
-        <th style="width: 5%">Type</th>
+        <th style="width: 6%">Theater</th>
+        <th style="width: 6%">Company</th>
+        <th style="width: 6%">Type</th>
         <th style="width: 22%">Genre</th>
         <th style="width: 40%">Title</th>
       </tr>
@@ -63,12 +64,10 @@
         <td>{{ event.event_type }}</td>
         <td>{{ event.work_set.all.first.genre }}</td>
         {% with event.work_set.all.first as work %}
-          {% if event.event_type == "closed" or not work %}
+          {% if not work or event.event_type == "closed" %}
             <td>{{event.title}}</td>
-          {% elif event.title == "No title" or event.title == "" or event.event_type == "concert" %}
-            <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title }}</a></td>
           {% else %}
-            <td><a href="{% url 'schletter_app:work' work.pk %}"><em>{{ event.title }}</em></a></td>
+            <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title | display_title:work.genre | safe }}</a></td>
           {% endif %}
         {% endwith %}
       </tr>

@@ -1,7 +1,7 @@
 {% extends 'schletter_app/base.html' %}
 {% block page_header %}
-  {% if work.title == "Concert" %}
-    <h3 class="pb-2">Concerts</h3>
+  {% if work.title == "Concert" or work.title == "No title" %}
+    <h3 class="pb-2">{{work.title}}</h3>
   {% else %}
     <h3 class="pb-2"><em>{{work.title}}</em></h3>
   {% endif %}

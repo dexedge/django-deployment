@@ -1,4 +1,5 @@
 {% extends 'schletter_app/base.html' %}
+{% load my_tags %}
 {% block page_header %}
   <h3 class="pb-2">Event: {{event.date}}</h3>
 {% endblock page_header %}
@@ -7,11 +8,13 @@
   <p>Theater: {{ event.theater }}</p>
   <p>Company: {{ event.company }}</p>
   <p>Title: 
-      {% if event.title == "No title" or event.work_set.all.first.genre == "Concert" %}
-        <a href="{% url 'schletter_app:work' event.work_set.all.first.pk %}">{{ event.title }}</a>
-      {% else %}
-        <a href="{% url 'schletter_app:work' event.work_set.all.first.pk %}"><em>{{ event.title }}</em></a>
-      {% endif %}
+    {% with event.work_set.all.first as work %}
+        {% if not work or event.event_type == "closed" %}
+          <td>{{event.title}}</td>
+        {% else %}
+          <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title | display_title:work.genre | safe }}</a></td>
+        {% endif %}
+      {% endwith %}
   </p>
   <p>Type: {{ event.event_type }}</p>
   <p>Genre: {{ event.work_set.first.genre }}</p>
@@ -42,19 +45,13 @@
     <ul>
       {% for event in event.date.event_set.all %}
         <li>
-            {% if event.event_type == "concert" %}
-              <a href="{% url 'schletter_app:event' event.pk %}">
-                {{event.title}}</a> ({{event.theater}})
+          {% with event.work_set.all.first as work %}
+            {% if not work or event.event_type == "closed" %}
+              <td>{{event.title}}</td>
             {% else %}
-            {% with work=event.work_set.all.first  %}
-              <a href="{% url 'schletter_app:work' work.pk %}">
-                  {% if work.title == "No title" %}
-                    {{work.title}}
-                  {% else %}
-                    <em>{{work.title}}</em>
-                  {% endif %}</a> ({{event.theater}}, {{work.genre}})
-            {% endwith %}
+              <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title | display_title:work.genre | safe }}</a> ({{event.theater}}, {{work.genre}})</td>
             {% endif %}
+          {% endwith %}
         </li>
       {% endfor %}
     </ul>
