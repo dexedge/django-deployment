@@ -5,10 +5,14 @@ register = template.Library()
 
 @register.filter(name="display_title")
 def display_title(value, arg=""):
-    
+    """
+    Construct italicization for Event titles based on content
+    """
     if arg == "Concert" or value == "No title": 
         pass
     elif arg == "Oratorio" or arg == "Cantata" or arg =="Festa teatrale":
+        # If the title has a tag in parentheses like (TKS),
+        # leave it in plain text
         i = value.find('(')
         if i > 0:
             title = value[:i-1]
