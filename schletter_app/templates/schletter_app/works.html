@@ -25,6 +25,8 @@
                 <em>{{work.title}}</em>
               {% endif %} ({{work.genre}})
       </a>
+    {% empty %}
+      <p>No works match this search</p>
     {% endfor %}
   </ul>
 

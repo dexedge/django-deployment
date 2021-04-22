@@ -11,14 +11,20 @@
           <option value="Kth">Kth</option>
         </select>
       </div>
-      <div class="form-group ml-2">
+      <div class="form-group ml-2">        
         <select id="company" name="company" class="form-control" type="text">
           <option value="">Company</option>
-          <option value="Court">Court</option>
-          <option value="French">French</option>
-          <option value="Kinder">Kinder</option>
-          <option value="Preßburg">Preßburg</option>
-          <option value="unknown">unknown</option>
+          {% for company in companies %}
+            <option value="{{company}}">{{company}}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="form-group ml-2">        
+        <select id="genre" name="genre" class="form-control" type="text">
+          <option value="">Genre</option>
+          {% for genre in genres %}
+            <option value="{{genre}}">{{genre}}</option>
+          {% endfor %}
         </select>
       </div>
       <button class="btn btn-primary ml-2" type="submit">Search</button>
@@ -57,10 +63,9 @@
         {% endwith %}
       </tr>
     {% empty%}
-      <p>There are no events</p>
+      <p>No events match this search</p>
     {% endfor %}
   </table>
-
 {% endblock content %}
 
 

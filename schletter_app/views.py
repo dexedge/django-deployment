@@ -27,15 +27,22 @@ class EventList(ListView):
     context_object_name = 'events'
     paginate_by = 50
     template_name = 'schletter_app/events.html'
+    extra_context = {
+        'companies': Event.objects.all().order_by('company').values_list('company', flat=True).distinct(),
+        'genres': Work.objects.all().order_by('genre').values_list('genre', flat=True).distinct()
+        }
 
     def get_queryset(self):
         qs = Event.objects.all()
         theater = self.request.GET.get('theater')
         company = self.request.GET.get('company')
+        genre = self.request.GET.get('genre')
         if theater is not None and theater != "":
             qs = qs.filter(theater=theater)
         if company is not None and company != "":
             qs = qs.filter(company=company)
+        if genre is not None and genre != "":
+            qs = qs.filter(work__genre=genre)
         return qs
 
 class EventDetail(DetailView):
