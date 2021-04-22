@@ -29,6 +29,7 @@ class EventList(ListView):
     template_name = 'schletter_app/events.html'
     extra_context = {
         'companies': Event.objects.all().order_by('company').values_list('company', flat=True).distinct(),
+        'event_types': Event.objects.all().order_by('event_type').values_list('event_type', flat=True).distinct(),
         'genres': Work.objects.all().order_by('genre').values_list('genre', flat=True).distinct()
         }
 
@@ -36,11 +37,14 @@ class EventList(ListView):
         qs = Event.objects.all()
         theater = self.request.GET.get('theater')
         company = self.request.GET.get('company')
+        event_type = self.request.GET.get('event_type')
         genre = self.request.GET.get('genre')
         if theater is not None and theater != "":
             qs = qs.filter(theater=theater)
         if company is not None and company != "":
             qs = qs.filter(company=company)
+        if event_type is not None and event_type != "":
+            qs = qs.filter(event_type=event_type)
         if genre is not None and genre != "":
             qs = qs.filter(work__genre=genre)
         return qs
