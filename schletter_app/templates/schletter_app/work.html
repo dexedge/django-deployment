@@ -1,4 +1,5 @@
 {% extends 'schletter_app/base.html' %}
+{% block page_title %}Work{% endblock page_title %}
 {% block page_header %}
   {% if work.title == "Concert" or work.title == "No title" %}
     <h3 class="pb-2">{{work.title}}</h3>

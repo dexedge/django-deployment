@@ -1,5 +1,6 @@
 {% extends 'schletter_app/base.html' %}
 {% load my_tags %}
+{% block page_title %}Event{% endblock page_title %}
 {% block page_header %}
   <h3 class="pb-2">Event: {{event.date}}</h3>
 {% endblock page_header %}
@@ -56,4 +57,9 @@
       {% endfor %}
     </ul>
   </div>
+  {{events.first}}
+  <ul class="pagination pt-3">
+    <li class="page-link"><a href="#">Previous</a></li>
+    <li class="page-link ml-auto"><a href="#">Next</a></li>
+  </ul>
 {% endblock content %}
