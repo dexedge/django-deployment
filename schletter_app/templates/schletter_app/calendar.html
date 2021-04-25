@@ -26,7 +26,7 @@
       <div class="list-group">
         {% for event in date.event_set.all %}
           {% with event.work_set.all.first as work %}
-            {% if event.event_type == "closed" %}
+            {% if not work or event.event_type == "closed" %}
               <li class="list-group-item list-group-item-action">{{event.title}}</li>
             {% else %}
               <a href="{% url 'schletter_app:work' work.pk %}" class="list-group-item list-group-item-action">{{ event.title | display_title:work.genre | safe }}</a>
