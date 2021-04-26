@@ -84,7 +84,7 @@ class WorkDetail(WorkQueryMixin, DetailView):
         prev_pk = (
             self.get_queryset()
             .filter(sort_title__lt=self.object.sort_title)
-        .reverse().values('pk')[:1]
+            .reverse().values('pk')[:1]
         )
         # There may be no next page
         if prev_pk:

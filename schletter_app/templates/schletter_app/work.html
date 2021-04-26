@@ -41,7 +41,11 @@
     <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>
   {% endif %}
   <ul class="pagination pt-3">
-    <li class="page-link"><a href="{% url 'schletter_app:work' prev_pk %}">Previous</a></li>
-    <li class="page-link ml-auto"><a href="{% url 'schletter_app:work' next_pk %}">Next</a></li>
+    {% if prev_pk %}
+      <li class="page-link"><a href="{% url 'schletter_app:work' prev_pk %}?{{ request.GET.urlencode }}">Previous</a></li>
+    {% endif %}
+    {% if next_pk %}
+      <li class="page-link ml-auto"><a href="{% url 'schletter_app:work' next_pk %}?{{ request.GET.urlencode }}">Next</a></li>
+    {% endif %}
   </ul>
 {% endblock content %}
