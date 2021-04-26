@@ -25,17 +25,7 @@ class DateList(ListView):
             return Date.objects.all()
     
 # Events
-class EventList(ListView):
-    context_object_name = 'events'
-    paginate_by = 50
-    template_name = 'schletter_app/events.html'
-    # Value lists for drop downs in Event search
-    extra_context = {
-        'companies': Event.objects.all().order_by('company').values_list('company', flat=True).distinct(),
-        'event_types': Event.objects.all().order_by('event_type').values_list('event_type', flat=True).distinct(),
-        'genres': Work.objects.all().order_by('genre').values_list('genre', flat=True).distinct()
-        }
-
+class EventQueryMixin:
     def get_queryset(self):
         qs = Event.objects.all()
         theater = self.request.GET.get('theater')
@@ -52,14 +42,42 @@ class EventList(ListView):
             qs = qs.filter(work__genre=genre)
         return qs
 
-class EventDetail(DetailView):
+class EventList(EventQueryMixin, ListView):
+    context_object_name = 'events'
+    paginate_by = 50
+    template_name = 'schletter_app/events.html'
+    # Value lists for drop downs in Event search
+    extra_context = {
+        'companies': Event.objects.all().order_by('company').values_list('company', flat=True).distinct(),
+        'event_types': Event.objects.all().order_by('event_type').values_list('event_type', flat=True).distinct(),
+        'genres': Work.objects.all().order_by('genre').values_list('genre', flat=True).distinct()
+        }
+
+class EventDetail(EventQueryMixin, DetailView):
     context_object_name = 'event'
     model = Event
     template_name = 'schletter_app/event.html'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['events'] = Event.objects.all()
+        prev_pk = (
+            self.get_queryset()
+            .filter(date__lt=self.object.date)
+            .reverse().values('pk')[:1]
+        )
+        # There may be no next page
+        if prev_pk:
+            context['prev_pk'] = prev_pk[0]['pk']
+        
+        next_pk = (
+            self.get_queryset()
+            .filter(date__gt=self.object.date)
+            .values('pk').values('pk')[:1]
+        )
+        # There may be no next page
+        if next_pk:
+            context['next_pk'] = next_pk[0]['pk']
+        
         return context
 
 # Works
