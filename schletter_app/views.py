@@ -9,6 +9,7 @@ class Index(TemplateView):
     context_object_name = 'index'
     template_name = 'schletter_app/index.html'
 
+# Calendar
 class DateList(ListView):
     context_object_name = 'calendar'
     model = Date
@@ -23,6 +24,7 @@ class DateList(ListView):
         else:
             return Date.objects.all()
     
+# Events
 class EventList(ListView):
     context_object_name = 'events'
     paginate_by = 50
@@ -60,6 +62,7 @@ class EventDetail(DetailView):
         context['events'] = Event.objects.all()
         return context
 
+# Works
 class WorkQueryMixin:
     def get_queryset(self):
         query = self.request.GET.get('q')
@@ -101,12 +104,8 @@ class WorkDetail(WorkQueryMixin, DetailView):
         
         return context
 
-class AuthorList(ListView):
-    context_object_name = 'authors'
-    model = Author
-    paginate_by = 50
-    template_name = 'schletter_app/authors.html'
-    
+# Authors
+class AuthorQueryMixin:
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query is not None:
@@ -114,25 +113,77 @@ class AuthorList(ListView):
         else:
             return Author.objects.all()
 
-class AuthorDetail(DetailView):
+class AuthorList(AuthorQueryMixin, ListView):
+    context_object_name = 'authors'
+    model = Author
+    paginate_by = 50
+    template_name = 'schletter_app/authors.html'
+
+class AuthorDetail(AuthorQueryMixin, DetailView):
     context_object_name = 'author'
     model = Author
     template_name = 'schletter_app/author.html'
 
-class ComposerList(ListView):
-    context_object_name = 'composers'
-    model = Composer
-    paginate_by = 50
-    template_name = 'schletter_app/composers.html'
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        prev_pk = (
+            self.get_queryset()
+            .filter(last_name__lt=self.object.last_name)
+            .reverse().values('pk')[:1]
+        )
+        # There may be no next page
+        if prev_pk:
+            context['prev_pk'] = prev_pk[0]['pk']
+        
+        next_pk = (
+            self.get_queryset()
+            .filter(last_name__gt=self.object.last_name)
+            .values('pk').values('pk')[:1]
+        )
+        # There may be no next page
+        if next_pk:
+            context['next_pk'] = next_pk[0]['pk']
+        
+        return context
 
+# Composers
+class ComposerQueryMixin:
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query is not None:
             return Composer.objects.exclude(last_name="NA").filter(Q(last_name__icontains=query) | Q(first_names__icontains=query))
         else:
-            return Composer.objects.exclude(last_name="NA")
+            return Composer.objects.all().exclude(last_name="NA")
 
-class ComposerDetail(DetailView):
+class ComposerList(ComposerQueryMixin, ListView):
+    context_object_name = 'composers'
+    model = Composer
+    paginate_by = 50
+    template_name = 'schletter_app/composers.html'
+
+class ComposerDetail(ComposerQueryMixin, DetailView):
     context_object_name = 'composer'
     model = Composer
     template_name = 'schletter_app/composer.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        prev_pk = (
+            self.get_queryset()
+            .filter(last_name__lt=self.object.last_name)
+            .reverse().values('pk')[:1]
+        )
+        # There may be no next page
+        if prev_pk:
+            context['prev_pk'] = prev_pk[0]['pk']
+        
+        next_pk = (
+            self.get_queryset()
+            .filter(last_name__gt=self.object.last_name)
+            .values('pk').values('pk')[:1]
+        )
+        # There may be no next page
+        if next_pk:
+            context['next_pk'] = next_pk[0]['pk']
+        
+        return context
