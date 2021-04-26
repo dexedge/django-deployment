@@ -23,7 +23,7 @@ class Event(models.Model):
     notes = HTMLField(blank=True)
     
     class Meta:
-        ordering = ['date', 'theater']
+        ordering = ['pk']
     
     def __str__(self):
         event = str(self.date) + ", " + self.title

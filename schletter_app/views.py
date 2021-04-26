@@ -62,7 +62,7 @@ class EventDetail(EventQueryMixin, DetailView):
         context = super().get_context_data(**kwargs)
         prev_pk = (
             self.get_queryset()
-            .filter(date__lt=self.object.date)
+            .filter(pk__lt=self.object.pk)
             .reverse().values('pk')[:1]
         )
         # There may be no next page
@@ -71,8 +71,8 @@ class EventDetail(EventQueryMixin, DetailView):
         
         next_pk = (
             self.get_queryset()
-            .filter(date__gt=self.object.date)
-            .values('pk').values('pk')[:1]
+            .filter(pk__gt=self.object.pk)
+            .values('pk')[:1]
         )
         # There may be no next page
         if next_pk:
@@ -113,8 +113,7 @@ class WorkDetail(WorkQueryMixin, DetailView):
         
         next_pk = (
             self.get_queryset()
-            .filter(sort_title__gt=self.object.sort_title)
-            .values('pk').values('pk')[:1]
+            .filter(sort_title__gt=self.object.sort_title).values('pk')[:1]
         )
         # There may be no next page
         if next_pk:
@@ -156,7 +155,7 @@ class AuthorDetail(AuthorQueryMixin, DetailView):
         next_pk = (
             self.get_queryset()
             .filter(last_name__gt=self.object.last_name)
-            .values('pk').values('pk')[:1]
+            .values('pk')[:1]
         )
         # There may be no next page
         if next_pk:
@@ -198,7 +197,7 @@ class ComposerDetail(ComposerQueryMixin, DetailView):
         next_pk = (
             self.get_queryset()
             .filter(last_name__gt=self.object.last_name)
-            .values('pk').values('pk')[:1]
+            .values('pk')[:1]
         )
         # There may be no next page
         if next_pk:
