@@ -3,18 +3,18 @@
 {% block page_header %}
   <div class="row">
     <h2>Works</h2>
-    <span class="mt-2 pl-4"> ({{ paginator.count }})</span>
+    <span class="pt-2 pl-4"> ({{ paginator.count }})</span>
   </div>
   <div class="row pb-3">
     <div class="col-sm-6 mt-2">Click on a row to see the detail view for that work</div>
     <div class="col-sm-6">
-      
       <form class="form-inline float-right" action="{% url 'schletter_app:works' %}" method="get">
         <input name="q" class="form-control" type="text" placeholder="Search">
         <button class="btn btn-primary ml-2" type="submit">Search</button>
         <a class="btn btn-secondary ml-2" href="{% url 'schletter_app:works' %}" role="button">Reset</a>
       </form>
     </div>
+    {% comment %} <small class="ml-auto pr-3 pt-2">Search by full or partial title or genre</small> {% endcomment %}
   </div>
 {% endblock page_header %}
 {% block content %}

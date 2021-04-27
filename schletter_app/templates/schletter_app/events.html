@@ -3,17 +3,17 @@
 {% block page_title %}Events{% endblock page_title %}
 {% block page_header %}
   <div class="row">
-    <h2>Events</h2>
-    <span class="pt-2 pl-4"> ({{ paginator.count }})</span>
-    <form class="form-inline mb-3 ml-auto" action="." method="get">
-      <div class="form-group">
+      <h2>Events</h2>
+      <span class="pt-2 pl-4"> ({{ paginator.count }})</span>
+    <form class="form-inline ml-auto" action="." method="get">
+      <div class="form-group mb-3">
         <select id="theater" name="theater" class="form-control" type="text">
           <option value="">Theater</option>
           <option value="Bth">Bth</option>
           <option value="Kth">Kth</option>
         </select>
       </div>
-      <div class="form-group ml-2">        
+      <div class="form-group mb-3 ml-2">        
         <select id="company" name="company" class="form-control" type="text">
           <option value="">Company</option>
           {% for company in companies %}
@@ -21,7 +21,7 @@
           {% endfor %}
         </select>
       </div>
-      <div class="form-group ml-2">        
+      <div class="form-group mb-3 ml-2">        
         <select id="event_type" name="event_type" class="form-control" type="text">
           <option value="">Type</option>
           {% for event_type in event_types %}
@@ -29,7 +29,7 @@
           {% endfor %}
         </select>
       </div>
-      <div class="form-group ml-2">        
+      <div class="form-group mb-3 ml-2">        
         <select id="genre" name="genre" class="form-control" type="text">
           <option value="">Genre</option>
           {% for genre in genres %}
@@ -37,8 +37,10 @@
           {% endfor %}
         </select>
       </div>
-      <button class="btn btn-primary ml-2" type="submit">Search</button>
-      <a class="btn btn-secondary ml-2" href="{% url 'schletter_app:events' %}" role="button">Reset</a>
+      <div class="form-group mb-3 ml-2">
+        <button class="btn btn-primary" type="submit">Search</button>
+        <a class="btn btn-secondary ml-2" href="{% url 'schletter_app:events' %}" role="button">Reset</a>
+      </div>
     </form>
   </div>
 {% endblock %}
@@ -47,12 +49,12 @@
   <table class="table table-striped">
     <thead class="thead-light">
       <tr>
-        <th class="text-right" style="width: 20%">Date</th>
-        <th style="width: 6%">Theater</th>
-        <th style="width: 6%">Company</th>
-        <th style="width: 6%">Type</th>
-        <th style="width: 22%">Genre</th>
-        <th style="width: 40%">Title</th>
+        <th class="text-right" style="min-width: 160px">Date</th>
+        <th style="min-width: 70px">Theater</th>
+        <th style="min-width: 80px">Company</th>
+        <th style="min-width: 70px">Type</th>
+        <th style="min-width: 220px">Genre</th>
+        <th style="min-width: 400px">Title</th>
       </tr>
     </thead>
     {% for event in events %}
