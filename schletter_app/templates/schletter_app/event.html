@@ -57,6 +57,8 @@
       {% endfor %}
     </ul>
   </div>
+
+  <!-- Previous and Next buttons-->
   <ul class="pagination pt-3">
     {% if prev_pk %}
       <li class="page-link"><a href="{% url 'schletter_app:event' prev_pk %}?{{ request.GET.urlencode }}">Previous</a></li>

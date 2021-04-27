@@ -6,12 +6,12 @@
     <span class="pt-2 pl-2"> ({{ paginator.count }})</span>
   </div>
   <div class="row pb-3">
-    <div class="mb-3 mt-2">Click on a row to see the detail view for the person</div> 
+    <div class="pb-1 mt-2">Click on a row to see the detail view for the person</div> 
     <form class="form-inline ml-auto" action="{% url 'schletter_app:authors' %}" method="get">
-      <div class="form-group mb-3 mr-2">
+      <div class="form-group pb-1 mr-2">
         <input name="q" class="form-control" type="text" placeholder="Search">
       </div>
-      <div class="form-group mb-3 mr-2">
+      <div class="form-group pb-1 mr-2">
         <button class="btn btn-primary mr-2" type="submit">Search</button>
         <a class="btn btn-secondary mr-2" href="{% url 'schletter_app:authors' %}" role="button">Reset</a>
       </div>

@@ -40,6 +40,8 @@
   {% if work.url != "" %}
     <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>
   {% endif %}
+  
+  <!-- Previous and Next buttons-->
   <ul class="pagination pt-3">
     {% if prev_pk %}
       <li class="page-link"><a href="{% url 'schletter_app:work' prev_pk %}?{{ request.GET.urlencode }}">Previous</a></li>
