@@ -2,7 +2,7 @@
 {% load my_tags %}
 {% block page_title %}Calendar{% endblock page_title %}
 {% block page_header %}
-  <div class="row pb-2">
+  <div class="row">
     <h2>Calendar</h2>
     <form class="form-inline ml-auto" action="{% url 'schletter_app:calendar' %}" method="get">
       <div class="form-group pb-2">
@@ -16,7 +16,7 @@
       </div>
     </form>
   </div> 
-  <div class="row">
+  <div class="row pb-1">
       Click on a row to see the detail view for that event
   </div>
       
