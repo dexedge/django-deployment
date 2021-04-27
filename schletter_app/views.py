@@ -126,7 +126,7 @@ class AuthorQueryMixin:
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query is not None:
-            return Author.objects.filter(Q(last_name__icontains=query) | Q(first_names__icontains=query))
+            return Author.objects.filter(Q(last_name__icontains=query) | Q(first_names__icontains=query) | Q(authorwork__role__icontains=query)).distinct()
         else:
             return Author.objects.all()
 
