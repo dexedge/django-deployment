@@ -9,9 +9,8 @@
   <p>Work(s):</p>{% endif %}
   <ul>
     {% for work in composer.works.all %}
-      <li><a href="{% url 'schletter_app:work' work.pk %}">
+      <li><a href="{{ work.get_absolute_url }}">
             <em>{{work.title}}</em></a> ({{work.genre}})
-        
       </li>
     {% endfor %}
   </ul>
@@ -27,7 +26,7 @@
   <ul class="pagination pt-3">
     {% if prev_pk %}
       <li class="page-link"><a href="{% url 'schletter_app:composer' prev_pk %}?{{ request.GET.urlencode }}">Previous</a></li>
-    {% endif %}
+    {% endif %}s
     {% if next_pk %}
       <li class="page-link ml-auto"><a href="{% url 'schletter_app:composer' next_pk %}?{{ request.GET.urlencode }}">Next</a></li>
     {% endif %}

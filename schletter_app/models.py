@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from datetime import datetime
 from tinymce.models import HTMLField
 
@@ -22,12 +23,17 @@ class Event(models.Model):
     morrow = models.CharField(max_length=5)
     notes = HTMLField(blank=True)
     
-    class Meta:
-        ordering = ['pk']
-    
     def __str__(self):
         event = str(self.date) + ", " + self.title
         return event
+
+    def get_absolute_url(self):
+        return reverse('schletter_app:event', kwargs={'pk': self.pk})
+        
+    class Meta:
+        ordering = ['pk']
+    
+    
 
 class Work(models.Model):
     events = models.ManyToManyField(Event, through="WorkEvent")
@@ -40,6 +46,9 @@ class Work(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolute_url(self):
+        return reverse('schletter_app:work', kwargs={'pk': self.pk})
+    
     class Meta:
         ordering = ['sort_title']
 
@@ -62,6 +71,9 @@ class Author(models.Model):
         else:
             return self.last_name + ", " + self.first_names
 
+    def get_absolute_url(self):
+        return reverse('schletter_app:author', kwargs={'pk': self.pk})
+    
     class Meta:
         ordering = ['last_name', 'first_names']
 
@@ -85,6 +97,9 @@ class Composer(models.Model):
         else:
             return self.last_name + ", " + self.first_names
 
+    def get_absolute_url(self):
+        return reverse('schletter_app:composer', kwargs={'pk': self.pk})
+    
     class Meta:
         ordering = ['last_name', 'first_names']
 

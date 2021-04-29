@@ -13,7 +13,7 @@
         {% if not work or event.event_type == "closed" %}
           <td>{{event.title}}</td>
         {% else %}
-          <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title | display_title:work.genre | safe }}</a></td>
+          <td><a href="{{ work.get_absolute_url }}">{{ event.title | display_title:work.genre | safe }}</a></td>
         {% endif %}
       {% endwith %}
   </p>
@@ -27,9 +27,9 @@
         {% endfor %}
       </ul>
   {% endif %}
-    {% if event.work_set.first.composerworks.exists and event.work_set.first.composerworks.first.last_name != "NA" %}
-      <p>Composer: <a href="{% url 'schletter_app:composer' event.work_set.first.composerworks.first.pk %}">{{ event.work_set.first.composerworks.first }}</a></p>
-    {% endif %}
+  {% if event.work_set.first.composerworks.exists and event.work_set.first.composerworks.first.last_name != "NA" %}
+    <p>Composer: <a href="{% url 'schletter_app:composer' event.work_set.first.composerworks.first.pk %}">{{ event.work_set.first.composerworks.first }}</a></p>
+  {% endif %}
   <p>Hadamowsky: {{event.hadamowsky}}</p>
   {% if event.morrow != "NA" %}
     <p>Morrow: {{event.morrow}}</p>
@@ -50,7 +50,7 @@
             {% if not work or event.event_type == "closed" %}
               <td>{{event.title}}</td>
             {% else %}
-              <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title | display_title:work.genre | safe }}</a> ({{event.theater}}, {{work.genre}})</td>
+              <td><a href="{{ work.get_absolute_url }}">{{ event.title | display_title:work.genre | safe }}</a> ({{event.theater}}, {{work.genre}})</td>
             {% endif %}
           {% endwith %}
         </li>

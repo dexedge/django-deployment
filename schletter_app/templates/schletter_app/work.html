@@ -26,7 +26,7 @@
   <p>Performance(s):</p>
   <ul>
     {% for event in work.events.all %}
-      <li><a href="{% url 'schletter_app:event' event.pk %}">{{event.date}}</a> ({{event.theater}}{% if event.company != "NA" %}, {{event.company}}{% endif %}){% if work.genre == "Concert" %}, {{event.title}}{% elif event.title != work.title %}, as <em>{{event.title}}</em>{% endif %}
+      <li><a href="{{ event.get_absolute_url }}">{{event.date}}</a> ({{event.theater}}{% if event.company != "NA" %}, {{event.company}}{% endif %}){% if work.genre == "Concert" %}, {{event.title}}{% elif event.title != work.title %}, as <em>{{event.title}}</em>{% endif %}
       </li>
     {% endfor %}
   </ul>

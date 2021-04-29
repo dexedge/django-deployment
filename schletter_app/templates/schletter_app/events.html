@@ -60,7 +60,7 @@
     {% for event in events %}
       <tr>
         <td class="text-right">
-          <a href="{% url 'schletter_app:event' event.pk %}?{{ request.GET.urlencode }}">{{ event.date }}</a>
+          <a href="{{ event.get_absolute_url }}?{{ request.GET.urlencode }}">{{ event.date }}</a>
         </td>
         <td>{{ event.theater }}</td>
         <td>{{ event.company }}</td>

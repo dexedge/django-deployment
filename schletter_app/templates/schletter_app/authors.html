@@ -23,7 +23,7 @@
 {% block content %}
   <ul>
     {% for author in authors %}
-      <a href="{% url 'schletter_app:author' author.pk %}?{{ request.GET.urlencode }}" class="list-group-item list-group-item-action">
+      <a href="{{ author.get_absolute_url }}?{{ request.GET.urlencode }}" class="list-group-item list-group-item-action">
         {{ author }}            
       </a>
     {% empty %}
