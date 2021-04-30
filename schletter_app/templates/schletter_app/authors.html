@@ -21,14 +21,11 @@
   </div>
 {% endblock page_header %}
 {% block content %}
-  <ul>
-    {% for author in authors %}
-      <a href="{{ author.get_absolute_url }}?{{ request.GET.urlencode }}" class="list-group-item list-group-item-action">
-        {{ author }}            
-      </a>
-    {% empty %}
-      <p>No authors match this search</p>
-    {% endfor %}
-  </ul>
-
+  {% for author in authors %}
+    <a href="{{ author.get_absolute_url }}?{{ request.GET.urlencode }}" class="list-group-item list-group-item-action">
+      {{ author }}            
+    </a>
+  {% empty %}
+    <p>No authors match this search</p>
+  {% endfor %}
 {% endblock content %}

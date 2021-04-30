@@ -22,18 +22,15 @@
   </div>
 {% endblock page_header %}
 {% block content %}
-  <ul>
-    {% for work in works %}
-      <a href="{{ work.get_absolute_url }}?{{ request.GET.urlencode }}" class="list-group-item list-group-item-action">
-              {% if work.title == "No title" %}
-                {{work.title}}
-              {% else %}
-                <em>{{work.title}}</em>
-              {% endif %} ({{work.genre}})
-      </a>
-    {% empty %}
-      <p>No works match this search</p>
-    {% endfor %}
-  </ul>
-
+  {% for work in works %}
+    <a href="{{ work.get_absolute_url }}?{{ request.GET.urlencode }}" class="list-group-item list-group-item-action">
+            {% if work.title == "No title" %}
+              {{work.title}}
+            {% else %}
+              <em>{{work.title}}</em>
+            {% endif %} ({{work.genre}})
+    </a>
+  {% empty %}
+    <p>No works match this search</p>
+  {% endfor %}
 {% endblock content %}

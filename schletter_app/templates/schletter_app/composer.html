@@ -26,7 +26,7 @@
   <ul class="pagination pt-3">
     {% if prev_pk %}
       <li class="page-link"><a href="{% url 'schletter_app:composer' prev_pk %}?{{ request.GET.urlencode }}">Previous</a></li>
-    {% endif %}s
+    {% endif %}
     {% if next_pk %}
       <li class="page-link ml-auto"><a href="{% url 'schletter_app:composer' next_pk %}?{{ request.GET.urlencode }}">Next</a></li>
     {% endif %}

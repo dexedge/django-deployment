@@ -22,13 +22,11 @@
   </div>
 {% endblock page_header %}
 {% block content %}
-  <ul>
-    {% for composer in composers %}
-      <a href="{{ composer.get_absolute_url }}?{{ request.GET.urlencode }}" class="list-group-item list-group-item-action">
-        {{ composer }}            
-      </a>
-    {% empty %}
-      <p>No composers match this search</p>
-    {% endfor %}
-  </ul>
+  {% for composer in composers %}
+    <a href="{{ composer.get_absolute_url }}?{{ request.GET.urlencode }}" class="list-group-item list-group-item-action">
+      {{ composer }}            
+    </a>
+  {% empty %}
+    <p>No composers match this search</p>
+  {% endfor %}
 {% endblock content %}
