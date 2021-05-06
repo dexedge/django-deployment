@@ -48,7 +48,7 @@ class EventList(EventQueryMixin, ListView):
     template_name = 'schletter_app/events.html'
     # Value lists for drop downs in Event search
     extra_context = {
-        'companies': Event.objects.all().order_by('company').values_list('company', flat=True).distinct(),
+        'companies': Event.objects.all().exclude(company='NA').order_by('company').values_list('company', flat=True).distinct(),
         'event_types': Event.objects.all().order_by('event_type').values_list('event_type', flat=True).distinct(),
         'genres': Work.objects.all().order_by('genre').values_list('genre', flat=True).distinct()
         }
