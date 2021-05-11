@@ -29,7 +29,7 @@
           {% if not work or event.event_type == "closed" %}
             <li class="list-group-item list-group-item-action">{{event.title}}</li>
           {% else %}
-            <a href="{{ event.get_absolute_url }}" class="list-group-item list-group-item-action">{{ event.title | display_title:work.genre | safe }} ({{event.theater}})</a>
+            <a href="{{ event.get_absolute_url }}" class="list-group-item list-group-item-action">({{event.theater}}) {{ event.title | display_title:work.genre | safe }}</a>
           {% endif %}
         {% endwith %}
       {% endfor %}
