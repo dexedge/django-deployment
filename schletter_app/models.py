@@ -33,8 +33,6 @@ class Event(models.Model):
     class Meta:
         ordering = ['pk']
     
-    
-
 class Work(models.Model):
     events = models.ManyToManyField(Event, through="WorkEvent")
     title = models.CharField(max_length=100)
