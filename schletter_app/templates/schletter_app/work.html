@@ -9,6 +9,9 @@
 {% endblock page_header %}
 
 {% block content %}
+  {% if work.source_title %}
+    <p>Original title: <em>{{work.source_title}}</em></p>
+  {% endif %}
   <p>Genre: {{ work.genre }}</p>
   {% if work.authorworks.exists %}
     <p>Author(s):</p>

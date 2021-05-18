@@ -36,6 +36,7 @@ class Event(models.Model):
 class Work(models.Model):
     events = models.ManyToManyField(Event, through="WorkEvent")
     title = models.CharField(max_length=100)
+    source_title = models.CharField(max_length=100, blank=True)
     sort_title = models.CharField(max_length=100)
     genre = models.CharField(max_length=50)
     notes = HTMLField()
