@@ -16,7 +16,7 @@
               {{aw.work.title}}</a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %} 
         {% else %}
           <a href="{% url 'schletter_app:work' aw.work.pk %}">
-              <em>{{aw.work.title}}</em></a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %} 
+              <em>{{aw.work.title}}</em></a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %}{% if aw.work.source_title %}; original title: <em>{{aw.work.source_title}}</em>{% endif %}
         {% endif %}
       </li>
     {% endfor %}

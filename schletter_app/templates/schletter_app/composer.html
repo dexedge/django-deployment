@@ -10,7 +10,7 @@
   <ul>
     {% for work in composer.works.all %}
       <li><a href="{{ work.get_absolute_url }}">
-            <em>{{work.title}}</em></a> ({{work.genre}})
+            <em>{{work.title}}</em></a> ({{work.genre}}){% if work.source_title %}; original title: <em>{{work.source_title}}</em>{% endif %}
       </li>
     {% endfor %}
   </ul>

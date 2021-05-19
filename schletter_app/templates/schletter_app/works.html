@@ -29,8 +29,7 @@
               {{work.title}}
             {% else %}
               <em>{{work.title}}</em>
-            {% endif %} ({{work.genre}}){% if work.source_title %}; original title: <em>{{work.source_title}}</em>
-            {% endif %}
+            {% endif %} ({{work.genre}}){% if work.source_title %}; original title: <em>{{work.source_title}}</em>{% endif %}
     </a>
   {% empty %}
     <p>No works match this search</p>

@@ -32,14 +32,14 @@
           {% endfor %}
         </select>
       </div>
-      <div class="form-group mb-3 mr-2">        
+      {% comment %} <div class="form-group mb-3 mr-2">        
         <select id="genre" name="genre" class="form-control" type="text">
           <option value="">Genre</option>
           {% for genre in genres %}
             <option value="{{genre}}">{{genre}}</option>
           {% endfor %}
         </select>
-      </div>
+      </div> {% endcomment %}
       <div class="form-group mb-3 mr-2">
         <button class="btn btn-primary mr-2" type="submit">Search</button>
         <a class="btn btn-secondary" href="{% url 'schletter_app:events' %}" role="button">Reset</a>
@@ -56,7 +56,7 @@
         <th style="min-width: 60px">Theater</th>
         <th style="min-width: 70px">Company</th>
         <th style="min-width: 70px">Type</th>
-        <th style="min-width: 215px">Genre</th>
+        {% comment %} <th style="min-width: 215px">Genre</th> {% endcomment %}
         <th style="min-width: 400px">Title</th>
       </tr>
     </thead>
@@ -68,7 +68,7 @@
         <td>{{ event.theater }}</td>
         <td>{{ event.company }}</td>
         <td>{{ event.event_type }}</td>
-        <td>{{ event.work_set.all.first.genre }}</td>
+        {% comment %} <td>{{ event.work_set.all.first.genre }}</td> {% endcomment %}
         {% with event.work_set.all.first as work %}
           {% if not work or event.event_type == "closed" %}
             <td>{{event.title}}</td>
