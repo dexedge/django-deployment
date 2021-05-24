@@ -10,12 +10,12 @@
   <p>Company: {{ event.company }}</p>
   <p>Title: 
     {% with event.work_set.all.first as work %}
-        {% if not work or event.event_type == "closed" %}
-          <td>{{event.title}}</td>
-        {% else %}
-          <td><a href="{{ work.get_absolute_url }}">{{ event.title | display_title:work.genre | safe }}</a></td>
-        {% endif %}
-      {% endwith %}
+      {% if not work or event.event_type == "closed" %}
+        <td>{{event.title}}</td>
+      {% else %}
+        <td><a href="{{ work.get_absolute_url }}">{{ event.title | display_title:work.genre | safe }}</a></td>
+      {% endif %}
+    {% endwith %}
   </p>
   <p>Type: {{ event.event_type }}</p>
   <p>Genre: {{ event.work_set.first.genre }}</p>
