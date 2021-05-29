@@ -87,7 +87,8 @@ class WorkQueryMixin:
         if query is not None:
             return Work.objects.filter(Q(title__icontains=query) | 
                     Q(source_title__icontains=query) | 
-                    Q(genre__icontains=query))
+                    Q(genre__icontains=query) |
+                    Q(source_genre__icontains=query))
         else:
             return Work.objects.all()
 

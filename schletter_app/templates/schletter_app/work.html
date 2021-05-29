@@ -1,18 +1,19 @@
 {% extends 'schletter_app/base.html' %}
 {% block page_title %}Work{% endblock page_title %}
 {% block page_header %}
-  {% if work.title == "Concert" or work.title == "No title" %}
-    <h3 class="pb-2">{{work.title}}</h3>
-  {% else %}
-    <h3 class="pb-2"><em>{{work.title}}</em></h3>
-  {% endif %}
+  <div class="pb-1">
+      {% if work.title == "Concert" or work.title == "No title" %}
+        <p class="h3">{{work.title}}<p>
+      {% else %}
+        <p><span class="h3"><em>{{work.title}}</em></span>
+      {% endif %} ({{ work.genre }})</p>
+  </div>
 {% endblock page_header %}
 
 {% block content %}
   {% if work.source_title %}
-    <p>Original title: <em>{{work.source_title}}</em></p>
+    <p>Original title: <em>{{work.source_title}}</em>{% if work.source_genre %} ({{ work.source_genre}}){% endif %}</p>
   {% endif %}
-  <p>Genre: {{ work.genre }}</p>
   {% if work.authorworks.exists %}
     <p>Author(s):</p>
       <ul>
