@@ -1,4 +1,5 @@
 {% extends 'schletter_app/base.html' %}
+{% load my_tags %}
 {% block page_title %}{{author.last_name}}{% endblock page_title %}
 {% block page_header %}
   <h3 class="pb-2">{{author}}</h3>
@@ -9,7 +10,7 @@
   {% if author.death > 0 %}<p>Death: {{ author.death }}</p>{% endif %}
   <p>Work(s):</p>
   <ul>
-    {% for aw in author.authorwork_set.all %}
+    {% for aw in author.authorwork_set.all|sort_by:"work" %}
       <li>
         {% if aw.work.title == "No title" %}
           <a href="{% url 'schletter_app:work' aw.work.pk %}">

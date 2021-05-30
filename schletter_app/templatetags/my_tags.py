@@ -3,6 +3,15 @@ from django.template.defaultfilters import stringfilter
 
 register = template.Library()
 
+@register.filter(name="sort_by")
+def sort_by(queryset, order):
+    """
+    Sort queryset by specified order criterion.
+    Used in Author detail template to sort the authorwork
+    queryset by work title
+    """
+    return queryset.order_by(order)
+
 @register.filter(name="display_title")
 def display_title(value, arg=""):
     """
