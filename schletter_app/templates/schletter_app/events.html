@@ -56,8 +56,8 @@
         <th style="min-width: 60px">Theater</th>
         <th style="min-width: 70px">Company</th>
         <th style="min-width: 70px">Type</th>
-        <th style="min-width: 215px">Genre</th>
         <th style="min-width: 400px">Title</th>
+        <th style="min-width: 215px">Genre</th>
       </tr>
     </thead>
     {% for event in events %}
@@ -69,15 +69,15 @@
         <td>{{ event.company }}</td>
         <td>{{ event.event_type }}</td>
         {% with event.work_set.first as work %}
-          {% if event.title != work.title %}
-            <td>{{ work.source_genre }}</td>
-          {% else %}
-            <td>{{work.genre}}</td>
-          {% endif %}
           {% if not work or event.event_type == "closed" %}
             <td>{{event.title}}</td>
           {% else %}
             <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title | display_title:work.genre | safe }}</a></td>
+          {% endif %}
+          {% if event.title != work.title %}
+            <td>{{ work.source_genre }}</td>
+          {% else %}
+            <td>{{work.genre}}</td>
           {% endif %}
         {% endwith %}
       </tr>
