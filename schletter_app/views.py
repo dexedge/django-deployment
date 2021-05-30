@@ -39,7 +39,8 @@ class EventQueryMixin:
         if event_type is not None and event_type != "":
             qs = qs.filter(event_type=event_type)
         if genre is not None and genre != "":
-            qs = qs.filter(work__genre=genre)
+            qs = qs.filter(Q(work__genre=genre) |
+                           Q(work__source_genre=genre))
         return qs
 
 class EventList(EventQueryMixin, ListView):
