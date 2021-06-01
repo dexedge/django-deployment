@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'schletter_app',
     'bootstrap4',
     'django_extensions',
-    'tinymce',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -134,6 +134,20 @@ USE_TZ = True
 STATIC_ROOT = [BASE_DIR / 'staticfiles']
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [ BASE_DIR / 'static',]
+
+# ckeditor settings
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat'],
+            ['Outdent', 'Indent'],
+            ['Link', 'Unlink'],
+            ['Styles', 'Format', 'Font', 'FontSize'],
+            ['TextColor', 'BGColor'],
+        ]
+    }
+}
 
 # Heroku settings
 django_heroku.settings(locals())

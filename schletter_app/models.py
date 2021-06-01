@@ -1,7 +1,7 @@
 from django.db import models
 from django.urls import reverse
 from datetime import datetime
-from tinymce.models import HTMLField
+from ckeditor.fields import RichTextField
 
 # Create your models here.
 
@@ -21,7 +21,7 @@ class Event(models.Model):
     event_type = models.CharField(max_length=50)
     hadamowsky = models.CharField(max_length=5)
     morrow = models.CharField(max_length=5)
-    notes = HTMLField(blank=True)
+    notes = RichTextField()
     
     def __str__(self):
         event = str(self.date) + ", " + self.title
@@ -40,7 +40,7 @@ class Work(models.Model):
     sort_title = models.CharField(max_length=100)
     genre = models.CharField(max_length=75)
     source_genre = models.CharField(max_length=75, blank=True)
-    notes = HTMLField()
+    notes = RichTextField()
     url = models.URLField(max_length=200, blank=True)
 
     def __str__(self):
@@ -63,7 +63,7 @@ class Author(models.Model):
     first_names = models.CharField(max_length=200)
     birth = models.IntegerField()
     death = models.IntegerField()
-    notes = models.TextField()
+    notes = RichTextField()
 
     def __str__(self):
         if self.first_names == "NA":
@@ -89,7 +89,7 @@ class Composer(models.Model):
     first_names = models.CharField(max_length=200)
     birth = models.IntegerField()
     death = models.IntegerField()
-    notes = models.TextField()
+    notes = RichTextField()
 
     def __str__(self):
         if self.first_names == "NA":
