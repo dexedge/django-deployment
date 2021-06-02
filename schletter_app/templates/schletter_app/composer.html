@@ -22,13 +22,15 @@
     </div>
   {% endif %}
 
-  <!-- Previous and Next buttons-->
-  <ul class="pagination pt-3">
+  <!-- Previous and Next arrows -->
+  <div class="arrow" id="arrow-left">
     {% if prev_pk %}
-      <li class="page-link"><a href="{% url 'schletter_app:composer' prev_pk %}?{{ request.GET.urlencode }}">Previous</a></li>
+      <a href="{% url 'schletter_app:composer' prev_pk %}?{{ request.GET.urlencode }}"><i class="bi-chevron-left"></i></a>
     {% endif %}
+  </div>
+  <div class="arrow" id="arrow-right">
     {% if next_pk %}
-      <li class="page-link ml-auto"><a href="{% url 'schletter_app:composer' next_pk %}?{{ request.GET.urlencode }}">Next</a></li>
+      <a href="{% url 'schletter_app:composer' next_pk %}?{{ request.GET.urlencode }}"><i class="bi-chevron-right"></i></a>
     {% endif %}
-  </ul>
+  </div>
 {% endblock content %}

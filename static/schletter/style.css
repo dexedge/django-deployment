@@ -45,3 +45,21 @@ a {
 .table {
   font-size: 16px;
 }
+
+i {  
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.arrow {
+  position: fixed;
+  top: 50%;
+  font-size: 2rem;
+}
+
+#arrow-left {
+  left: 10px;
+}
+
+#arrow-right {
+  right: 50px;
+}
