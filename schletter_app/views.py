@@ -29,18 +29,18 @@ class EventQueryMixin:
     def get_queryset(self):
         qs = Event.objects.all()
         theater = self.request.GET.get('theater')
-        company = self.request.GET.get('company')
-        event_type = self.request.GET.get('event_type')
-        genre = self.request.GET.get('genre')
-        if theater is not None and theater != "":
+        company = self.request.GET.getlist('company')
+        event_type = self.request.GET.getlist('event_type')
+        genre = self.request.GET.getlist('genre')
+        if theater:
             qs = qs.filter(theater=theater)
-        if company is not None and company != "":
-            qs = qs.filter(company=company)
-        if event_type is not None and event_type != "":
-            qs = qs.filter(event_type=event_type)
-        if genre is not None and genre != "":
-            qs = qs.filter(Q(work__genre=genre) |
-                           Q(work__source_genre=genre))
+        if company:
+            qs = qs.filter(Q(company__in=company))
+        if event_type:
+            qs = qs.filter(Q(event_type__in=event_type))
+        if genre:
+            qs = qs.filter(Q(work__genre__in=genre) |
+                           Q(work__source_genre__in=genre))
         return qs
 
 class EventList(EventQueryMixin, ListView):
