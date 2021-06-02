@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'bootstrap4',
     'django_extensions',
     'ckeditor',
+    'django.contrib.postgres',
 ]
 
 MIDDLEWARE = [

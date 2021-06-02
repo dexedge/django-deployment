@@ -86,10 +86,10 @@ class WorkQueryMixin:
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query is not None:
-            return Work.objects.filter(Q(title__icontains=query) | 
+            return Work.objects.filter(Q(title__unaccent__icontains=query) | 
                     Q(source_title__icontains=query) | 
-                    Q(genre__icontains=query) |
-                    Q(source_genre__icontains=query))
+                    Q(genre__unaccent__icontains=query) |
+                    Q(source_genre__unaccent__icontains=query))
         else:
             return Work.objects.all()
 
@@ -130,7 +130,7 @@ class AuthorQueryMixin:
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query is not None:
-            return Author.objects.filter(Q(last_name__icontains=query) | Q(first_names__icontains=query) | Q(authorwork__role__icontains=query)).distinct()
+            return Author.objects.filter(Q(last_name__unaccent__icontains=query) | Q(first_names__unaccent__icontains=query) | Q(authorwork__role__icontains=query)).distinct()
         else:
             return Author.objects.all()
 
@@ -172,7 +172,7 @@ class ComposerQueryMixin:
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query is not None:
-            return Composer.objects.exclude(last_name="NA").filter(Q(last_name__icontains=query) | Q(first_names__icontains=query))
+            return Composer.objects.exclude(last_name="NA").filter(Q(last_name__unaccent__icontains=query) | Q(first_names__unaccent__icontains=query))
         else:
             return Composer.objects.all().exclude(last_name="NA")
 
