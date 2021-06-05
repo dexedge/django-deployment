@@ -1,0 +1,16 @@
+{% extends 'schletter_app/base.html' %}
+{% load my_tags %}
+{% block page_title %}Edit Author{% endblock %}
+{% block content %}
+  <h3>Edit Author</h3>
+  <p>{{ author }}</p>
+  <div class="form-group">
+    <form method="POST">
+      {% csrf_token %}
+      {{ form.media }}
+      {{ form.as_p }}
+      <button class="btn btn-secondary">Save</button>
+    </form>
+  </div>
+{% endblock content %}
+

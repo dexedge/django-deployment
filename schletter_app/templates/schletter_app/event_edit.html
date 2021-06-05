@@ -1,0 +1,16 @@
+{% extends 'schletter_app/base.html' %}
+{% load my_tags %}
+{% block page_title %}Edit Event{% endblock %}
+{% block content %}
+  <h3>Edit Event</h3>
+  <p>{{event.date}}, {{ event.title | display_title:event.work_set.first.genre | safe }}</p>
+  <div class="form-group">
+    <form method="POST">
+      {% csrf_token %}
+      {{ form.media }}
+      {{ form.as_p }}
+      <button class="btn btn-secondary">Save</button>
+    </form>
+  </div>
+{% endblock content %}
+
