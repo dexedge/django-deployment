@@ -36,7 +36,11 @@
   </ul>
   <p>Total: {{work.events.all.count}}</p>
   {% if work.notes != "" %}
-    <p>Notes:</p>
+    <p>Notes: 
+      {% if user.is_authenticated %}
+        <a class="btn btn-outline-secondary btn-sm ml-2" href="{% url 'schletter_app:work_edit' work.pk %}">Edit</a>
+      {% endif %}
+    </p>
     <div class="row col-sm-8 mb-3">
       <div class="indent">{{ work.notes|safe }}</div>
     </div>

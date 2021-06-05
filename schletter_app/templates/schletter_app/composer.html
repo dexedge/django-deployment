@@ -15,11 +15,14 @@
     {% endfor %}
   </ul>
   <p>Total: {{composer.works.all.count}}</p>
-  {% if composer.notes != "NA" %}
+  {% if composer.notes != "NA" and composer.notes != "<p>NA</p>" %}
     <p>Notes:</p>
     <div class="row col-sm-8">
       <div class="indent">{{ composer.notes|safe }}</div>
     </div>
+  {% endif %}
+  {% if user.is_authenticated %}
+    <a class="btn btn-outline-secondary btn-sm mt-4" href="{% url 'schletter_app:composer_edit' composer.pk %}">Edit</a>
   {% endif %}
 
   <!-- Previous and Next arrows -->

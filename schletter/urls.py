@@ -18,6 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls, name='admin'),
+    path('accounts/', include('django.contrib.auth.urls')),
     path('', include('schletter_app.urls', namespace='schletter_app')),
-    path('tinymce/', include('tinymce.urls')),
 ]

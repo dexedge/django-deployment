@@ -9,20 +9,21 @@ urlpatterns = [
     path('', views.Index.as_view(), name='index'),
     # Calendar page
     path('calendar/', views.DateList.as_view(), name='calendar'),
-    # Events page
+    # Events
     path('events/', views.EventList.as_view(), name='events'),
-    # Event detail page
     path('events/<int:pk>/', views.EventDetail.as_view(), name='event'),
-    # Works page
+    path('events/edit/<int:pk>/', views.EventEdit.as_view(), name='event_edit'),
+    # Works
     path('works/', views.WorkList.as_view(), name="works"),
-    # Work detail page
     path('works/<int:pk>', views.WorkDetail.as_view(), name='work'),
-    # Authors page
+    path('works/edit/<int:pk>/', views.WorkEdit.as_view(), name='work_edit'),
+    # Authors
     path('authors/', views.AuthorList.as_view(), name='authors'),
-    # Author detail page
     path('authors/<int:pk>/', views.AuthorDetail.as_view(), name='author'),
-    # Composers page
+    path('authors/edit/<int:pk>/', views.AuthorEdit.as_view(), name='author_edit'),
+
+    # Composers
     path('composers/', views.ComposerList.as_view(), name='composers'),
-    # Composer detail page
     path('composers/<int:pk>/', views.ComposerDetail.as_view(), name='composer'),
+    path('composers/edit/<int:pk>/', views.ComposerEdit.as_view(), name='composer_edit'),
 ]

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView, ListView, DetailView
+from django.views.generic import TemplateView, ListView, DetailView, UpdateView
 from django.db.models import Q
 from schletter_app.models import Date, Event, Work, Author, Composer
 
@@ -81,6 +81,12 @@ class EventDetail(EventQueryMixin, DetailView):
         
         return context
 
+class EventEdit(UpdateView):
+    model = Event
+    template_name = 'schletter_app/event_edit.html'
+    fields = ['notes']
+
+
 # Works
 class WorkQueryMixin:
     def get_queryset(self):
@@ -125,6 +131,11 @@ class WorkDetail(WorkQueryMixin, DetailView):
         
         return context
 
+class WorkEdit(UpdateView):
+    model = Work
+    template_name = 'schletter_app/work_edit.html'
+    fields = ['notes']
+
 # Authors
 class AuthorQueryMixin:
     def get_queryset(self):
@@ -167,6 +178,11 @@ class AuthorDetail(AuthorQueryMixin, DetailView):
         
         return context
 
+class AuthorEdit(UpdateView):
+    model = Author
+    template_name = 'schletter_app/author_edit.html'
+    fields = ['birth', 'death', 'notes']
+
 # Composers
 class ComposerQueryMixin:
     def get_queryset(self):
@@ -208,3 +224,8 @@ class ComposerDetail(ComposerQueryMixin, DetailView):
             context['next_pk'] = next_pk[0]['pk']
         
         return context
+
+class ComposerEdit(UpdateView):
+    model = Composer
+    template_name = 'schletter_app/composer_edit.html'
+    fields = ['birth', 'death', 'notes']
