@@ -3,14 +3,19 @@
 {% block page_title %}Edit Author{% endblock %}
 {% block content %}
   <h3>Edit Author</h3>
-  <p>{{ author }}</p>
-  <div class="form-group">
+  <h5>{{ author }}</h5>
+  {% if user.is_authenticated %}
+  <div class="form-group col-4 mt-3">
     <form method="POST">
       {% csrf_token %}
       {{ form.media }}
       {{ form.as_p }}
       <button class="btn btn-secondary">Save</button>
+      <a href="{{ view.get_success_url }}" class="btn btn-outline-secondary ml-2">Cancel</a>
     </form>
   </div>
+  {% else %}
+    <p>You must be an authorized user to access this page</p>
+  {% endif %}
 {% endblock content %}
 

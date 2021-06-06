@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
 from django.db.models import Q
-from schletter_app.models import Date, Event, Work, Author, Composer
+from .models import Date, Event, Work, Author, Composer
+from .forms import AuthorForm, ComposerForm
 
 # Create your views here.
 class Index(TemplateView):
@@ -180,8 +181,8 @@ class AuthorDetail(AuthorQueryMixin, DetailView):
 
 class AuthorEdit(UpdateView):
     model = Author
+    form_class = AuthorForm
     template_name = 'schletter_app/author_edit.html'
-    fields = ['birth', 'death', 'notes']
 
 # Composers
 class ComposerQueryMixin:
@@ -227,5 +228,5 @@ class ComposerDetail(ComposerQueryMixin, DetailView):
 
 class ComposerEdit(UpdateView):
     model = Composer
+    form_class = ComposerForm
     template_name = 'schletter_app/composer_edit.html'
-    fields = ['birth', 'death', 'notes']

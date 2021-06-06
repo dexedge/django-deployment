@@ -2,11 +2,11 @@
 {% block page_title %}Work{% endblock page_title %}
 {% block page_header %}
   <div class="pb-1">
-      {% if work.title == "Concert" or work.title == "No title" %}
-        <p class="h3">{{work.title}}<p>
-      {% else %}
-        <p><span class="h3"><em>{{work.title}}</em></span>
-      {% endif %} ({{ work.genre }})</p>
+    {% if work.title == "Concert" or work.title == "No title" %}
+      <p class="h3">{{work.title}}<p>
+    {% else %}
+      <p><span class="h3"><em>{{work.title}}</em></span>
+    {% endif %} ({{ work.genre }})</p>
   </div>
 {% endblock page_header %}
 
@@ -14,39 +14,48 @@
   {% if work.source_title %}
     <p>Original title: <em>{{work.source_title}}</em>{% if work.source_genre %} ({{ work.source_genre}}){% endif %}</p>
   {% endif %}
-  {% if work.authorworks.exists %}
-    <p>Author(s):</p>
+  <div class="row">
+    <div class="col-6">
+      {% if work.authorworks.exists %}
+        <p>Author(s):</p>
+          <ul>
+            {% for aw in work.authorwork_set.all %}
+              <li>
+                <a href="{% url 'schletter_app:author' aw.author.pk %}">{{aw.author}}</a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+      {% endif %}
+      {% if work.composerworks.exists and work.composerworks.first.last_name != "NA" %}
+        <p>Composer: <a href="{% url 'schletter_app:composer' work.composerworks.first.pk %}">{{ work.composerworks.first }}</a></p>
+      {% endif %}
+      <p>Performance(s):</p>
       <ul>
-        {% for aw in work.authorwork_set.all %}
-          <li>
-            <a href="{% url 'schletter_app:author' aw.author.pk %}">{{aw.author}}</a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %}
+        {% for event in work.events.all %}
+          <li><a href="{{ event.get_absolute_url }}">{{event.date}}</a> ({{event.theater}}{% if event.company != "NA" %}, {{event.company}}{% endif %}){% if work.genre == "Concert" %}, {{event.title}}{% elif event.title != work.title %}, as <em>{{event.title}}</em>{% endif %}
           </li>
         {% endfor %}
       </ul>
-  {% endif %}
-  {% if work.composerworks.exists and work.composerworks.first.last_name != "NA" %}
-    <p>Composer: <a href="{% url 'schletter_app:composer' work.composerworks.first.pk %}">{{ work.composerworks.first }}</a></p>
-  {% endif %}
-  <p>Performance(s):</p>
-  <ul>
-    {% for event in work.events.all %}
-      <li><a href="{{ event.get_absolute_url }}">{{event.date}}</a> ({{event.theater}}{% if event.company != "NA" %}, {{event.company}}{% endif %}){% if work.genre == "Concert" %}, {{event.title}}{% elif event.title != work.title %}, as <em>{{event.title}}</em>{% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-  <p>Total: {{work.events.all.count}}</p>
+      <p>Total: {{work.events.all.count}}</p>
+    </div>
+    <div class="col-6">
+      {% comment %} {% if work.url %}
+        {{ work.url }}
+        <iframe src="{{ work.url }}" frameborder="0" sandbox></iframe>
+      {% endif %} {% endcomment %}
+    </div>
+  </div>
   {% if work.notes != "" %}
-    <p>Notes: 
-      {% if user.is_authenticated %}
-        <a class="btn btn-outline-secondary btn-sm ml-2" href="{% url 'schletter_app:work_edit' work.pk %}">Edit</a>
-      {% endif %}
-    </p>
+    <p>Notes: </p>
     <div class="row col-sm-8 mb-3">
       <div class="indent">{{ work.notes|safe }}</div>
     </div>
   {% endif %}
   {% if work.url != "" %}
     <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>
+  {% endif %}
+  {% if user.is_authenticated %}
+    <a class="btn btn-outline-secondary btn-sm mt-2" href="{% url 'schletter_app:work_edit' work.pk %}">Edit</a>
   {% endif %}
   
   <!-- Previous and Next arrows -->

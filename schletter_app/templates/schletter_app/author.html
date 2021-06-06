@@ -30,7 +30,7 @@
     </div>
   {% endif %}
   {% if user.is_authenticated %}
-    <a class="btn btn-outline-secondary btn-sm mt-4" href="{% url 'schletter_app:author_edit' author.pk %}">Edit</a>
+    <a class="btn btn-outline-secondary btn-sm mt-2" href="{% url 'schletter_app:author_edit' author.pk %}">Edit</a>
   {% endif %}
 
   <!-- Previous and Next arrows -->

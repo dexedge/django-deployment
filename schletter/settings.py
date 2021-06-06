@@ -131,6 +131,7 @@ USE_TZ = True
 LOGIN_REDIRECT_URL = 'schletter_app:index'
 LOGOUT_REDIRECT_URL = 'schletter_app:index'
 
+X_FRAME_OPTIONS = 'ALLOW-FROM https://books.google.com'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
@@ -152,9 +153,9 @@ CKEDITOR_CONFIGS = {
             ['Styles', 'Format', 'Font', 'FontSize'],
             ['TextColor', 'BGColor'],
         ],
-        'extraPlugins': '.'.join({
-            'divarea',
-        }),
+        'extraPlugins': [
+            'divarea'
+        ],
     }
 }
 # Heroku settings
