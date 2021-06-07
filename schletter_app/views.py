@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
 from django.db.models import Q
 from .models import Date, Event, Work, Author, Composer
-from .forms import AuthorForm, ComposerForm
+from .forms import AuthorForm, ComposerForm, WorkForm
 
 # Create your views here.
 class Index(TemplateView):
@@ -135,7 +135,7 @@ class WorkDetail(WorkQueryMixin, DetailView):
 class WorkEdit(UpdateView):
     model = Work
     template_name = 'schletter_app/work_edit.html'
-    fields = ['notes']
+    form_class = WorkForm
 
 # Authors
 class AuthorQueryMixin:
