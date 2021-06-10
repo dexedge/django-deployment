@@ -39,11 +39,11 @@
       <p>Total: {{work.events.all.count}}</p>
     </div>
     <div class="col-5">
-      {% if work.title_page %}
+      {% comment %} {% if work.title_page %}
         <a href="{{ work.url }}" target="_blank">
           <img src="{{ work.title_page.url}}" class="border border-secondary w-50">
         </a>
-      {% endif %}
+      {% endif %} {% endcomment %}
     </div>
   </div>
   {% if work.notes != "" %}
