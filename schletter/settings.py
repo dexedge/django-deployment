@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '8%p@!yk+)r50w(34pd)r&$9krht)oj8rpvcz9=c1x)^^3nh4uz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -158,7 +158,7 @@ CKEDITOR_CONFIGS = {
             ['TextColor', 'BGColor'],
         ],
         'extraPlugins': ','.join([
-            'divarea', 'nbsp'
+            'divarea', # 'nbsp'
         ]),
     }
 }
