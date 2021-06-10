@@ -6,7 +6,7 @@
   <h5>{{ work.title | display_title:work.genre | safe }}</h5>
   {% if user.is_authenticated %}
   <div class="form-group">
-    <form method="POST">
+    <form method="POST" enctype="multipart/form-data">
       {% csrf_token %}
       {{ form.media }}
       {{ form.as_p }}

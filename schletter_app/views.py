@@ -67,7 +67,7 @@ class EventDetail(EventQueryMixin, DetailView):
             .filter(pk__lt=self.object.pk)
             .reverse().values('pk')[:1]
         )
-        # There may be no next page
+        # There may be no previous page
         if prev_pk:
             context['prev_pk'] = prev_pk[0]['pk']
         
@@ -118,7 +118,7 @@ class WorkDetail(WorkQueryMixin, DetailView):
             .filter(sort_title__lt=self.object.sort_title)
             .reverse().values('pk')[:1]
         )
-        # There may be no next page
+        # There may be no previous page
         if prev_pk:
             context['prev_pk'] = prev_pk[0]['pk']
         
@@ -164,7 +164,7 @@ class AuthorDetail(AuthorQueryMixin, DetailView):
             .filter(last_name__lt=self.object.last_name)
             .reverse().values('pk')[:1]
         )
-        # There may be no next page
+        # There may be no previous page
         if prev_pk:
             context['prev_pk'] = prev_pk[0]['pk']
         
@@ -211,7 +211,7 @@ class ComposerDetail(ComposerQueryMixin, DetailView):
             .filter(last_name__lt=self.object.last_name)
             .reverse().values('pk')[:1]
         )
-        # There may be no next page
+        # There may be no previous page
         if prev_pk:
             context['prev_pk'] = prev_pk[0]['pk']
         

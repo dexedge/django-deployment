@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+import os
 from pathlib import Path
 import django_heroku
 
@@ -24,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '8%p@!yk+)r50w(34pd)r&$9krht)oj8rpvcz9=c1x)^^3nh4uz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -136,9 +137,12 @@ X_FRAME_OPTIONS = 'ALLOW-FROM https://books.google.com'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_ROOT = [BASE_DIR / 'staticfiles']
+STATIC_ROOT = [ BASE_DIR / 'staticfiles' ]
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [ BASE_DIR / 'static',]
+STATICFILES_DIRS = [ BASE_DIR / 'static']
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # ckeditor settings
 # The 'divarea' plugin preserves the site styles
@@ -150,12 +154,12 @@ CKEDITOR_CONFIGS = {
             ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat'],
             ['Outdent', 'Indent'],
             ['Link', 'Unlink'],
-            ['Styles', 'Format', 'Font', 'FontSize'],
+            ['Format', 'Font', 'FontSize'],
             ['TextColor', 'BGColor'],
         ],
-        'extraPlugins': [
-            'divarea'
-        ],
+        'extraPlugins': ','.join([
+            'divarea', 'nbsp'
+        ]),
     }
 }
 # Heroku settings

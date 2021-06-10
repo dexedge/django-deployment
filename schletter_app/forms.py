@@ -8,10 +8,11 @@ class WorkForm(forms.ModelForm):
 
     class Meta:
         model = Work
-        fields = ['title', 'notes', 'url']
+        fields = ['title', 'notes', 'url', 'title_page']
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control'}),
             'url': forms.URLInput(attrs={'class': 'form-control'}),
+            'title_page': forms.ClearableFileInput(),
         }
 
 class AuthorForm(forms.ModelForm):

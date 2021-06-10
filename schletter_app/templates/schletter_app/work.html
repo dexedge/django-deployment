@@ -15,7 +15,7 @@
     <p>Original title: <em>{{work.source_title}}</em>{% if work.source_genre %} ({{ work.source_genre}}){% endif %}</p>
   {% endif %}
   <div class="row">
-    <div class="col-6">
+    <div class="col-7">
       {% if work.authorworks.exists %}
         <p>Author(s):</p>
           <ul>
@@ -38,11 +38,12 @@
       </ul>
       <p>Total: {{work.events.all.count}}</p>
     </div>
-    <div class="col-6">
-      {% comment %} {% if work.url %}
-        {{ work.url }}
-        <iframe src="{{ work.url }}" frameborder="0" sandbox></iframe>
-      {% endif %} {% endcomment %}
+    <div class="col-5">
+      {% if work.title_page %}
+        <a href="{{ work.url }}" target="_blank">
+          <img src="{{ work.title_page.url}}" class="border border-secondary w-50">
+        </a>
+      {% endif %}
     </div>
   </div>
   {% if work.notes != "" %}
@@ -51,9 +52,9 @@
       <div class="indent">{{ work.notes|safe }}</div>
     </div>
   {% endif %}
-  {% if work.url != "" %}
+  {% comment %} {% if work.url != "" %}
     <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>
-  {% endif %}
+  {% endif %} {% endcomment %}
   {% if user.is_authenticated %}
     <a class="btn btn-outline-secondary btn-sm mt-2" href="{% url 'schletter_app:work_edit' work.pk %}">Edit</a>
   {% endif %}

@@ -41,6 +41,7 @@ class Work(models.Model):
     genre = models.CharField(max_length=75)
     source_genre = models.CharField(max_length=75, blank=True)
     notes = RichTextField()
+    title_page = models.ImageField(null=True, blank=True, upload_to="images/")
     url = models.URLField(max_length=200, blank=True)
 
     def __str__(self):
