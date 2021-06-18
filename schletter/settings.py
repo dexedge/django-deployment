@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'ckeditor',
     'django.contrib.postgres',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -137,12 +138,37 @@ X_FRAME_OPTIONS = 'ALLOW-FROM https://books.google.com'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_ROOT = [ BASE_DIR / 'staticfiles' ]
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [ BASE_DIR / 'static']
+# STATIC_ROOT = [ BASE_DIR / 'staticfiles' ]
+# STATIC_URL = '/static/'
+# STATICFILES_DIRS = [ BASE_DIR / 'static']
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# set S3 as the place to store your files.
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+AWS_ACCESS_KEY_ID =  'AKIAT3OYFPDZWWAXAJHU'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'schletter'
+
+AWS_QUERYSTRING_AUTH = False 
+# This will make sure that the file URL does not have unnecessary parameters like your access key.
+
+AWS_S3_CUSTOM_DOMAIN = AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com’
+
+#static media settings
+STATIC_URL = 'https://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/’
+MEDIA_URL = STATIC_URL + 'media/’
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = 'staticfiles’
+ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/’
+
+STATICFILES_FINDERS = (
+'django.contrib.staticfiles.finders.FileSystemFinder’,
+'django.contrib.staticfiles.finders.AppDirectoriesFinder’,
+)
 
 # ckeditor settings
 # The 'divarea' plugin preserves the site styles
