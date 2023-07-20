@@ -96,7 +96,7 @@ class WorkQueryMixin:
             return Work.objects.filter(Q(title__unaccent__icontains=query) | 
                     Q(source_title__icontains=query) | 
                     Q(genre__unaccent__icontains=query) |
-                    Q(source_genre__unaccent__icontains=query))
+                    Q(source_genre__unaccent__icontains=query))   
         else:
             return Work.objects.all()
 

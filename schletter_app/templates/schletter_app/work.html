@@ -52,9 +52,9 @@
       <div class="indent">{{ work.notes|safe }}</div>
     </div>
   {% endif %}
-  {% comment %} {% if work.url != "" %}
+  {% if work.url != "" %}
     <p>URL: <a href="{{ work.url }}" target="_blank">{{ work.url }}</a></p>
-  {% endif %} {% endcomment %}
+  {% endif %}
   {% if user.is_authenticated %}
     <a class="btn btn-outline-secondary btn-sm mt-2" href="{% url 'schletter_app:work_edit' work.pk %}">Edit</a>
   {% endif %}
