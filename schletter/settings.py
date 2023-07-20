@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'csvimport.app.CSVImportConf',
+    # 'csvimport.app.CSVImportConf',
     'schletter_app',
     'bootstrap4',
     'django_extensions',
