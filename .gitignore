@@ -24,7 +24,6 @@ scratch.py
 csv/
 
 
-
 #
 *.__pycache__
 db.sqlite3

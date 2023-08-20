@@ -1,4 +1,5 @@
 {% extends 'schletter_app/base.html' %}
+{% load static %}
 {% block page_title %}Work{% endblock page_title %}
 {% block page_header %}
   <div class="pb-1">
@@ -41,7 +42,7 @@
     <div class="col-5">
       {% if work.title_page %}
         <a href="{{ work.url }}" target="_blank">
-          <img src="{{ work.title_page.url}}" class="border border-secondary w-50">
+          <img src="{{work.title_page.url}}" class="border border-secondary w-50">
         </a>
       {% endif %}
     </div>
