@@ -1,5 +1,4 @@
 {% extends 'schletter_app/base.html' %}
-{% load static %}
 {% block page_title %}Work{% endblock page_title %}
 {% block page_header %}
   <div class="pb-1">
@@ -16,7 +15,7 @@
     <p>Original title: <em>{{work.source_title}}</em>{% if work.source_genre %} ({{ work.source_genre}}){% endif %}</p>
   {% endif %}
   <div class="row">
-    <div class="col-7">
+    <div class="col-8">
       {% if work.authorworks.exists %}
         <p>Author(s):</p>
           <ul>

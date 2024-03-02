@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
 from django.db.models import Q
 from .models import Date, Event, Work, Author, Composer
-from .forms import AuthorForm, ComposerForm, WorkForm
+from .forms import AuthorForm, ComposerForm, WorkForm, EventForm
 
 # Create your views here.
 class Index(TemplateView):
@@ -85,7 +85,7 @@ class EventDetail(EventQueryMixin, DetailView):
 class EventEdit(UpdateView):
     model = Event
     template_name = 'schletter_app/event_edit.html'
-    fields = ['notes']
+    form_class = EventForm
 
 
 # Works

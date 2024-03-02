@@ -10,6 +10,7 @@ a {
   color: #0062cd;
 }
 
+
 .home {
   background: url("images/Kth.jpg");
   background-repeat: no-repeat;
@@ -44,6 +45,10 @@ a {
 
 .table {
   font-size: 16px;
+}
+
+.form-control {
+  width: 50%;
 }
 
 i {  
