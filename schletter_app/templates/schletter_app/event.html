@@ -71,13 +71,13 @@
 
   <!-- Previous and Next arrows -->
   <div class="arrow" id="arrow-left">
-    {% if prev_pk %}
-      <a href="{% url 'schletter_app:event' prev_pk %}?{{ request.GET.urlencode }}"><i class="bi-chevron-left"></i></a>
+    {% if prev_event %}
+      <a href="{% url 'schletter_app:event' prev_event %}?{{ request.GET.urlencode }}"><i class="bi-chevron-left"></i></a>
     {% endif %}
   </div>
   <div class="arrow" id="arrow-right">
-    {% if next_pk %}
-      <a href="{% url 'schletter_app:event' next_pk %}?{{ request.GET.urlencode }}"><i class="bi-chevron-right"></i></a>
+    {% if next_event %}
+      <a href="{% url 'schletter_app:event' next_event %}?{{ request.GET.urlencode }}"><i class="bi-chevron-right"></i></a>
     {% endif %}
   </div>
 {% endblock content %}

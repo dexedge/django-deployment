@@ -62,23 +62,23 @@ class EventDetail(EventQueryMixin, DetailView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        prev_pk = (
+        prev_event = (
             self.get_queryset()
-            .filter(pk__lt=self.object.pk)
+            .filter(event_order__lt=self.object.event_order)
             .reverse().values('pk')[:1]
         )
         # There may be no previous page
-        if prev_pk:
-            context['prev_pk'] = prev_pk[0]['pk']
+        if prev_event:
+            context['prev_event'] = prev_event[0]['pk']
         
-        next_pk = (
+        next_event = (
             self.get_queryset()
-            .filter(pk__gt=self.object.pk)
+            .filter(event_order__gt=self.object.event_order)
             .values('pk')[:1]
         )
         # There may be no next page
-        if next_pk:
-            context['next_pk'] = next_pk[0]['pk']
+        if next_event:
+            context['next_event'] = next_event[0]['pk']
         
         return context
 

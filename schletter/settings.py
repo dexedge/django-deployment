@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'bootstrap4',
     'django_extensions',
     'ckeditor',
+    'adminsortable2',
     'django.contrib.postgres',
     'storages',
 ]
@@ -90,7 +91,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'schletter',
         'USER': 'Dexter',
-        'PASSWORD': 'moz1756',
+        'PASSWORD': 'moz1756', 
         'HOST': 'localhost',
         'PORT': '',
     }
