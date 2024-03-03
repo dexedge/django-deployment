@@ -40,7 +40,7 @@
   {% if event.morrow != "NA" %}
     <p>Morrow: {{event.morrow}}</p>
   {% endif %}
-  {% if event.notes != "NA" %}
+  {% if event.notes != "NA" and event.notes != "" %}
     <p>Notes: </p>
     <div class="row col-sm-8">
       <div class="indent">{{ event.notes|safe }}
@@ -48,6 +48,7 @@
     </div>
   {% endif %}
   {% if user.is_authenticated %}
+     <br> 
     <a class="btn btn-outline-secondary btn-sm mt-2" href="{% url 'schletter_app:event_edit' event.pk %}">Edit</a>
   {% endif %}
   <hr>

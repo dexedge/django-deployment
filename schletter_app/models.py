@@ -14,7 +14,7 @@ class Date(models.Model):
 
 class Event(models.Model):
     """Schletter Event model"""
-    date = models.ForeignKey(Date, on_delete=models.CASCADE)
+    date  = models.ForeignKey(Date, on_delete=models.CASCADE)
     title = models.CharField(max_length=100)
     theater = models.CharField(max_length=3)
     company = models.CharField(max_length=10)
@@ -31,7 +31,7 @@ class Event(models.Model):
         return reverse('schletter_app:event', kwargs={'pk': self.pk})
         
     class Meta:
-        ordering = ['pk']
+        ordering = ['date_id', 'theater']
     
 class Work(models.Model):
     events = models.ManyToManyField(Event, through="WorkEvent")
