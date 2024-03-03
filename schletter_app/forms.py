@@ -3,7 +3,7 @@ from .models import Event, Work, Author, Composer
 from ckeditor.widgets import CKEditorWidget
 
 class EventForm(forms.ModelForm):
-    notes = forms.CharField(widget=CKEditorWidget())
+    notes = forms.CharField(widget=CKEditorWidget(), required=False)
 
     class Meta:
         model = Event
@@ -27,7 +27,7 @@ class EventForm(forms.ModelForm):
         }
 
 class WorkForm(forms.ModelForm):
-    notes = forms.CharField(widget=CKEditorWidget())
+    notes = forms.CharField(widget=CKEditorWidget(), required=False)
 
     class Meta:
         model = Work
@@ -39,7 +39,7 @@ class WorkForm(forms.ModelForm):
         }
 
 class AuthorForm(forms.ModelForm):
-    notes = forms.CharField(widget=CKEditorWidget())
+    notes = forms.CharField(widget=CKEditorWidget(), required=False)
 
     class Meta:
         model = Author
@@ -50,7 +50,7 @@ class AuthorForm(forms.ModelForm):
         }
 
 class ComposerForm(forms.ModelForm):
-    notes = forms.CharField(widget=CKEditorWidget())
+    notes = forms.CharField(widget=CKEditorWidget(), required=False)
 
     class Meta:
         model = Composer

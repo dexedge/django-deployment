@@ -21,7 +21,7 @@ class Event(models.Model):
     event_type = models.CharField(max_length=50)
     hadamowsky = models.CharField(max_length=5)
     morrow = models.CharField(max_length=5)
-    notes = RichTextField()
+    notes = RichTextField(null=True, blank=True)
     
     def __str__(self):
         event = str(self.date) + ", " + self.title
