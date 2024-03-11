@@ -39,13 +39,13 @@ class Event(models.Model):
 class Work(models.Model):
     events = models.ManyToManyField(Event, through="WorkEvent")
     title = models.CharField(max_length=100)
-    source_title = models.CharField(max_length=100, blank=True)
-    sort_title = models.CharField(max_length=100)
+    source_title = models.CharField(max_length=100, null=True, blank=True)
+    sort_title = models.CharField(max_length=100, null=True)
     genre = models.CharField(max_length=75)
-    source_genre = models.CharField(max_length=75, blank=True)
+    source_genre = models.CharField(max_length=75, null=True, blank=True)
     notes = RichTextField(null=True, blank=True)
     title_page = models.ImageField(null=True, blank=True, upload_to="images/")
-    url = models.URLField(max_length=200, blank=True)
+    url = models.URLField(max_length=200, null=True, blank=True)
 
     def __str__(self):
         return self.title
