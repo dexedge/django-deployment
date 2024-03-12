@@ -18,7 +18,9 @@
     {% endwith %}
   </p>
   <p>Type: {{ event.event_type }}</p>
-  <p>Genre: {{ event.work_set.first.genre }}</p>
+  {% if event.work_set.first.genre %}
+    <p>Genre: {{ event.work_set.first.genre }}</p>
+  {% endif %}
   {% if event.work_set.first.authorworks.exists %}
     <p>Author(s): </p>
       <ul>

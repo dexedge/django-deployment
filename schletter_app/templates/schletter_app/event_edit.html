@@ -3,7 +3,7 @@
 {% block page_title %}Edit Event{% endblock %}
 {% block content %}
   <h3>Edit Event</h3>
-  <h5>{{event.date}}, {{ event.title | display_title:event.work_set.first.genre | safe }}</h5>
+  <h5>{{event.date}}, {{ event.title | display_title | safe }}</h5>
   {% if user.is_authenticated %}
   <div class="form-group">
     <form method="POST">
