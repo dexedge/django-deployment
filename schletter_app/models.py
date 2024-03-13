@@ -67,7 +67,7 @@ class Author(models.Model):
     first_names = models.CharField(max_length=200)
     birth = models.IntegerField()
     death = models.IntegerField()
-    notes = RichTextField()
+    notes = RichTextField(null=True, blank=True)
 
     def __str__(self):
         if self.first_names == "NA":
@@ -93,7 +93,7 @@ class Composer(models.Model):
     first_names = models.CharField(max_length=200)
     birth = models.IntegerField()
     death = models.IntegerField()
-    notes = RichTextField()
+    notes = RichTextField(null=True, blank=True)
 
     def __str__(self):
         if self.first_names == "NA":
