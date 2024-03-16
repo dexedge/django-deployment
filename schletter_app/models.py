@@ -61,6 +61,12 @@ class WorkEvent(models.Model):
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     work = models.ForeignKey(Work, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return str(self.event.date) + ", " + self.event.title 
+    
+    class Meta:
+        ordering = ['event__event_order',]
+
 class Author(models.Model):
     works = models.ManyToManyField(Work, through="AuthorWork", related_name="authorworks")
     last_name = models.CharField(max_length=100)
@@ -87,6 +93,13 @@ class AuthorWork(models.Model):
     work = models.ForeignKey(Work, on_delete=models.CASCADE)
     role = models.CharField(max_length=100)
 
+    def __str__(self):
+        return self.author.last_name + ", " + self.work.title
+    
+    class Meta:
+        ordering = ['author__last_name',]
+    
+
 class Composer(models.Model):
     works = models.ManyToManyField(Work, through="ComposerWork",related_name="composerworks")
     last_name = models.CharField(max_length=100)
@@ -112,3 +125,9 @@ class ComposerWork(models.Model):
     composer = models.ForeignKey(Composer, on_delete=models.CASCADE)
     work = models.ForeignKey(Work, on_delete=models.CASCADE)
     role = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.composer.last_name + ", " + self.work.title
+    
+    class Meta:
+        ordering = ['composer__last_name',]
