@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, ListView, DetailView, UpdateView
 from django.db.models import Q
-from .models import Date, Event, Work, Author, Composer
+from .models import About, Date, Event, Work, Author, Composer
 from .forms import AuthorForm, ComposerForm, WorkForm, EventForm
 
 # Create your views here.
@@ -9,6 +9,19 @@ class Index(TemplateView):
     """schletter_app home page """
     context_object_name = 'index'
     template_name = 'schletter_app/index.html'
+
+# About
+def about_view(request):
+    context = {}
+    context['about'] = About.objects.first()
+    
+    return render(request, "schletter_app/about.html", context)
+
+# class AboutPage(TemplateView):
+#     context_object_name = 'about'
+#     model = About
+#     template_name = 'schletter_app/about.html'
+       
 
 # Calendar
 class DateList(ListView):

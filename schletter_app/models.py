@@ -4,6 +4,13 @@ from datetime import datetime
 from ckeditor.fields import RichTextField
 
 # Create your models here.
+class About(models.Model):
+    """Schletter About page"""
+    content = RichTextField(null=True, blank=True)
+
+    class Meta:
+        verbose_name = 'About'
+        verbose_name_plural = 'About'
 
 class Date(models.Model):
     date = models.DateField(primary_key=True)

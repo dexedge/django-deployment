@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Date, Event, WorkEvent, Work, Author, AuthorWork, Composer, ComposerWork
+from .models import About, Date, Event, WorkEvent, Work, Author, AuthorWork, Composer, ComposerWork
 from adminsortable2.admin import SortableAdminMixin
 
 class DateAdmin(admin.ModelAdmin):
@@ -24,6 +24,8 @@ class ComposerAdmin(admin.ModelAdmin):
     ordering = ('last_name', 'birth', 'death')
     search_fields = ('last_name',)
 
+
+admin.site.register(About)
 admin.site.register(Date, DateAdmin)
 # admin.site.register(Event)
 admin.site.register(WorkEvent)

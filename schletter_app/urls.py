@@ -1,12 +1,16 @@
 """URLs for schletter_app"""
 from django.urls import path
 from . import views
+from .views import about_view
 
 app_name = 'schletter_app'
 
 urlpatterns = [
     # Home page
     path('', views.Index.as_view(), name='index'),
+    # About page
+    path('about/', about_view, name  = 'about'),
+
     # Calendar page
     path('calendar/', views.DateList.as_view(), name='calendar'),
     # Events
