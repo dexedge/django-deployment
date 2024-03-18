@@ -10,30 +10,34 @@
   <p>Company: {{ event.company }}</p>
   <p>Title: 
     {% with event.work_set.all.first as work %}
-      {% if not work or event.event_type == "closed" %}
-        <td>{{event.title}}</td>
-      {% else %}
-        <td><a href="{{ work.get_absolute_url }}">{{ event.title | display_title:work.genre | safe }}</a></td>
-      {% endif %}
-    {% endwith %}
+    {% if not work or event.event_type == "closed" %}
+      <td>{{event.title}}</td>
+    {% else %}
+      <td><a href="{{ work.get_absolute_url }}">{{ event.title | display_title:work.genre | safe }}</a></td>
+    {% endif %}
   </p>
   <p>Type: {{ event.event_type }}</p>
-  {% if event.work_set.first.genre %}
-    <p>Genre: {{ event.work_set.first.genre }}</p>
-  {% endif %}
+  <p>Genre: 
+    {% if event.title != work.source_title %}
+      {{ work.genre }}
+    {% else %}
+      {{work.source_genre}}
+    {% endif %}
+  </p>
+    {% endwith %}
   {% if event.work_set.first.authorworks.exists %}
-    <p>Author(s): </p>
-      <ul>
-        {% if event.company == "French" %}
-          {% with event.work_set.first.authorwork_set.first as aw %}
-            <li><a href="{% url 'schletter_app:author' aw.author.pk %}">{{ aw.author}}</a> ({{aw.role}})</li>
-          {% endwith %}
-        {% else %}
-          {% for aw in event.work_set.first.authorwork_set.all %}
-            <li><a href="{% url 'schletter_app:author' aw.author.pk %}">{{ aw.author}}</a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %}</li>
-          {% endfor %}
-        {% endif %}
-      </ul>
+  <p>Author(s): </p>
+    <ul>
+      {% if event.company == "French" %}
+        {% with event.work_set.first.authorwork_set.first as aw %}
+          <li><a href="{% url 'schletter_app:author' aw.author.pk %}">{{ aw.author}}</a> ({{aw.role}})</li>
+        {% endwith %}
+      {% else %}
+        {% for aw in event.work_set.first.authorwork_set.all %}
+          <li><a href="{% url 'schletter_app:author' aw.author.pk %}">{{ aw.author}}</a>{% if aw.role != "NA" %} ({{aw.role}}){% endif %}</li>
+        {% endfor %}
+      {% endif %}
+    </ul>
   {% endif %}
   {% if event.work_set.first.composerworks.exists and event.work_set.first.composerworks.first.last_name != "NA" %}
     <p>Composer: <a href="{% url 'schletter_app:composer' event.work_set.first.composerworks.first.pk %}">{{ event.work_set.first.composerworks.first }}</a></p>

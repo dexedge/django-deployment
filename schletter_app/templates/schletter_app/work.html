@@ -30,7 +30,7 @@
         <p>Composer: <a href="{% url 'schletter_app:composer' work.composerworks.first.pk %}">{{ work.composerworks.first }}</a></p>
       {% endif %}
       <p>Performance(s):</p>
-      <ul>
+      <ul class="performance">
         {% for event in work.events.all %}
           <li><a href="{{ event.get_absolute_url }}">{{event.date}}</a> ({{event.theater}}{% if event.company != "NA" %}, {{event.company}}{% endif %}){% if work.genre == "Concert" %}, {{event.title}}{% elif event.title != work.title %}, as <em>{{event.title}}</em>{% endif %}
           </li>

@@ -72,10 +72,10 @@
           {% else %}
             <td><a href="{% url 'schletter_app:work' work.pk %}">{{ event.title | display_title:work.genre | safe }}</a></td>
           {% endif %}
-          {% if work.source_title %}
-            <td>{{ work.source_genre }}</td>
+          {% if event.title != work.source_title %}
+            <td>{{ work.genre }}</td>
           {% else %}
-            <td>{{work.genre}}</td>
+            <td>{{work.source_genre}}</td>
           {% endif %}
         {% endwith %}
       </tr>
