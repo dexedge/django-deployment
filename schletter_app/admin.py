@@ -18,7 +18,6 @@ class WorkAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request):
         queryset= super().get_queryset(request)
-        print(queryset)
         queryset = queryset.annotate(
             _performances = Count("events", distinct=True)
         )
@@ -27,7 +26,7 @@ class WorkAdmin(admin.ModelAdmin):
     def performances(self, obj):
         return obj.events.count()
     
-    performances.admin_order_field = "_performances"
+    performances.admin_order_field = "-_performances"
 
 class AuthorAdmin(admin.ModelAdmin):
     list_display = ('last_name', 'first_names', 'birth', 'death')
