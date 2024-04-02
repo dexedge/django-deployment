@@ -3,9 +3,9 @@
 {% block page_title %}Events{% endblock page_title %}
 {% block page_header %}
   <div class="row">
-      <h2>Events</h2>
-      <!-- paginator.count = number of items in current queryset -->
-      <span class="pt-2 pl-2"> ({{ paginator.count }})</span>
+    <h2>Events</h2>
+    <!-- paginator.count = number of items in current queryset -->
+    <span class="pt-2 pl-2"> ({{ paginator.count }})</span>
     <form class="form-inline ml-auto" action="." method="get">
       <div class="form-group mb-3 mr-2">
         <select id="theater" name="theater" class="selectpicker" type="text" data-title = "Theater" data-width="150px">

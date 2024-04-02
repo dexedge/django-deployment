@@ -15,13 +15,7 @@ def about_view(request):
     context = {}
     context['about'] = About.objects.first()
     
-    return render(request, "schletter_app/about.html", context)
-
-# class AboutPage(TemplateView):
-#     context_object_name = 'about'
-#     model = About
-#     template_name = 'schletter_app/about.html'
-       
+    return render(request, "schletter_app/about.html", context)  
 
 # Calendar
 class DateList(ListView):
